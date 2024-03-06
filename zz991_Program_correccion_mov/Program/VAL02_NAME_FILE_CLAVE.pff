@@ -1,0 +1,21 @@
+﻿[Run Information]
+Version=CSPro 7.7
+AppType=Batch
+
+[Files]
+Application=.\VAL02_NAME_FILE_CLAVE.bch
+InputData=.\Base\000120031.csdb|CSPRODB
+OutputData=|NONE
+Listing=.\NAMEFILE.LST
+WriteData=.\VAL02_NAME_FILE_CLAVE.WRT
+
+
+[Parameters]
+Parameter=000120031
+ViewListing=Always
+ViewResults=Yes
+ListingWidth=80
+MessageWrap=No
+ErrmsgOverride=No
+InputOrder=Sequential
+

@@ -1,0 +1,128 @@
+﻿
+##########################################################################
+#                                                                        #
+# Postulante: 7045563 [JULIO ARMANDO CORREA RAMÍREZ                      ] 
+#                                                                        #
+##########################################################################
+
+-----------------------------------------------------------------
+
+-----------------------------------------
+ SITUACION / UBICACION / BIENES DURADEROS
+-----------------------------------------
+Res. últ. visita: Incompleta  
+-----------------------------------------------------------------------------
+*******************************************************
+* Certificado de No Contribuyente - Tabla de Registro *
+*******************************************************
+Persona: 01
+     Dispone del Documento?: 1 [Sí]
+     Foto D01: 7045563_01_D01.jpg
+ 
+Persona: 02
+     Dispone del Documento?: 6 [No]
+     Foto D01:
+ 
+Persona: 03
+     Dispone del Documento?: 6 [No]
+     Foto D01:
+ 
+Persona: 05
+     Dispone del Documento?: 1 [Sí]
+     Foto D01: 7045563_05_D01.jpg
+ 
+*******************************************************
+ 
+DOC-ERR003.5, D103 ¿Presentó 3 últimos comprobantes de IVA? = 1 y D03_A2_C1 = 1-> IMAGEN 1 <> BLANCO)
+D103. Segunda actividad
+Persona: 2 ,Documentos: 1, D03_A2_C1: 1
+------------------
+ 
+DOC-ERR003.5, D103 ¿Presentó 3 últimos comprobantes de IVA? = 1 y D03_A2_C1 = 1-> IMAGEN 1 <> BLANCO)
+D103. Segunda actividad
+Persona: 3 ,Documentos: 1, D03_A2_C1: 1
+------------------
+ 
+**************************************************************
+* Comprobante de IVA, IRP, IRE y Otros - Tabla de Registro   *
+**************************************************************
+Persona: 01
+      Dispone del Primer comprobante de IVA: 6 [No]
+      Foto Primer comprobante:
+ 
+      Dispone del Segundo comprobante de IVA:   [NA]
+      Foto Segundo comprobante:
+ 
+      Dispone del Tercer comprobante de IVA:   [NA]
+      Foto Tercer comprobante:
+Persona: 02
+      Dispone del Primer comprobante de IVA: 1 [Sí]
+      Foto Primer comprobante: 7045563_02_D03_A1_PC_H1.jpg
+ 
+      Dispone del Segundo comprobante de IVA: 1 [Sí]
+      Foto Segundo comprobante: 7045563_02_D03_A1_SC_H1.jpg
+ 
+      Dispone del Tercer comprobante de IVA: 1 [Sí]
+      Foto Tercer comprobante: 7045563_02_D03_A1_TC_H1.jpg
+ 
+    Tiene otra actividad [2da actividad]?: 1 [Sí]
+ 
+      Dispone del Primer comprobante de IVA: 1 [Sí]
+      Foto Primer comprobante:
+ 
+      Dispone del Segundo comprobante de IVA:   [NA]
+      Foto Segundo comprobante:
+ 
+      Dispone del Tercer comprobante de IVA:   [NA]
+      Foto Tercer comprobante:
+Persona: 03
+      Dispone del Primer comprobante de IVA: 1 [Sí]
+      Foto Primer comprobante: 7045563_03_D03_A1_PC_H1.jpg
+ 
+      Dispone del Segundo comprobante de IVA: 1 [Sí]
+      Foto Segundo comprobante: 7045563_03_D03_A1_SC_H1.jpg
+ 
+      Dispone del Tercer comprobante de IVA: 1 [Sí]
+      Foto Tercer comprobante: 7045563_03_D03_A1_TC_H1.jpg
+ 
+    Tiene otra actividad [2da actividad]?: 1 [Sí]
+ 
+      Dispone del Primer comprobante de IVA: 1 [Sí]
+      Foto Primer comprobante:
+ 
+      Dispone del Segundo comprobante de IVA:   [NA]
+      Foto Segundo comprobante:
+ 
+      Dispone del Tercer comprobante de IVA:   [NA]
+      Foto Tercer comprobante:
+Persona: 05
+      Dispone del Primer comprobante de IVA: 6 [No]
+      Foto Primer comprobante:
+ 
+      Dispone del Segundo comprobante de IVA:   [NA]
+      Foto Segundo comprobante:
+ 
+      Dispone del Tercer comprobante de IVA:   [NA]
+      Foto Tercer comprobante:
+**************************************************************
+ 
+***********************************************************************
+* Copia de algÚn servicio (ANDE,ESSAP, TV cable) - Tabla de Registro *
+***********************************************************************
+     D05. ¿Presentó copia de algún servicio público como ANDE, ESSAP, TV cable, etc?: 1 [Sí]
+     Foto D05_1: 7045563_D05_1.jpg
+     Foto D05_2: 7045563_D05_2.jpg
+     Foto D05_3: 7045563_D05_3.jpg
+ 
+*******************************************************
+ 
+*******************************************************
+* Certificado de Discapacidad     - Tabla de Registro *
+*******************************************************
+No hay registros para mostrar
+ 
+*******************************************************
+ 
+**********************************************************************************************************
+**********************************************************************************************************
+                                      

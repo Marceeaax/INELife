@@ -1,0 +1,92 @@
+﻿Application     C:\becas\zz991_Program_correccion_mov\MENU_PRINCIPAL.ent
+Type            ENTRY
+Input Data      <<Empty>> 
+External        IMESPPBI_DICT=<<Empty>> 
+External        MARCO_DICT=<<CSPro DB>> C:\becas\zz991_Program_correccion_mov\Program\marco.csdb
+External        PSC_STAFFEQP_DICT=<<Empty>> 
+
+Date            Mar 05, 2024
+Start Time      10:11:05
+End Time        15:33:53
+
+
+User unnumbered messages:
+
+    Line        Freq    %    Message Text                                                                          Denom
+    ----        ----  -----  ------------                                                                          -----
+    1660           1      -  PROCESO TERMINADO - LISTAR ARCHIVOS                                                       -
+    2107           2      -  PROCESO TERMINADO - BORRADO DE LA CARPETA BASE_CTRL                                       -
+    2149           1      -  PROCESO TERMINADO - DESCOMPRIMIR                                                          -
+    2176           1      -  total file: %d                                                                            -
+    2242           1      -  PROCESO TERMINADO - VERIFICADO DE ARCHIVOS DEL MARCO                                      -
+
+
+CSPro Executor Normal End
+------------------------------------------------------------------------------------------------------------------------
+Application     C:\becas\zz991_Program_correccion_mov\MENU_PRINCIPAL.ent
+Type            ENTRY
+Input Data      <<Empty>> 
+External        IMESPPBI_DICT=<<Empty>> 
+External        MARCO_DICT=<<CSPro DB>> C:\becas\zz991_Program_correccion_mov\Program\marco.csdb
+External        PSC_STAFFEQP_DICT=<<Empty>> 
+
+Date            Mar 06, 2024
+Start Time      10:02:21
+End Time        10:03:51
+
+
+
+CSPro Executor Normal End
+------------------------------------------------------------------------------------------------------------------------
+Application     C:\BecasItaipu2024\zz991_Program_correccion_mov\MENU_PRINCIPAL.ent
+Type            ENTRY
+Input Data      <<Empty>> 
+External        IMESPPBI_DICT=<<Empty>> 
+External        MARCO_DICT=<<CSPro DB>> C:\BecasItaipu2024\zz991_Program_correccion_mov\Program\marco.csdb
+External        PSC_STAFFEQP_DICT=<<Empty>> 
+
+Date            Mar 06, 2024
+Start Time      10:03:57
+End Time        10:21:14
+
+
+User unnumbered messages:
+
+    Line        Freq    %    Message Text                                                                          Denom
+    ----        ----  -----  ------------                                                                          -----
+    1660           1      -  PROCESO TERMINADO - LISTAR ARCHIVOS                                                       -
+    1745           1      -  PROCESO TERMINADO - UNIR ARCHIVOS                                                         -
+    1882           1      -  VER-CA005C, hay %d archivos para la/el Censista: %s                                       -
+    1928           1      -  VER-CA008C, Se ha generado el archivo para el/la Censista: %s.csdb                        -
+    1938           1      -  ¿Está seguro de ejecutar la Consistencia/Visualización?                                   -
+    2271           1      -  total file: %d                                                                            -
+    2313           1      -  PROCESO TERMINADO - DE COPIADO                                                            -
+    2344           1      -  PROCESO TERMINADO - BORRADO DE LA CARPETA BASE_FOTOS_OUT                                  -
+    2384           3      -  PROCESO TERMINADO - DESCOMPRIMIR BACKUP DE FOTOS                                          -
+
+
+CSPro Executor Normal End
+------------------------------------------------------------------------------------------------------------------------
+Application     C:\BecasItaipu2024\zz991_Program_correccion_mov\MENU_PRINCIPAL.ent
+Type            ENTRY
+Input Data      <<Empty>> 
+External        IMESPPBI_DICT=<<Empty>> 
+External        MARCO_DICT=<<CSPro DB>> C:\BecasItaipu2024\zz991_Program_correccion_mov\Program\marco.csdb
+External        PSC_STAFFEQP_DICT=<<Empty>> 
+
+Date            Mar 06, 2024
+Start Time      10:24:02
+End Time        10:25:11
+
+
+User unnumbered messages:
+
+    Line        Freq    %    Message Text                                                                          Denom
+    ----        ----  -----  ------------                                                                          -----
+    1882           1      -  VER-CA005C, hay %d archivos para la/el Censista: %s                                       -
+    1928           1      -  VER-CA008C, Se ha generado el archivo para el/la Censista: %s.csdb                        -
+    1938           1      -  ¿Está seguro de ejecutar la Consistencia/Visualización?                                   -
+
+
+CSPro Executor Normal End
+------------------------------------------------------------------------------------------------------------------------

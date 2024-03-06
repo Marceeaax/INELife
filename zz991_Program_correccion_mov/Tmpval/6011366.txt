@@ -1,0 +1,108 @@
+﻿
+##########################################################################
+#                                                                        #
+# Postulante: 6011366 [FIORELLA MONZERRAT CACERES ALMADA                 ] 
+#                                                                        #
+##########################################################################
+
+-----------------------------------------------------------------
+
+-----------------------------------------
+ SITUACION / UBICACION / BIENES DURADEROS
+-----------------------------------------
+Res. últ. visita: Completa  
+-----------------------------------------------------------------------------
+*******************************************************
+* Certificado de No Contribuyente - Tabla de Registro *
+*******************************************************
+Persona: 01
+     Dispone del Documento?: 1 [Sí]
+     Foto D01: 6011366_01_D01.jpg
+ 
+Persona: 02
+     Dispone del Documento?: 1 [Sí]
+     Foto D01: 6011366_02_D01.jpg
+ 
+Persona: 03
+     Dispone del Documento?: 1 [Sí]
+     Foto D01: 6011366_03_D01.jpg
+ 
+*******************************************************
+ 
+**************************************************************
+* Certificado de trabajo o boleta de IPS - Tabla de Registro *
+**************************************************************
+Persona: 02
+     Dispone del Documento?: 1 [Sí]
+     Foto D02_1: 6011366_02_D02_1.jpg
+     Foto D02_2:
+     Foto D02_3:
+     Foto D02_4:
+     Foto D02_5:
+ 
+Persona: 03
+     Dispone del Documento?: 6 [No]
+     Foto D02_1:
+     Foto D02_2:
+     Foto D02_3:
+     Foto D02_4:
+     Foto D02_5:
+ 
+**************************************************************
+ 
+***********************************************************************
+* Copia de algÚn servicio (ANDE,ESSAP, TV cable) - Tabla de Registro *
+***********************************************************************
+     D05. ¿Presentó copia de algún servicio público como ANDE, ESSAP, TV cable, etc?: 1 [Sí]
+     Foto D05_1: 6011366_D05_1.jpg
+     Foto D05_2: 6011366_D05_2.jpg
+     Foto D05_3: 6011366_D05_3.jpg
+ 
+*******************************************************
+ 
+*******************************************************
+* Certificado de Discapacidad     - Tabla de Registro *
+*******************************************************
+No hay registros para mostrar
+ 
+*******************************************************
+ 
+                                      
+*****************************************************
+*                 LISTADO DE NOTAS                  *
+*     Postulante: 6011366          *
+*****************************************************
+                                      
+Referencia para Listado de Personas
+CI: 6011366
+
+Referencia para Listado de Personas
+L02 : línea de la persona
+LP103	: Edad en el listado
+LP101	: Nombre en el listado
+
+Referencia para Postulante (***)
+PL02 : línea de la persona
+LP103  : Edad utilizado en ***
+LP101 : Nombre en *** 
+
+SITU__ADV  : Situaciones adversas - Preguntas 1 a 4 
+Referencia para Población, Educación, Empleo (***)
+L02 : línea de la persona
+LP103  : Edad utilizado en ***
+LP101 : Nombre en *** 
+
+PL1X  : Postulante - Preguntas 1 a 16 
+LP1X  : Población - Preguntas 1 a 14 
+GM15X  : Empleo    - Preguntas 15 a 26
+V1X  : Vivienda - Preguntas 1 a 18
+BDURABLES  : Bienes Durables - Preguntas 1 a 6
+D1X : Documentación - Preguntas 1 a 8
+
+P110(1) = viaje de egresados 
+P112(1) = son padres separados 
+BD15_04(13) = manifiestan que todos los bienes eran de la madre fallecida .y quedo todo acellos 
+D109(1) = e la foto tome de la parte que ellos usan de la vivinda 
+**********************************************************************************************************
+**********************************************************************************************************
+                                      

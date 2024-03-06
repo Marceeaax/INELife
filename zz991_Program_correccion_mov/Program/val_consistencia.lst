@@ -1,0 +1,1866 @@
+﻿Application     E:\Encuestas_varias\Programas_vb6_encuesta\DEH\Encuestas_coyunturales\P006_Encuesta_Becarios_Itaipu_2023\z991_Program_correccion_mov\Program\val_consistencia.bch
+Type            BATCH
+Input Data      <<CSPro DB>> E:\Encuestas_varias\Programas_vb6_encuesta\DEH\Encuestas_coyunturales\P005_Encuesta_Becarios_Itaipu_2022\z991_Program_correccion_mov\Unidos\Base_unida.csdb
+Output Data     <<Empty>> 
+External        MARCO_DICT=<<CSPro DB>> E:\Encuestas_varias\Programas_vb6_encuesta\DEH\Encuestas_coyunturales\P006_Encuesta_Becarios_Itaipu_2023\z991_Program_correccion_mov\Program\marco.csdb
+External        DPTO_DICT=<<Text File>> E:\Encuestas_varias\Programas_vb6_encuesta\DEH\Encuestas_coyunturales\P006_Encuesta_Becarios_Itaipu_2023\z991_Program_correccion_mov\Program\dpto.txt
+External        DISTRI_DICT=<<Text File>> E:\Encuestas_varias\Programas_vb6_encuesta\DEH\Encuestas_coyunturales\P006_Encuesta_Becarios_Itaipu_2023\z991_Program_correccion_mov\Program\Distri.txt
+External        PSC_STAFF_DICT=<<CSPro DB>> E:\Encuestas_varias\Programas_vb6_encuesta\DEH\Encuestas_coyunturales\P006_Encuesta_Becarios_Itaipu_2023\z991_Program_correccion_mov\Program\staff.csdb
+<File>          PFFILE=
+
+Date            Apr 01, 2023
+Start Time      12:45:04
+End Time        12:51:59
+
+CSPro Process Summary
+
+      ╔══════════════════════════════════════════════════════╗
+      ║     50437 Records Read   100% of input file          ║
+      ║         0 Ignored:       0 Unknown         0 Erased  ║
+      ║       721 Messages:      0 E    721 W      0 User    ║
+      ╠═════════╦══════════════╦══════════════╦══════════════╣
+      ║  Level  ║  Input Case  ║  Bad Struct  ║  Level Post  ║
+      ╠═════════╬══════════════╬══════════════╬══════════════╣
+      ║      1  ║        2688  ║           0  ║        2688  ║
+      ╚═════════╩══════════════╩══════════════╩══════════════╝
+
+Process Messages
+
+*** Case [4825326        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(3) -- Var XVAL06 PostProc
+
+*** Case [4830573        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+
+*** Case [4846771        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(1) -- Var XVAL06 PostProc
+
+*** Case [4858979        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+
+*** Case [4869248        ] has 3 messages (0 E / 3 W / 0 U)
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+    W    1007 No occurrence: LD06(3) -- Var XVAL06 PostProc
+    W    1007 No occurrence: LD06(5) -- Var XVAL06 PostProc
+
+*** Case [4883089        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(1) -- Var XVAL06 PostProc
+
+*** Case [4896978        ] has 2 messages (0 E / 2 W / 0 U)
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+    W    1007 No occurrence: LD06(3) -- Var XVAL06 PostProc
+
+*** Case [4910701        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+
+*** Case [4918980        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(3) -- Var XVAL06 PostProc
+
+*** Case [4920904        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+
+*** Case [4943434        ] has 2 messages (0 E / 2 W / 0 U)
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+    W    1007 No occurrence: LD06(3) -- Var XVAL06 PostProc
+
+*** Case [4951794        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(1) -- Var XVAL06 PostProc
+
+*** Case [4956019        ] has 2 messages (0 E / 2 W / 0 U)
+    W    1007 No occurrence: LD06(1) -- Var XVAL06 PostProc
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+
+*** Case [4962569        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(3) -- Var XVAL06 PostProc
+
+*** Case [4967534        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(4) -- Var XVAL06 PostProc
+
+*** Case [4969705        ] has 2 messages (0 E / 2 W / 0 U)
+    W    1007 No occurrence: LD06(1) -- Var XVAL06 PostProc
+    W    1007 No occurrence: LD06(4) -- Var XVAL06 PostProc
+
+*** Case [4970707        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+
+*** Case [4976888        ] has 2 messages (0 E / 2 W / 0 U)
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+    W    1007 No occurrence: LD06(5) -- Var XVAL06 PostProc
+
+*** Case [4978420        ] has 2 messages (0 E / 2 W / 0 U)
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+    W    1007 No occurrence: LD06(3) -- Var XVAL06 PostProc
+
+*** Case [4986932        ] has 2 messages (0 E / 2 W / 0 U)
+    W    1007 No occurrence: LD06(1) -- Var XVAL06 PostProc
+    W    1007 No occurrence: LD06(4) -- Var XVAL06 PostProc
+
+*** Case [4989922        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+
+*** Case [4996093        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(1) -- Var XVAL06 PostProc
+
+*** Case [4997922        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+
+*** Case [4998052        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+
+*** Case [5020261        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(3) -- Var XVAL06 PostProc
+
+*** Case [5028113        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(5) -- Var XVAL06 PostProc
+
+*** Case [5033576        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+
+*** Case [5034438        ] has 4 messages (0 E / 4 W / 0 U)
+    W    1007 No occurrence: LD06(1) -- Var XVAL06 PostProc
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+    W    1007 No occurrence: LD06(3) -- Var XVAL06 PostProc
+    W    1007 No occurrence: LD06(4) -- Var XVAL06 PostProc
+
+*** Case [5052242        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(3) -- Var XVAL06 PostProc
+
+*** Case [5068595        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+
+*** Case [5072707        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(1) -- Var XVAL06 PostProc
+
+*** Case [5073336        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+
+*** Case [5082765        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+
+*** Case [5087494        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(1) -- Var XVAL06 PostProc
+
+*** Case [5092388        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+
+*** Case [5093476        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(3) -- Var XVAL06 PostProc
+
+*** Case [5096676        ] has 2 messages (0 E / 2 W / 0 U)
+    W    1007 No occurrence: LD06(1) -- Var XVAL06 PostProc
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+
+*** Case [5099141        ] has 2 messages (0 E / 2 W / 0 U)
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+    W    1007 No occurrence: LD06(3) -- Var XVAL06 PostProc
+
+*** Case [5100842        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+
+*** Case [5101288        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+
+*** Case [5101399        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+
+*** Case [5107591        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+
+*** Case [5111358        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+
+*** Case [5115908        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+
+*** Case [5117451        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+
+*** Case [5120009        ] has 2 messages (0 E / 2 W / 0 U)
+    W    1007 No occurrence: LD06(1) -- Var XVAL06 PostProc
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+
+*** Case [5122507        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+
+*** Case [5124626        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+
+*** Case [5124742        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(1) -- Var XVAL06 PostProc
+
+*** Case [5125429        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+
+*** Case [5131980        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+
+*** Case [5132705        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(3) -- Var XVAL06 PostProc
+
+*** Case [5132759        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(3) -- Var XVAL06 PostProc
+
+*** Case [5141378        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(3) -- Var XVAL06 PostProc
+
+*** Case [5141697        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+
+*** Case [5143558        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+
+*** Case [5143959        ] has 2 messages (0 E / 2 W / 0 U)
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+    W    1007 No occurrence: LD06(5) -- Var XVAL06 PostProc
+
+*** Case [5147158        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+
+*** Case [5148339        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(3) -- Var XVAL06 PostProc
+
+*** Case [5152101        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(1) -- Var XVAL06 PostProc
+
+*** Case [5160946        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(4) -- Var XVAL06 PostProc
+
+*** Case [5163282        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(3) -- Var XVAL06 PostProc
+
+*** Case [5163426        ] has 2 messages (0 E / 2 W / 0 U)
+    W    1007 No occurrence: LD06(1) -- Var XVAL06 PostProc
+    W    1007 No occurrence: LD06(3) -- Var XVAL06 PostProc
+
+*** Case [5167619        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(4) -- Var XVAL06 PostProc
+
+*** Case [5170046        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+
+*** Case [5172202        ] has 3 messages (0 E / 3 W / 0 U)
+    W    1007 No occurrence: LD06(1) -- Var XVAL06 PostProc
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+    W    1007 No occurrence: LD06(3) -- Var XVAL06 PostProc
+
+*** Case [5179380        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+
+*** Case [5179692        ] has 4 messages (0 E / 4 W / 0 U)
+    W    1007 No occurrence: LD06(1) -- Var XVAL06 PostProc
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+    W    1007 No occurrence: LD06(3) -- Var XVAL06 PostProc
+    W    1007 No occurrence: LD06(4) -- Var XVAL06 PostProc
+
+*** Case [5180320        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+
+*** Case [5181776        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(1) -- Var XVAL06 PostProc
+
+*** Case [5183094        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+
+*** Case [5183131        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(1) -- Var XVAL06 PostProc
+
+*** Case [5187165        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(3) -- Var XVAL06 PostProc
+
+*** Case [5193771        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+
+*** Case [5198165        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+
+*** Case [5201121        ] has 3 messages (0 E / 3 W / 0 U)
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+    W    1007 No occurrence: LD06(3) -- Var XVAL06 PostProc
+    W    1007 No occurrence: LD06(4) -- Var XVAL06 PostProc
+
+*** Case [5202508        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+
+*** Case [5204683        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(3) -- Var XVAL06 PostProc
+
+*** Case [5214115        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(3) -- Var XVAL06 PostProc
+
+*** Case [5214406        ] has 2 messages (0 E / 2 W / 0 U)
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+    W    1007 No occurrence: LD06(4) -- Var XVAL06 PostProc
+
+*** Case [5216353        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(3) -- Var XVAL06 PostProc
+
+*** Case [5219099        ] has 2 messages (0 E / 2 W / 0 U)
+    W    1007 No occurrence: LD06(1) -- Var XVAL06 PostProc
+    W    1007 No occurrence: LD06(3) -- Var XVAL06 PostProc
+
+*** Case [5222114        ] has 2 messages (0 E / 2 W / 0 U)
+    W    1007 No occurrence: LD06(5) -- Var XVAL06 PostProc
+    W    1007 No occurrence: LD06(6) -- Var XVAL06 PostProc
+
+*** Case [5226157        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(3) -- Var XVAL06 PostProc
+
+*** Case [5226487        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+
+*** Case [5228420        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(1) -- Var XVAL06 PostProc
+
+*** Case [5231849        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(3) -- Var XVAL06 PostProc
+
+*** Case [5234292        ] has 2 messages (0 E / 2 W / 0 U)
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+    W    1007 No occurrence: LD06(3) -- Var XVAL06 PostProc
+
+*** Case [5240114        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(3) -- Var XVAL06 PostProc
+
+*** Case [5241471        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(3) -- Var XVAL06 PostProc
+
+*** Case [5244081        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+
+*** Case [5244560        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(4) -- Var XVAL06 PostProc
+
+*** Case [5244729        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(4) -- Var XVAL06 PostProc
+
+*** Case [5245139        ] has 2 messages (0 E / 2 W / 0 U)
+    W    1007 No occurrence: LD06(4) -- Var XVAL06 PostProc
+    W    1007 No occurrence: LD06(5) -- Var XVAL06 PostProc
+
+*** Case [5246234        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(3) -- Var XVAL06 PostProc
+
+*** Case [5247608        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(4) -- Var XVAL06 PostProc
+
+*** Case [5255287        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+
+*** Case [5255783        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(3) -- Var XVAL06 PostProc
+
+*** Case [5256279        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(3) -- Var XVAL06 PostProc
+
+*** Case [5261699        ] has 2 messages (0 E / 2 W / 0 U)
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+    W    1007 No occurrence: LD06(3) -- Var XVAL06 PostProc
+
+*** Case [5263392        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(3) -- Var XVAL06 PostProc
+
+*** Case [5265316        ] has 2 messages (0 E / 2 W / 0 U)
+    W    1007 No occurrence: LD06(1) -- Var XVAL06 PostProc
+    W    1007 No occurrence: LD06(4) -- Var XVAL06 PostProc
+
+*** Case [5267505        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(4) -- Var XVAL06 PostProc
+
+*** Case [5268513        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(3) -- Var XVAL06 PostProc
+
+*** Case [5268861        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(3) -- Var XVAL06 PostProc
+
+*** Case [5269837        ] has 3 messages (0 E / 3 W / 0 U)
+    W    1007 No occurrence: LD06(1) -- Var XVAL06 PostProc
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+    W    1007 No occurrence: LD06(3) -- Var XVAL06 PostProc
+
+*** Case [5270489        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+
+*** Case [5271086        ] has 2 messages (0 E / 2 W / 0 U)
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+    W    1007 No occurrence: LD06(3) -- Var XVAL06 PostProc
+
+*** Case [5271561        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(3) -- Var XVAL06 PostProc
+
+*** Case [5275202        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+
+*** Case [5276821        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(3) -- Var XVAL06 PostProc
+
+*** Case [5277234        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(1) -- Var XVAL06 PostProc
+
+*** Case [5277802        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(4) -- Var XVAL06 PostProc
+
+*** Case [5278253        ] has 2 messages (0 E / 2 W / 0 U)
+    W    1007 No occurrence: LD06(3) -- Var XVAL06 PostProc
+    W    1007 No occurrence: LD06(4) -- Var XVAL06 PostProc
+
+*** Case [5278689        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(3) -- Var XVAL06 PostProc
+
+*** Case [5278812        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(3) -- Var XVAL06 PostProc
+
+*** Case [5286896        ] has 3 messages (0 E / 3 W / 0 U)
+    W    1007 No occurrence: LD06(1) -- Var XVAL06 PostProc
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+    W    1007 No occurrence: LD06(3) -- Var XVAL06 PostProc
+
+*** Case [5291149        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(1) -- Var XVAL06 PostProc
+
+*** Case [5294442        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(7) -- Var XVAL06 PostProc
+
+*** Case [5298119        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+
+*** Case [5299489        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(3) -- Var XVAL06 PostProc
+
+*** Case [5300404        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+
+*** Case [5304516        ] has 2 messages (0 E / 2 W / 0 U)
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+    W    1007 No occurrence: LD06(3) -- Var XVAL06 PostProc
+
+*** Case [5304967        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(4) -- Var XVAL06 PostProc
+
+*** Case [5305625        ] has 2 messages (0 E / 2 W / 0 U)
+    W    1007 No occurrence: LD06(1) -- Var XVAL06 PostProc
+    W    1007 No occurrence: LD06(4) -- Var XVAL06 PostProc
+
+*** Case [5306449        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+
+*** Case [5309263        ] has 2 messages (0 E / 2 W / 0 U)
+    W    1007 No occurrence: LD06(3) -- Var XVAL06 PostProc
+    W    1007 No occurrence: LD06(4) -- Var XVAL06 PostProc
+
+*** Case [5309592        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(5) -- Var XVAL06 PostProc
+
+*** Case [5309623        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+
+*** Case [5311713        ] has 2 messages (0 E / 2 W / 0 U)
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+    W    1007 No occurrence: LD06(3) -- Var XVAL06 PostProc
+
+*** Case [5312144        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+
+*** Case [5313505        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(3) -- Var XVAL06 PostProc
+
+*** Case [5314614        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(5) -- Var XVAL06 PostProc
+
+*** Case [5314880        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+
+*** Case [5319300        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(3) -- Var XVAL06 PostProc
+
+*** Case [5320271        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+
+*** Case [5322915        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(3) -- Var XVAL06 PostProc
+
+*** Case [5323224        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(4) -- Var XVAL06 PostProc
+
+*** Case [5323225        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(1) -- Var XVAL06 PostProc
+
+*** Case [5328048        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+
+*** Case [5332855        ] has 2 messages (0 E / 2 W / 0 U)
+    W    1007 No occurrence: LD06(3) -- Var XVAL06 PostProc
+    W    1007 No occurrence: LD06(5) -- Var XVAL06 PostProc
+
+*** Case [5334061        ] has 2 messages (0 E / 2 W / 0 U)
+    W    1007 No occurrence: LD06(1) -- Var XVAL06 PostProc
+    W    1007 No occurrence: LD06(3) -- Var XVAL06 PostProc
+
+*** Case [5340882        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+
+*** Case [5343506        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+
+*** Case [5347416        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+
+*** Case [5348437        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(3) -- Var XVAL06 PostProc
+
+*** Case [5350222        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(3) -- Var XVAL06 PostProc
+
+*** Case [5352708        ] has 2 messages (0 E / 2 W / 0 U)
+    W    1007 No occurrence: LD06(4) -- Var XVAL06 PostProc
+    W    1007 No occurrence: LD06(5) -- Var XVAL06 PostProc
+
+*** Case [5355000        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+
+*** Case [5359588        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+
+*** Case [5360350        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(1) -- Var XVAL06 PostProc
+
+*** Case [5361302        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+
+*** Case [5362117        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(1) -- Var XVAL06 PostProc
+
+*** Case [5365014        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+
+*** Case [5369348        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(3) -- Var XVAL06 PostProc
+
+*** Case [5372308        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+
+*** Case [5377069        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(4) -- Var XVAL06 PostProc
+
+*** Case [5377187        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+
+*** Case [5377607        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(7) -- Var XVAL06 PostProc
+
+*** Case [5377820        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(3) -- Var XVAL06 PostProc
+
+*** Case [5385155        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(5) -- Var XVAL06 PostProc
+
+*** Case [5385441        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(3) -- Var XVAL06 PostProc
+
+*** Case [5388456        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+
+*** Case [5390085        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+
+*** Case [5390744        ] has 2 messages (0 E / 2 W / 0 U)
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+    W    1007 No occurrence: LD06(3) -- Var XVAL06 PostProc
+
+*** Case [5393161        ] has 3 messages (0 E / 3 W / 0 U)
+    W    1007 No occurrence: LD06(1) -- Var XVAL06 PostProc
+    W    1007 No occurrence: LD06(3) -- Var XVAL06 PostProc
+    W    1007 No occurrence: LD06(4) -- Var XVAL06 PostProc
+
+*** Case [5394386        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(5) -- Var XVAL06 PostProc
+
+*** Case [5396006        ] has 3 messages (0 E / 3 W / 0 U)
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+    W    1007 No occurrence: LD06(3) -- Var XVAL06 PostProc
+    W    1007 No occurrence: LD06(5) -- Var XVAL06 PostProc
+
+*** Case [5402556        ] has 3 messages (0 E / 3 W / 0 U)
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+    W    1007 No occurrence: LD06(3) -- Var XVAL06 PostProc
+    W    1007 No occurrence: LD06(4) -- Var XVAL06 PostProc
+
+*** Case [5403563        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+
+*** Case [5403701        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(3) -- Var XVAL06 PostProc
+
+*** Case [5406156        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+
+*** Case [5407311        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(3) -- Var XVAL06 PostProc
+
+*** Case [5410217        ] has 2 messages (0 E / 2 W / 0 U)
+    W    1007 No occurrence: LD06(4) -- Var XVAL06 PostProc
+    W    1007 No occurrence: LD06(5) -- Var XVAL06 PostProc
+
+*** Case [5414648        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+
+*** Case [5420221        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(3) -- Var XVAL06 PostProc
+
+*** Case [5423237        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+
+*** Case [5423376        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+
+*** Case [5425549        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+
+*** Case [5427607        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(1) -- Var XVAL06 PostProc
+
+*** Case [5429038        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+
+*** Case [5429462        ] has 3 messages (0 E / 3 W / 0 U)
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+    W    1007 No occurrence: LD06(4) -- Var XVAL06 PostProc
+    W    1007 No occurrence: LD06(5) -- Var XVAL06 PostProc
+
+*** Case [5431946        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+
+*** Case [5434393        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+
+*** Case [5434400        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(1) -- Var XVAL06 PostProc
+
+*** Case [5434937        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(1) -- Var XVAL06 PostProc
+
+*** Case [5435954        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(5) -- Var XVAL06 PostProc
+
+*** Case [5436994        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+
+*** Case [5437920        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+
+*** Case [5439069        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(1) -- Var XVAL06 PostProc
+
+*** Case [5443444        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+
+*** Case [5444118        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(4) -- Var XVAL06 PostProc
+
+*** Case [5446196        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(3) -- Var XVAL06 PostProc
+
+*** Case [5447923        ] has 2 messages (0 E / 2 W / 0 U)
+    W    1007 No occurrence: LD06(1) -- Var XVAL06 PostProc
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+
+*** Case [5456611        ] has 2 messages (0 E / 2 W / 0 U)
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+    W    1007 No occurrence: LD06(4) -- Var XVAL06 PostProc
+
+*** Case [5458032        ] has 2 messages (0 E / 2 W / 0 U)
+    W    1007 No occurrence: LD06(1) -- Var XVAL06 PostProc
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+
+*** Case [5460099        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(3) -- Var XVAL06 PostProc
+
+*** Case [5460491        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(3) -- Var XVAL06 PostProc
+
+*** Case [5463842        ] has 2 messages (0 E / 2 W / 0 U)
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+    W    1007 No occurrence: LD06(3) -- Var XVAL06 PostProc
+
+*** Case [5469234        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(3) -- Var XVAL06 PostProc
+
+*** Case [5470449        ] has 2 messages (0 E / 2 W / 0 U)
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+    W    1007 No occurrence: LD06(3) -- Var XVAL06 PostProc
+
+*** Case [5470549        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(3) -- Var XVAL06 PostProc
+
+*** Case [5472226        ] has 2 messages (0 E / 2 W / 0 U)
+    W    1007 No occurrence: LD06(1) -- Var XVAL06 PostProc
+    W    1007 No occurrence: LD06(5) -- Var XVAL06 PostProc
+
+*** Case [5473265        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(3) -- Var XVAL06 PostProc
+
+*** Case [5476451        ] has 2 messages (0 E / 2 W / 0 U)
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+    W    1007 No occurrence: LD06(3) -- Var XVAL06 PostProc
+
+*** Case [5476660        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+
+*** Case [5478977        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(5) -- Var XVAL06 PostProc
+
+*** Case [5481711        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(8) -- Var XVAL06 PostProc
+
+*** Case [5483235        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(5) -- Var XVAL06 PostProc
+
+*** Case [5483496        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(4) -- Var XVAL06 PostProc
+
+*** Case [5484894        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+
+*** Case [5485505        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(3) -- Var XVAL06 PostProc
+
+*** Case [5487383        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+
+*** Case [5489049        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+
+*** Case [5492930        ] has 3 messages (0 E / 3 W / 0 U)
+    W    1007 No occurrence: LD06(1) -- Var XVAL06 PostProc
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+    W    1007 No occurrence: LD06(5) -- Var XVAL06 PostProc
+
+*** Case [5494429        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+
+*** Case [5495168        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+
+*** Case [5497381        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(1) -- Var XVAL06 PostProc
+
+*** Case [5502063        ] has 2 messages (0 E / 2 W / 0 U)
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+    W    1007 No occurrence: LD06(3) -- Var XVAL06 PostProc
+
+*** Case [5503789        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+
+*** Case [5505313        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(5) -- Var XVAL06 PostProc
+
+*** Case [5514392        ] has 2 messages (0 E / 2 W / 0 U)
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+    W    1007 No occurrence: LD06(3) -- Var XVAL06 PostProc
+
+*** Case [5514396        ] has 2 messages (0 E / 2 W / 0 U)
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+    W    1007 No occurrence: LD06(3) -- Var XVAL06 PostProc
+
+*** Case [5514626        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(3) -- Var XVAL06 PostProc
+
+*** Case [5519791        ] has 2 messages (0 E / 2 W / 0 U)
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+    W    1007 No occurrence: LD06(3) -- Var XVAL06 PostProc
+
+*** Case [5521204        ] has 2 messages (0 E / 2 W / 0 U)
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+    W    1007 No occurrence: LD06(3) -- Var XVAL06 PostProc
+
+*** Case [5522829        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+
+*** Case [5523302        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+
+*** Case [5525051        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+
+*** Case [5527432        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+
+*** Case [5527594        ] has 4 messages (0 E / 4 W / 0 U)
+    W    1007 No occurrence: LD06(1) -- Var XVAL06 PostProc
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+    W    1007 No occurrence: LD06(3) -- Var XVAL06 PostProc
+    W    1007 No occurrence: LD06(4) -- Var XVAL06 PostProc
+
+*** Case [5530078        ] has 2 messages (0 E / 2 W / 0 U)
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+    W    1007 No occurrence: LD06(3) -- Var XVAL06 PostProc
+
+*** Case [5530089        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(1) -- Var XVAL06 PostProc
+
+*** Case [5533495        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(3) -- Var XVAL06 PostProc
+
+*** Case [5533699        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+
+*** Case [5537215        ] has 3 messages (0 E / 3 W / 0 U)
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+    W    1007 No occurrence: LD06(3) -- Var XVAL06 PostProc
+    W    1007 No occurrence: LD06(4) -- Var XVAL06 PostProc
+
+*** Case [5539104        ] has 4 messages (0 E / 4 W / 0 U)
+    W    1007 No occurrence: LD06(1) -- Var XVAL06 PostProc
+    W    1007 No occurrence: LD06(3) -- Var XVAL06 PostProc
+    W    1007 No occurrence: LD06(4) -- Var XVAL06 PostProc
+    W    1007 No occurrence: LD06(5) -- Var XVAL06 PostProc
+
+*** Case [5540037        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(3) -- Var XVAL06 PostProc
+
+*** Case [5540853        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(3) -- Var XVAL06 PostProc
+
+*** Case [5541518        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(1) -- Var XVAL06 PostProc
+
+*** Case [5541645        ] has 2 messages (0 E / 2 W / 0 U)
+    W    1007 No occurrence: LD06(3) -- Var XVAL06 PostProc
+    W    1007 No occurrence: LD06(4) -- Var XVAL06 PostProc
+
+*** Case [5543332        ] has 2 messages (0 E / 2 W / 0 U)
+    W    1007 No occurrence: LD06(1) -- Var XVAL06 PostProc
+    W    1007 No occurrence: LD06(4) -- Var XVAL06 PostProc
+
+*** Case [5550384        ] has 2 messages (0 E / 2 W / 0 U)
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+    W    1007 No occurrence: LD06(3) -- Var XVAL06 PostProc
+
+*** Case [5550986        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(5) -- Var XVAL06 PostProc
+
+*** Case [5553941        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(1) -- Var XVAL06 PostProc
+
+*** Case [5558954        ] has 2 messages (0 E / 2 W / 0 U)
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+    W    1007 No occurrence: LD06(3) -- Var XVAL06 PostProc
+
+*** Case [5560631        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+
+*** Case [5563721        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+
+*** Case [5565526        ] has 2 messages (0 E / 2 W / 0 U)
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+    W    1007 No occurrence: LD06(4) -- Var XVAL06 PostProc
+
+*** Case [5565527        ] has 2 messages (0 E / 2 W / 0 U)
+    W    1007 No occurrence: LD06(1) -- Var XVAL06 PostProc
+    W    1007 No occurrence: LD06(4) -- Var XVAL06 PostProc
+
+*** Case [5569393        ] has 3 messages (0 E / 3 W / 0 U)
+    W    1007 No occurrence: LD06(1) -- Var XVAL06 PostProc
+    W    1007 No occurrence: LD06(3) -- Var XVAL06 PostProc
+    W    1007 No occurrence: LD06(4) -- Var XVAL06 PostProc
+
+*** Case [5570898        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(1) -- Var XVAL06 PostProc
+
+*** Case [5572122        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(4) -- Var XVAL06 PostProc
+
+*** Case [5576480        ] has 3 messages (0 E / 3 W / 0 U)
+    W    1007 No occurrence: LD06(1) -- Var XVAL06 PostProc
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+    W    1007 No occurrence: LD06(3) -- Var XVAL06 PostProc
+
+*** Case [5579701        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(5) -- Var XVAL06 PostProc
+
+*** Case [5581196        ] has 2 messages (0 E / 2 W / 0 U)
+    W    1007 No occurrence: LD06(5) -- Var XVAL06 PostProc
+    W    1007 No occurrence: LD06(6) -- Var XVAL06 PostProc
+
+*** Case [5583017        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+
+*** Case [5587403        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(4) -- Var XVAL06 PostProc
+
+*** Case [5587620        ] has 2 messages (0 E / 2 W / 0 U)
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+    W    1007 No occurrence: LD06(3) -- Var XVAL06 PostProc
+
+*** Case [5590112        ] has 2 messages (0 E / 2 W / 0 U)
+    W    1007 No occurrence: LD06(1) -- Var XVAL06 PostProc
+    W    1007 No occurrence: LD06(3) -- Var XVAL06 PostProc
+
+*** Case [5590995        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(3) -- Var XVAL06 PostProc
+
+*** Case [5592925        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+
+*** Case [5594470        ] has 2 messages (0 E / 2 W / 0 U)
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+    W    1007 No occurrence: LD06(3) -- Var XVAL06 PostProc
+
+*** Case [5595040        ] has 2 messages (0 E / 2 W / 0 U)
+    W    1007 No occurrence: LD06(3) -- Var XVAL06 PostProc
+    W    1007 No occurrence: LD06(4) -- Var XVAL06 PostProc
+
+*** Case [5595059        ] has 2 messages (0 E / 2 W / 0 U)
+    W    1007 No occurrence: LD06(1) -- Var XVAL06 PostProc
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+
+*** Case [5600994        ] has 2 messages (0 E / 2 W / 0 U)
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+    W    1007 No occurrence: LD06(4) -- Var XVAL06 PostProc
+
+*** Case [5601814        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+
+*** Case [5602359        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+
+*** Case [5606334        ] has 3 messages (0 E / 3 W / 0 U)
+    W    1007 No occurrence: LD06(1) -- Var XVAL06 PostProc
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+    W    1007 No occurrence: LD06(3) -- Var XVAL06 PostProc
+
+*** Case [5609841        ] has 2 messages (0 E / 2 W / 0 U)
+    W    1007 No occurrence: LD06(1) -- Var XVAL06 PostProc
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+
+*** Case [5610476        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(1) -- Var XVAL06 PostProc
+
+*** Case [5611593        ] has 2 messages (0 E / 2 W / 0 U)
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+    W    1007 No occurrence: LD06(3) -- Var XVAL06 PostProc
+
+*** Case [5618168        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(4) -- Var XVAL06 PostProc
+
+*** Case [5618712        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(6) -- Var XVAL06 PostProc
+
+*** Case [5621614        ] has 3 messages (0 E / 3 W / 0 U)
+    W    1007 No occurrence: LD06(1) -- Var XVAL06 PostProc
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+    W    1007 No occurrence: LD06(3) -- Var XVAL06 PostProc
+
+*** Case [5623525        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(5) -- Var XVAL06 PostProc
+
+*** Case [5625593        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(3) -- Var XVAL06 PostProc
+
+*** Case [5627997        ] has 2 messages (0 E / 2 W / 0 U)
+    W    1007 No occurrence: LD06(1) -- Var XVAL06 PostProc
+    W    1007 No occurrence: LD06(3) -- Var XVAL06 PostProc
+
+*** Case [5628491        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(4) -- Var XVAL06 PostProc
+
+*** Case [5630260        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(6) -- Var XVAL06 PostProc
+
+*** Case [5630462        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(1) -- Var XVAL06 PostProc
+
+*** Case [5633893        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+
+*** Case [5634536        ] has 2 messages (0 E / 2 W / 0 U)
+    W    1007 No occurrence: LD06(3) -- Var XVAL06 PostProc
+    W    1007 No occurrence: LD06(6) -- Var XVAL06 PostProc
+
+*** Case [5640535        ] has 3 messages (0 E / 3 W / 0 U)
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+    W    1007 No occurrence: LD06(3) -- Var XVAL06 PostProc
+    W    1007 No occurrence: LD06(4) -- Var XVAL06 PostProc
+
+*** Case [5641092        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+
+*** Case [5641412        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(4) -- Var XVAL06 PostProc
+
+*** Case [5646178        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+
+*** Case [5649242        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(4) -- Var XVAL06 PostProc
+
+*** Case [5649275        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+
+*** Case [5649300        ] has 2 messages (0 E / 2 W / 0 U)
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+    W    1007 No occurrence: LD06(3) -- Var XVAL06 PostProc
+
+*** Case [5649748        ] has 3 messages (0 E / 3 W / 0 U)
+    W    1007 No occurrence: LD06(1) -- Var XVAL06 PostProc
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+    W    1007 No occurrence: LD06(3) -- Var XVAL06 PostProc
+
+*** Case [5653393        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(6) -- Var XVAL06 PostProc
+
+*** Case [5655793        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(3) -- Var XVAL06 PostProc
+
+*** Case [5657506        ] has 2 messages (0 E / 2 W / 0 U)
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+    W    1007 No occurrence: LD06(3) -- Var XVAL06 PostProc
+
+*** Case [5658778        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(3) -- Var XVAL06 PostProc
+
+*** Case [5658890        ] has 2 messages (0 E / 2 W / 0 U)
+    W    1007 No occurrence: LD06(1) -- Var XVAL06 PostProc
+    W    1007 No occurrence: LD06(6) -- Var XVAL06 PostProc
+
+*** Case [5659887        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(4) -- Var XVAL06 PostProc
+
+*** Case [5660109        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(6) -- Var XVAL06 PostProc
+
+*** Case [5661297        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+
+*** Case [5661834        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+
+*** Case [5663045        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+
+*** Case [5663637        ] has 3 messages (0 E / 3 W / 0 U)
+    W    1007 No occurrence: LD06(1) -- Var XVAL06 PostProc
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+    W    1007 No occurrence: LD06(5) -- Var XVAL06 PostProc
+
+*** Case [5664399        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+
+*** Case [5664546        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(3) -- Var XVAL06 PostProc
+
+*** Case [5664590        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(3) -- Var XVAL06 PostProc
+
+*** Case [5665113        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+
+*** Case [5667270        ] has 3 messages (0 E / 3 W / 0 U)
+    W    1007 No occurrence: LD06(1) -- Var XVAL06 PostProc
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+    W    1007 No occurrence: LD06(3) -- Var XVAL06 PostProc
+
+*** Case [5669886        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+
+*** Case [5673351        ] has 3 messages (0 E / 3 W / 0 U)
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+    W    1007 No occurrence: LD06(3) -- Var XVAL06 PostProc
+    W    1007 No occurrence: LD06(4) -- Var XVAL06 PostProc
+
+*** Case [5674643        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+
+*** Case [5677579        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+
+*** Case [5678672        ] has 2 messages (0 E / 2 W / 0 U)
+    W    1007 No occurrence: LD06(1) -- Var XVAL06 PostProc
+    W    1007 No occurrence: LD06(3) -- Var XVAL06 PostProc
+
+*** Case [5679299        ] has 2 messages (0 E / 2 W / 0 U)
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+    W    1007 No occurrence: LD06(3) -- Var XVAL06 PostProc
+
+*** Case [5679848        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(1) -- Var XVAL06 PostProc
+
+*** Case [5679892        ] has 2 messages (0 E / 2 W / 0 U)
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+    W    1007 No occurrence: LD06(3) -- Var XVAL06 PostProc
+
+*** Case [5681512        ] has 2 messages (0 E / 2 W / 0 U)
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+    W    1007 No occurrence: LD06(3) -- Var XVAL06 PostProc
+
+*** Case [5681752        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(3) -- Var XVAL06 PostProc
+
+*** Case [5682087        ] has 2 messages (0 E / 2 W / 0 U)
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+    W    1007 No occurrence: LD06(3) -- Var XVAL06 PostProc
+
+*** Case [5685592        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+
+*** Case [5688658        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+
+*** Case [5688924        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+
+*** Case [5692690        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(1) -- Var XVAL06 PostProc
+
+*** Case [5694566        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+
+*** Case [5697128        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(4) -- Var XVAL06 PostProc
+
+*** Case [5699222        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(4) -- Var XVAL06 PostProc
+
+*** Case [5702047        ] has 3 messages (0 E / 3 W / 0 U)
+    W    1007 No occurrence: LD06(1) -- Var XVAL06 PostProc
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+    W    1007 No occurrence: LD06(3) -- Var XVAL06 PostProc
+
+*** Case [5706573        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+
+*** Case [5707187        ] has 2 messages (0 E / 2 W / 0 U)
+    W    1007 No occurrence: LD06(5) -- Var XVAL06 PostProc
+    W    1007 No occurrence: LD06(6) -- Var XVAL06 PostProc
+
+*** Case [5708965        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(4) -- Var XVAL06 PostProc
+
+*** Case [5709512        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+
+*** Case [5709768        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(1) -- Var XVAL06 PostProc
+
+*** Case [5711103        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(4) -- Var XVAL06 PostProc
+
+*** Case [5712059        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(1) -- Var XVAL06 PostProc
+
+*** Case [5712235        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(1) -- Var XVAL06 PostProc
+
+*** Case [5712947        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(3) -- Var XVAL06 PostProc
+
+*** Case [5713357        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(3) -- Var XVAL06 PostProc
+
+*** Case [5714240        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+
+*** Case [5714595        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(3) -- Var XVAL06 PostProc
+
+*** Case [5715443        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+
+*** Case [5717164        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+
+*** Case [5719476        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(4) -- Var XVAL06 PostProc
+
+*** Case [5721471        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+
+*** Case [5722626        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(6) -- Var XVAL06 PostProc
+
+*** Case [5725489        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+
+*** Case [5725677        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(4) -- Var XVAL06 PostProc
+
+*** Case [5727718        ] has 2 messages (0 E / 2 W / 0 U)
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+    W    1007 No occurrence: LD06(3) -- Var XVAL06 PostProc
+
+*** Case [5731297        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(3) -- Var XVAL06 PostProc
+
+*** Case [5732978        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+
+*** Case [5735662        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+
+*** Case [5740293        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(4) -- Var XVAL06 PostProc
+
+*** Case [5745247        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(1) -- Var XVAL06 PostProc
+
+*** Case [5745386        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+
+*** Case [5749845        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(6) -- Var XVAL06 PostProc
+
+*** Case [5750302        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(3) -- Var XVAL06 PostProc
+
+*** Case [5754219        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+
+*** Case [5760683        ] has 3 messages (0 E / 3 W / 0 U)
+    W    1007 No occurrence: LD06(1) -- Var XVAL06 PostProc
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+    W    1007 No occurrence: LD06(3) -- Var XVAL06 PostProc
+
+*** Case [5762149        ] has 2 messages (0 E / 2 W / 0 U)
+    W    1007 No occurrence: LD06(1) -- Var XVAL06 PostProc
+    W    1007 No occurrence: LD06(3) -- Var XVAL06 PostProc
+
+*** Case [5767803        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(3) -- Var XVAL06 PostProc
+
+*** Case [5773482        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(3) -- Var XVAL06 PostProc
+
+*** Case [5775913        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+
+*** Case [5776564        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(4) -- Var XVAL06 PostProc
+
+*** Case [5783673        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(3) -- Var XVAL06 PostProc
+
+*** Case [5784884        ] has 3 messages (0 E / 3 W / 0 U)
+    W    1007 No occurrence: LD06(1) -- Var XVAL06 PostProc
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+    W    1007 No occurrence: LD06(3) -- Var XVAL06 PostProc
+
+*** Case [5784920        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(5) -- Var XVAL06 PostProc
+
+*** Case [5788103        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+
+*** Case [5789697        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(1) -- Var XVAL06 PostProc
+
+*** Case [5791837        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(3) -- Var XVAL06 PostProc
+
+*** Case [5791927        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+
+*** Case [5797225        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(3) -- Var XVAL06 PostProc
+
+*** Case [5800598        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+
+*** Case [5805343        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+
+*** Case [5805668        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+
+*** Case [5806556        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+
+*** Case [5814676        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(4) -- Var XVAL06 PostProc
+
+*** Case [5821994        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(3) -- Var XVAL06 PostProc
+
+*** Case [5837140        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(6) -- Var XVAL06 PostProc
+
+*** Case [5839306        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+
+*** Case [5839518        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+
+*** Case [5852295        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(4) -- Var XVAL06 PostProc
+
+*** Case [5857498        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(3) -- Var XVAL06 PostProc
+
+*** Case [5859033        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(3) -- Var XVAL06 PostProc
+
+*** Case [5865212        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(3) -- Var XVAL06 PostProc
+
+*** Case [5869376        ] has 2 messages (0 E / 2 W / 0 U)
+    W    1007 No occurrence: LD06(3) -- Var XVAL06 PostProc
+    W    1007 No occurrence: LD06(4) -- Var XVAL06 PostProc
+
+*** Case [5869856        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(3) -- Var XVAL06 PostProc
+
+*** Case [5872730        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(3) -- Var XVAL06 PostProc
+
+*** Case [5891174        ] has 2 messages (0 E / 2 W / 0 U)
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+    W    1007 No occurrence: LD06(3) -- Var XVAL06 PostProc
+
+*** Case [5893092        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(3) -- Var XVAL06 PostProc
+
+*** Case [5908125        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+
+*** Case [5912129        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+
+*** Case [5920766        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(1) -- Var XVAL06 PostProc
+
+*** Case [5925651        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+
+*** Case [5931762        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(3) -- Var XVAL06 PostProc
+
+*** Case [5932749        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(3) -- Var XVAL06 PostProc
+
+*** Case [5937743        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(3) -- Var XVAL06 PostProc
+
+*** Case [5942484        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+
+*** Case [5945551        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(3) -- Var XVAL06 PostProc
+
+*** Case [5959836        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+
+*** Case [5962483        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(1) -- Var XVAL06 PostProc
+
+*** Case [5967027        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(4) -- Var XVAL06 PostProc
+
+*** Case [5967392        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+
+*** Case [5971788        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+
+*** Case [5975571        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(6) -- Var XVAL06 PostProc
+
+*** Case [5977562        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+
+*** Case [5979089        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(3) -- Var XVAL06 PostProc
+
+*** Case [5983530        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+
+*** Case [5983963        ] has 2 messages (0 E / 2 W / 0 U)
+    W    1007 No occurrence: LD06(1) -- Var XVAL06 PostProc
+    W    1007 No occurrence: LD06(3) -- Var XVAL06 PostProc
+
+*** Case [5987207        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+
+*** Case [5991970        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(4) -- Var XVAL06 PostProc
+
+*** Case [5996833        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(3) -- Var XVAL06 PostProc
+
+*** Case [5998877        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+
+*** Case [6006652        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+
+*** Case [6006842        ] has 3 messages (0 E / 3 W / 0 U)
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+    W    1007 No occurrence: LD06(3) -- Var XVAL06 PostProc
+    W    1007 No occurrence: LD06(4) -- Var XVAL06 PostProc
+
+*** Case [6008273        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(1) -- Var XVAL06 PostProc
+
+*** Case [6023945        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(6) -- Var XVAL06 PostProc
+
+*** Case [6054529        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(1) -- Var XVAL06 PostProc
+
+*** Case [6055033        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+
+*** Case [6056751        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(3) -- Var XVAL06 PostProc
+
+*** Case [6066326        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(1) -- Var XVAL06 PostProc
+
+*** Case [6085454        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+
+*** Case [6091523        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(3) -- Var XVAL06 PostProc
+
+*** Case [6105411        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+
+*** Case [6108015        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(3) -- Var XVAL06 PostProc
+
+*** Case [6114891        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(7) -- Var XVAL06 PostProc
+
+*** Case [6124528        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+
+*** Case [6132483        ] has 2 messages (0 E / 2 W / 0 U)
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+    W    1007 No occurrence: LD06(3) -- Var XVAL06 PostProc
+
+*** Case [6143063        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+
+*** Case [6150773        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(3) -- Var XVAL06 PostProc
+
+*** Case [6151685        ] has 3 messages (0 E / 3 W / 0 U)
+    W    1007 No occurrence: LD06(1) -- Var XVAL06 PostProc
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+    W    1007 No occurrence: LD06(3) -- Var XVAL06 PostProc
+
+*** Case [6153939        ] has 2 messages (0 E / 2 W / 0 U)
+    W    1007 No occurrence: LD06(1) -- Var XVAL06 PostProc
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+
+*** Case [6155461        ] has 3 messages (0 E / 3 W / 0 U)
+    W    1007 No occurrence: LD06(1) -- Var XVAL06 PostProc
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+    W    1007 No occurrence: LD06(4) -- Var XVAL06 PostProc
+
+*** Case [6160095        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(1) -- Var XVAL06 PostProc
+
+*** Case [6162350        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(3) -- Var XVAL06 PostProc
+
+*** Case [6169779        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+
+*** Case [6174599        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+
+*** Case [6182780        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(1) -- Var XVAL06 PostProc
+
+*** Case [6186405        ] has 2 messages (0 E / 2 W / 0 U)
+    W    1007 No occurrence: LD06(1) -- Var XVAL06 PostProc
+    W    1007 No occurrence: LD06(3) -- Var XVAL06 PostProc
+
+*** Case [6189497        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(3) -- Var XVAL06 PostProc
+
+*** Case [6195073        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(4) -- Var XVAL06 PostProc
+
+*** Case [6202165        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+
+*** Case [6213576        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(4) -- Var XVAL06 PostProc
+
+*** Case [6217150        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(3) -- Var XVAL06 PostProc
+
+*** Case [6233362        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(3) -- Var XVAL06 PostProc
+
+*** Case [6238429        ] has 2 messages (0 E / 2 W / 0 U)
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+    W    1007 No occurrence: LD06(3) -- Var XVAL06 PostProc
+
+*** Case [6239924        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+
+*** Case [6241982        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(4) -- Var XVAL06 PostProc
+
+*** Case [6243796        ] has 2 messages (0 E / 2 W / 0 U)
+    W    1007 No occurrence: LD06(1) -- Var XVAL06 PostProc
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+
+*** Case [6255204        ] has 2 messages (0 E / 2 W / 0 U)
+    W    1007 No occurrence: LD06(3) -- Var XVAL06 PostProc
+    W    1007 No occurrence: LD06(4) -- Var XVAL06 PostProc
+
+*** Case [6256050        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+
+*** Case [6257279        ] has 2 messages (0 E / 2 W / 0 U)
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+    W    1007 No occurrence: LD06(3) -- Var XVAL06 PostProc
+
+*** Case [6259253        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(3) -- Var XVAL06 PostProc
+
+*** Case [6259613        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+
+*** Case [6260660        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+
+*** Case [6265761        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(3) -- Var XVAL06 PostProc
+
+*** Case [6270789        ] has 2 messages (0 E / 2 W / 0 U)
+    W    1007 No occurrence: LD06(3) -- Var XVAL06 PostProc
+    W    1007 No occurrence: LD06(5) -- Var XVAL06 PostProc
+
+*** Case [6278319        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+
+*** Case [6288275        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+
+*** Case [6292209        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(6) -- Var XVAL06 PostProc
+
+*** Case [6300886        ] has 2 messages (0 E / 2 W / 0 U)
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+    W    1007 No occurrence: LD06(4) -- Var XVAL06 PostProc
+
+*** Case [6301016        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+
+*** Case [6301654        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+
+*** Case [6315771        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(3) -- Var XVAL06 PostProc
+
+*** Case [6317985        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(3) -- Var XVAL06 PostProc
+
+*** Case [6318975        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+
+*** Case [6325693        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(3) -- Var XVAL06 PostProc
+
+*** Case [6326684        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+
+*** Case [6327232        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(4) -- Var XVAL06 PostProc
+
+*** Case [6333542        ] has 2 messages (0 E / 2 W / 0 U)
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+    W    1007 No occurrence: LD06(3) -- Var XVAL06 PostProc
+
+*** Case [6349178        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(4) -- Var XVAL06 PostProc
+
+*** Case [6371534        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+
+*** Case [6380104        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+
+*** Case [6381517        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+
+*** Case [6388201        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(3) -- Var XVAL06 PostProc
+
+*** Case [6505734        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(1) -- Var XVAL06 PostProc
+
+*** Case [6520257        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+
+*** Case [6534607        ] has 3 messages (0 E / 3 W / 0 U)
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+    W    1007 No occurrence: LD06(3) -- Var XVAL06 PostProc
+    W    1007 No occurrence: LD06(5) -- Var XVAL06 PostProc
+
+*** Case [6535031        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+
+*** Case [6537132        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+
+*** Case [6545416        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(6) -- Var XVAL06 PostProc
+
+*** Case [6556063        ] has 2 messages (0 E / 2 W / 0 U)
+    W    1007 No occurrence: LD06(3) -- Var XVAL06 PostProc
+    W    1007 No occurrence: LD06(4) -- Var XVAL06 PostProc
+
+*** Case [6556299        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+
+*** Case [6556959        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+
+*** Case [6559771        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(1) -- Var XVAL06 PostProc
+
+*** Case [6562664        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+
+*** Case [6589270        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(3) -- Var XVAL06 PostProc
+
+*** Case [6594310        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+
+*** Case [6599860        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+
+*** Case [6622067        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(3) -- Var XVAL06 PostProc
+
+*** Case [6622211        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+
+*** Case [6623506        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+
+*** Case [6626691        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(3) -- Var XVAL06 PostProc
+
+*** Case [6630420        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+
+*** Case [6680328        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(6) -- Var XVAL06 PostProc
+
+*** Case [6704160        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(5) -- Var XVAL06 PostProc
+
+*** Case [6739697        ] has 2 messages (0 E / 2 W / 0 U)
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+    W    1007 No occurrence: LD06(4) -- Var XVAL06 PostProc
+
+*** Case [6745028        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+
+*** Case [6752977        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(6) -- Var XVAL06 PostProc
+
+*** Case [6765775        ] has 2 messages (0 E / 2 W / 0 U)
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+    W    1007 No occurrence: LD06(3) -- Var XVAL06 PostProc
+
+*** Case [6771740        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+
+*** Case [6786144        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+
+*** Case [6791852        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(8) -- Var XVAL06 PostProc
+
+*** Case [6795596        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+
+*** Case [6804297        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+
+*** Case [6805708        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(1) -- Var XVAL06 PostProc
+
+*** Case [6810391        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+
+*** Case [6830666        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+
+*** Case [6844755        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(6) -- Var XVAL06 PostProc
+
+*** Case [6864874        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(4) -- Var XVAL06 PostProc
+
+*** Case [6916656        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(3) -- Var XVAL06 PostProc
+
+*** Case [6921358        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(3) -- Var XVAL06 PostProc
+
+*** Case [6930773        ] has 2 messages (0 E / 2 W / 0 U)
+    W    1007 No occurrence: LD06(1) -- Var XVAL06 PostProc
+    W    1007 No occurrence: LD06(5) -- Var XVAL06 PostProc
+
+*** Case [6940661        ] has 3 messages (0 E / 3 W / 0 U)
+    W    1007 No occurrence: LD06(3) -- Var XVAL06 PostProc
+    W    1007 No occurrence: LD06(7) -- Var XVAL06 PostProc
+    W    1007 No occurrence: LD06(8) -- Var XVAL06 PostProc
+
+*** Case [6946514        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(5) -- Var XVAL06 PostProc
+
+*** Case [6967529        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(1) -- Var XVAL06 PostProc
+
+*** Case [7008220        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(1) -- Var XVAL06 PostProc
+
+*** Case [7010276        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+
+*** Case [7013985        ] has 2 messages (0 E / 2 W / 0 U)
+    W    1007 No occurrence: LD06(1) -- Var XVAL06 PostProc
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+
+*** Case [7014688        ] has 2 messages (0 E / 2 W / 0 U)
+    W    1007 No occurrence: LD06(3) -- Var XVAL06 PostProc
+    W    1007 No occurrence: LD06(4) -- Var XVAL06 PostProc
+
+*** Case [7053503        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+
+*** Case [7067290        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(5) -- Var XVAL06 PostProc
+
+*** Case [7069764        ] has 2 messages (0 E / 2 W / 0 U)
+    W    1007 No occurrence: LD06(1) -- Var XVAL06 PostProc
+    W    1007 No occurrence: LD06(3) -- Var XVAL06 PostProc
+
+*** Case [7070693        ] has 2 messages (0 E / 2 W / 0 U)
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+    W    1007 No occurrence: LD06(3) -- Var XVAL06 PostProc
+
+*** Case [7072591        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(4) -- Var XVAL06 PostProc
+
+*** Case [7080161        ] has 2 messages (0 E / 2 W / 0 U)
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+    W    1007 No occurrence: LD06(3) -- Var XVAL06 PostProc
+
+*** Case [7086107        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(3) -- Var XVAL06 PostProc
+
+*** Case [7113869        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(1) -- Var XVAL06 PostProc
+
+*** Case [7117159        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+
+*** Case [7125395        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+
+*** Case [7142308        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+
+*** Case [7155120        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+
+*** Case [7168948        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(3) -- Var XVAL06 PostProc
+
+*** Case [7193681        ] has 2 messages (0 E / 2 W / 0 U)
+    W    1007 No occurrence: LD06(1) -- Var XVAL06 PostProc
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+
+*** Case [7207862        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(3) -- Var XVAL06 PostProc
+
+*** Case [7229271        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(6) -- Var XVAL06 PostProc
+
+*** Case [7270388        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(3) -- Var XVAL06 PostProc
+
+*** Case [7270394        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(3) -- Var XVAL06 PostProc
+
+*** Case [7273080        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+
+*** Case [7275355        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(7) -- Var XVAL06 PostProc
+
+*** Case [7311714        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(3) -- Var XVAL06 PostProc
+
+*** Case [7315498        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(3) -- Var XVAL06 PostProc
+
+*** Case [7335338        ] has 3 messages (0 E / 3 W / 0 U)
+    W    1007 No occurrence: LD06(1) -- Var XVAL06 PostProc
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+    W    1007 No occurrence: LD06(3) -- Var XVAL06 PostProc
+
+*** Case [7350303        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(6) -- Var XVAL06 PostProc
+
+*** Case [7393682        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+
+*** Case [7509899        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(1) -- Var XVAL06 PostProc
+
+*** Case [7560279        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+
+*** Case [7718814        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(5) -- Var XVAL06 PostProc
+
+*** Case [7745277        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(3) -- Var XVAL06 PostProc
+
+*** Case [7758690        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+
+*** Case [7979160        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+
+*** Case [8032298        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(6) -- Var XVAL06 PostProc
+
+*** Case [8184617        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+
+*** Case [8271864        ] has 4 messages (0 E / 4 W / 0 U)
+    W    1007 No occurrence: LD06(1) -- Var XVAL06 PostProc
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+    W    1007 No occurrence: LD06(3) -- Var XVAL06 PostProc
+    W    1007 No occurrence: LD06(4) -- Var XVAL06 PostProc
+
+*** Case [8424245        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(2) -- Var XVAL06 PostProc
+
+*** Case [8452098        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(3) -- Var XVAL06 PostProc
+
+*** Case [8715141        ] has 1 message (0 E / 1 W / 0 U)
+    W    1007 No occurrence: LD06(4) -- Var XVAL06 PostProc
+
+System messages:
+
+  Number        Freq         Message Text                                                                               
+  ------        ----         ------------                                                                               
+    1007         721         No occurrence: %s(%d) -- %p                                                                
+
+
+CSPro Executor Normal End
+------------------------------------------------------------------------------------------------------------------------

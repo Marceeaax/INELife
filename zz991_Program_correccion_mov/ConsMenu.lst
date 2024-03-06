@@ -1,0 +1,9 @@
+﻿Application     C:\BecasItaipu2024\zz991_Program_correccion_mov\ConsMenu.ent
+Type            ENTRY
+External        IMESPPBI_DICT=<<Text File>> C:\BecasItaipu2024\zz991_Program_correccion_mov\None
+External        MARCO_DICT=<<CSPro DB>> C:\BecasItaipu2024\zz991_Program_correccion_mov\Program\marco.csdb
+External        PSC_STAFF_DICT=<<CSPro DB>> C:\BecasItaipu2024\zz991_Program_correccion_mov\Program\staff.csdb
+
+Date            Mar 06, 2024
+Start Time      10:25:12
+End Time        10:25:12

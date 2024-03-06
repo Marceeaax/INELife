@@ -1,0 +1,8 @@
+﻿Application     d:\Encuestas_varias\Programas_vb6_encuesta\DEH\Encuestas_coyunturales\P006_Encuesta_Becarios_Itaipu_2024\zz991_Program_correccion_mov\Program\VAL02_NAME_FILE_CLAVE.bch
+Type            Batch
+Date            Feb 26, 2024
+Time            11:21:16
+
+CSPro Error Summary
+
+Ambiguous or not found symbol 'IMESPPBI_DICT.D03_A4_C4'- please provide qualifiers enough to avoid ambiguity

@@ -1,0 +1,18 @@
+﻿[Run Information]
+Version=CSPro 7.7
+AppType=Batch
+
+[Files]
+Application=.\val_faltantes_doc.bch
+InputData=..\Unidos\Base_unida_out.csdb
+OutputData=|type=None
+Listing=.\notas_faltantes_doc.lst
+WriteData=.\doc_faltantes_segun_censista.csv
+
+[Parameters]
+ViewListing=Always
+ViewResults=Yes
+ListingWidth=120
+MessageWrap=No
+ErrmsgOverride=No
+InputOrder=Sequential

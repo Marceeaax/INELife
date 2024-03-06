@@ -1,0 +1,324 @@
+0000Asunción-Asunción
+0101Concepción-Concepción
+0102Concepción-Belén
+0103Concepción-Horqueta
+0104Concepción-Loreto
+0105Concepción-San Carlos del Apa
+0106Concepción-San Lázaro
+0107Concepción-Yby Yaú
+0108Concepción-Azote'y
+0109Concepción-Sargento José Félix López
+0201San Pedro-San Pedro del Ycuamandyyú
+0202San Pedro-Antequera
+0203San Pedro-Choré
+0204San Pedro-General Elizardo Aquino
+0205San Pedro-Itacurubí del Rosario
+0206San Pedro-Lima
+0207San Pedro-Nueva Germania
+0208San Pedro-San Estanislao
+0209San Pedro-San Pablo
+0210San Pedro-Tacuatí
+0211San Pedro-Unión
+0212San Pedro-25 de Diciembre
+0213San Pedro-Villa del Rosario
+0214San Pedro-General Francisco Isidoro Resquín
+0215San Pedro-Yataity del Norte
+0216San Pedro-Guajayvi
+0217San Pedro-Capiibary
+0218San Pedro-Santa Rosa del Aguaray
+0219San Pedro-Yrybucua
+0220San Pedro-Liberación
+0301Cordillera-Caacupé
+0302Cordillera-Altos
+0303Cordillera-Arroyos y Esteros
+0304Cordillera-Atyrá 
+0305Cordillera-Caraguatay
+0306Cordillera-Emboscada
+0307Cordillera-Eusebio Ayala
+0308Cordillera-Isla Pucú
+0309Cordillera-Itacurubí de la Cordillera
+0310Cordillera-Juan de Mena
+0311Cordillera-Loma Grande
+0312Cordillera-Mbocayaty del Yhaguy
+0313Cordillera-Nueva Colombia
+0314Cordillera-Piribebuy
+0315Cordillera-Primero de Marzo
+0316Cordillera-San Bernardino
+0317Cordillera-Santa Elena
+0318Cordillera-Tobatí
+0319Cordillera-Valenzuela
+0320Cordillera-San Jose Obrero
+0401Guairá-Villarrica
+0402Guairá-Borja
+0403Guairá-Capitán Mauricio José Troche
+0404Guairá-Coronel Martínez
+0405Guairá-Félix Pérez Cardozo
+0406Guairá-Gral. Eugenio A. Garay
+0407Guairá-Independencia
+0408Guairá-Itapé
+0409Guairá-Iturbe
+0410Guairá-José Fassardi
+0411Guairá-Mbocayaty
+0412Guairá-Natalicio Talavera
+0413Guairá-Ñumí
+0414Guairá-San Salvador
+0415Guairá-Yataity
+0416Guairá-Doctor Bottrell
+0417Guairá-Paso Yobai
+0418Guairáá-Tebicuary
+0501Caaguazú-Coronel Oviedo
+0502Caaguazú-Caaguazú
+0503Caaguazú-Carayaó
+0504Caaguazú-Dr. Cecilio Báez
+0505Caaguazú-Santa Rosa del Mbutuy
+0506Caaguazú-Dr. Juan Manuel Frutos
+0507Caaguazú-Repatriación
+0508Caaguazú-Nueva Londres
+0509Caaguazú-San Joaquín
+0510Caaguazú-San José de los Arroyos
+0511Caaguazú-Yhú
+0512Caaguazú-Dr. J. Eulogio Estigarribia
+0513Caaguazú-R.I. 3 Corrales
+0514Caaguazú-Raúl Arsenio Oviedo
+0515Caaguazú-José Domingo Ocampos
+0516Caaguazú-Mariscal Francisco Solano López
+0517Caaguazú-La Pastora
+0518Caaguazú-3 de Febrero
+0519Caaguazú-Simón Bolivar
+0520Caaguazú-Vaquería
+0521Caaguazú-Tembiaporá 
+0522Caaguazú-Nueva Toledo
+0601Caazapá-Caazapá 
+0602Caazapá-Abaí
+0603Caazapá-Buena Vista
+0604Caazapá-Dr. Moisés S. Bertoni
+0605Caazapá-Gral. Higinio Morinigo
+0606Caazapá-Maciel
+0607Caazapá-San Juan Nepomuceno
+0608Caazapá-Tavaí
+0609Caazapá-Yegros
+0610Caazapá-Yuty
+0611Caazapá-3 de Mayo
+0701Itapúa-Encarnación
+0702Itapúa-Bella Vista
+0703Itapúa-Cambyreta 
+0704Itapúa-Capitán Meza
+0705Itapúa-Capitán Miranda
+0706Itapúa-Nueva Alborada
+0707Itapúa-Carmen del Paraná
+0708Itapúa-Coronel Bogado
+0709Itapúa-Carlos Antonio López
+0710Itapúa-Natalio
+0711Itapúa-Fram
+0712Itapúa-General Artigas
+0713Itapúa-General Delgado
+0714Itapúa-Hohenau
+0715Itapúa-Jesús
+0716Itapúa-José Leandro Oviedo
+0717Itapúa-Obligado
+0718Itapúa-Mayor Julio Dionisio Otaño
+0719Itapúa-San Cosme Y Damian
+0720Itapúa-San Pedro del Paraná
+0721Itapúa-San Rafael del Paraná 
+0722Itapúa-Trinidad
+0723Itapúa-Edelira
+0724Itapúa-Tomás Romero Pereira
+0725Itapúa-Alto Verá
+0726Itapúa-La Paz
+0727Itapúa-Yatytay
+0728Itapúa-San Juan del Paraná
+0729Itapúa-Pirapó
+0730Itapúa-Itapúa Poty
+0801Misiones-San Juan Bautista de las Misiones
+0802Misiones-Ayolas
+0803Misiones-San Ignacio
+0804Misiones-San Miguel
+0805Misiones-San Patricio
+0806Misiones-Santa María
+0807Misiones-Santa Rosa
+0808Misiones-Santiago
+0809Misiones-Villa Florida
+0810Misiones-Yabebyry
+0901Paraguarí-Paraguarí
+0902Paraguarí-Acahay
+0903Paraguarí-Caapucú
+0904Paraguarí-Caballero
+0905Paraguarí-Carapeguá 
+0906Paraguarí-Escobar
+0907Paraguarí-La Colmena
+0908Paraguarí-Mbuyapey
+0909Paraguarí-Pirayú
+0910Paraguarí-Quiindy
+0911Paraguarí-Quyquyhó
+0912Paraguarí-Roque Gonzalez de Santacruz
+0913Paraguarí-Sapucai
+0914Paraguarí-Tebicuary-Mí
+0915Paraguarí-Yaguarón
+0916Paraguarí-Ybycuí
+0917Paraguarí-Ybytymí
+1001Alto Paraná-Ciudad del Este
+1002Alto Paraná-Presidente Franco
+1003Alto Paraná-Domingo Martínez de Irala
+1004Alto Paraná-Dr. Juan León Mallorquín
+1005Alto Paraná-Hernandarias
+1006Alto Paraná-Itakyry
+1007Alto Paraná-Juan E. OLeary
+1008Alto Paraná-Ñacunday
+1009Alto Paraná-Yguazú
+1010Alto Paraná-Los Cedrales
+1011Alto Paraná-Minga Guazú
+1012Alto Paraná-San Cristobal
+1013Alto Paraná-Santa Rita
+1014Alto Paraná-Naranjal
+1015Alto Paraná-Santa Rosa del Monday
+1016Alto Paraná-Minga Pora 
+1017Alto Paraná-Mbaracayú
+1018Alto Paraná-San Alberto
+1019Alto Paraná-Iruña
+1020Alto Paraná-Santa Fe del Parana
+1021Alto Paraná-Tavapy
+1022Alto Paraná-Dr. Raúl Peña
+1101Central-Areguá
+1102Central-Capiatá 
+1103Central-Fernando de la Mora
+1104Central-Guarambaré
+1105Central-Itá 
+1106Central-Itauguá 
+1107Central-Lambaré
+1108Central-Limpio
+1109Central-Luque
+1110Central-Mariano Roque Alonso
+1111Central-Nueva Italia
+1112Central-Ñemby
+1113Central-San Antonio
+1114Central-San Lorenzo
+1115Central-Villa Elisa
+1116Central-Villeta
+1117Central-Ypacaraí
+1118Central-Ypané
+1119Central-J. Augusto Saldivar
+1201Ñeembucú-Pilar
+1202Ñeembucú-Alberdi
+1203Ñeembucú-Cerrito
+1204Ñeembucú-Desmochados
+1205Ñeembucú-Gral. José Eduvigis Díaz
+1206Ñeembucú-Guazú-Cuá
+1207Ñeembucú-Humaitá 
+1208Ñeembucú-Isla Umbú
+1209Ñeembucú-Laureles
+1210Ñeembucú-Mayor José Dejesús Martínez
+1211Ñeembucú-Paso de Patria
+1212Ñeembucú-San Juan Bautista de Ñeembucú
+1213Ñeembucú-Tacuaras
+1214Ñeembucú-Villa Franca
+1215Ñeembucú-Villa Oliva
+1216Ñeembucú-Villalbín
+1301Amambay-Pedro Juan Caballero
+1302Amambay-Bella Vista
+1303Amambay-Capitán Bado
+1304Amambay-Zanja Pyta
+1401Canindeyú-Salto del Guairá
+1402Canindeyú-Corpus Christi
+1403Canindeyú-Villa Curuguaty
+1404Canindeyú-Villa Ygatimí
+1405Canindeyú-Itanará 
+1406Canindeyú-Ypejhú
+1407Canindeyú-Francisco Caballero Alvarez
+1408Canindeyú-Katueté
+1409Canindeyú-La Paloma del Espíritu Santo
+1410Canindeyú-Nueva Esperanza
+1411Canindeyú-Yasy Cañy
+1412Canindeyú-Ybyrarobaná
+1502Presidente Hayes-Benjamín Aceval
+1503Presidente Hayes-Puerto Pinasco
+1504Presidente Hayes-Villa Hayes
+1505Presidente Hayes-Nanawa
+1506Presidente Hayes-José Falcón
+1507Presidente Hayes-Tte. 1ro. Manuel Irala Fernández
+1508Presidente Hayes-Teniente Esteban Martínez
+1509Presidente Hayes-General José María Bruguez
+1602Boquerón-Mariscal José Félix Estigarribia
+1604Boquerón-Filadelfia
+1605Boquerón-Loma Plata
+1701Alto Paraguay-Fuerte Olimpo
+1702Alto Paraguay-Puerto Casado
+1704Alto Paraguay-Bahía Negra
+1705Alto Paraguay-Carmelo Peralta
+2000Argentina
+2100Bolivia
+2200Brasil
+2300Colombia
+2400Chile
+2500Ecuador
+2600Guyana
+2700Guayana
+2800Perú
+2900Surinam
+3000Trinidad y Tobago
+3100Uruguay
+3200Venezuela
+3300Canadá
+3400Estados Unidos
+3500México
+3600Bahamas
+3700Barbados
+3800Bermudas
+3900Costa Rica
+4000Cuba
+4100El Salvador
+4200Guatemala
+4300Haití
+4400Honduras
+4500Jamaica
+4600Nicaragua
+4700Panamá
+4800Puerto Rico
+4900Rca. Dominicana
+5000Resto A Central y Antillas
+5100Alemania
+5200Austria
+5300Bélgica
+5400Checoslovaquia
+5500Dinamarca
+5600España
+5700Francia
+5800Grecia
+5900Holanda
+6000Inglaterra
+6100Italia
+6200Noruega
+6300Polonia
+6400Portugal
+6500Rusia
+6600Suecia
+6700Suiza
+6800Turquía Europea
+6900Ucrania
+7000Yugoslavia
+7100Resto Europa
+7200Arabia Saudita
+7300Corea
+7400China
+7500Chipre
+7600Filipinas
+7700India
+7800Irak
+7900Irán
+8000Israel
+8100Japón
+8200Jordania
+8300Líbano
+8400Paquistán
+8500Singapur
+8600Siria
+8700Turquía Asiática
+8800Resto Asia y O. Medio
+8900Africa Norte
+9000Africa Oeste Y Central
+9100Africa Este
+9200Africa Austral
+9300Sudáfrica
+9400Australia
+9500Nueva Zelanda
+9600Resto de Oceanía
+9999NR

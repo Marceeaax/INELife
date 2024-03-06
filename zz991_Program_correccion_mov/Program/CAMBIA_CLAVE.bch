@@ -1,0 +1,13 @@
+﻿[CSPro Application]
+Version=CSPro 7.7
+Label=CAMBIA_CLAVE
+Name=CAMBIA_CLAVE
+AppType=Batch
+[AppCode]
+File=.\CAMBIA_CLAVE.bch.apc
+[Message]
+File=.\CAMBIA_CLAVE.bch.mgf
+[Order]
+File=.\CAMBIA_CLAVE.ord
+[Dictionary Types]
+Dict-Type=.\IMESPPBI.dcf,Input,.\CAMBIA_CLAVE.ord

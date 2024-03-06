@@ -1,0 +1,17 @@
+﻿[Run Information]
+Version=CSPro 7.7
+AppType=Batch
+
+[Files]
+Application=.\val_convert_csdb_dat.bch
+InputData=..\Unidos\Base_unida_out.csdb
+OutputData=..\Base_dat\BASE_UNIDA_out.dat
+Listing=.\val_convert_csdb_dat.lst
+
+[Parameters]
+ViewListing=Always
+ViewResults=Yes
+ListingWidth=120
+MessageWrap=No
+ErrmsgOverride=No
+InputOrder=Sequential

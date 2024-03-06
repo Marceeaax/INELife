@@ -1,0 +1,17 @@
+﻿[Run Information]
+Version=CSPro 7.7
+AppType=Entry
+
+[Files]
+Application=.\MENU_PRINCIPAL.ent
+InputData=|type=None
+
+[ExternalFiles]
+IMESPPBI_DICT=|type=None
+MARCO_DICT=.\Program\marco.csdb
+PSC_STAFFEQP_DICT=|type=None
+
+[UserFiles]
+pffFile=
+pffFile_bch=
+pffile=

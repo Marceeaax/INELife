@@ -1,0 +1,101 @@
+﻿[Dictionary]
+Version=CSPro 7.7
+Label=Staff - Supervisores/Encuestadores
+Name=PSC_STAFF_DICT
+RecordTypeStart=1
+RecordTypeLen=1
+Positions=Relative
+ZeroFill=Yes
+DecimalChar=Yes
+SecurityOptions=8F029E977C6DBFE6BC28DCD74FB6109CBB946E478B1789F4ADCC4DEAB160DFE6
+
+[Level]
+Label=Staff Level
+Name=STAFF_LEVEL
+
+[IdItems]
+
+[Item]
+Label=Staff Code
+Name=STAFF_CODE
+Start=2
+Len=3
+DataType=Numeric
+ZeroFill=Yes
+
+[Item]
+Label=Equipo
+Name=STAFF_EQUIP
+Start=5
+Len=2
+DataType=Numeric
+ZeroFill=Yes
+
+[ValueSet]
+Label=Equipo
+Name=STAFF_EQUIP_VS1
+Value=1;Equipo 1
+Value=2;Equipo 2
+Value=3;Equipo 3
+Value=4;Equipo 4
+Value=5;Equipo 5
+Value=6;Equipo 6
+Value=7;Equipo 7
+Value=8;Equipo 8
+
+[Record]
+Label=Staff Record
+Name=STAFF_REC
+RecordTypeValue='1'
+RecordLen=76
+
+[Item]
+Label=Staff Name
+Name=STAFF_NAME
+Start=7
+Len=50
+DataType=Alpha
+
+[Item]
+Label=Pin Code
+Name=PIN_CODE
+Start=57
+Len=15
+DataType=Alpha
+
+[Item]
+Label=Role
+Name=IROLE
+Start=72
+Len=1
+DataType=Numeric
+ZeroFill=Yes
+
+[ValueSet]
+Label=Role
+Name=IROLE_VS1
+Value=1;Supervisor/a
+Value=2;Encuestador/a
+Value=3;Recuperador/a
+
+[Item]
+Label=Estado
+Name=ISTATUS
+Start=73
+Len=1
+DataType=Numeric
+ZeroFill=Yes
+
+[ValueSet]
+Label=Estado
+Name=ISTATUS_VS1
+Value=1;Activo
+Value=2;Inactivo
+
+[Item]
+Label=cod alterno
+Name=COD_ALT
+Start=74
+Len=3
+DataType=Numeric
+ZeroFill=Yes

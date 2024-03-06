@@ -1,0 +1,66 @@
+﻿[Dictionary]
+Version=CSPro 7.7
+Label=Staff - Equipo
+Name=PSC_STAFFEQP_DICT
+RecordTypeStart=1
+RecordTypeLen=1
+Positions=Relative
+ZeroFill=Yes
+DecimalChar=Yes
+SecurityOptions=5EF75445AE629F44438401AF1B455990F542586F8B730575BBD471EBFB674FED
+
+[Level]
+Label=Staff Level
+Name=PSC_STAFFEQP_LEVEL
+
+[IdItems]
+
+[Item]
+Label=Staff Code
+Name=STF_CODE
+Start=2
+Len=3
+DataType=Numeric
+ZeroFill=Yes
+
+[Item]
+Label=Equipo
+Name=STF_EQUIP
+Start=5
+Len=2
+DataType=Numeric
+ZeroFill=Yes
+
+[ValueSet]
+Label=Equipo
+Name=STF_EQUIP_VS1
+Value=1;Equipo 1
+Value=2;Equipo 2
+Value=3;Equipo 3
+
+[Record]
+Label=Staff Record
+Name=STF_REC
+RecordTypeValue='1'
+RecordLen=57
+
+[Item]
+Label=Supervisor Name
+Name=STF_NAME
+Start=7
+Len=50
+DataType=Alpha
+
+[Item]
+Label=Estado
+Name=STF_STATUS
+Start=57
+Len=1
+DataType=Numeric
+ZeroFill=Yes
+
+[ValueSet]
+Label=Estado
+Name=STF_STATUS_VS1
+Value=1;Activo
+Value=2;Inactivo

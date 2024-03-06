@@ -1,0 +1,35 @@
+﻿[Dictionary]
+Version=CSPro 7.3
+Label=Distrito
+Name=DISTRI_DICT
+RecordTypeStart=0
+RecordTypeLen=0
+Positions=Relative
+ZeroFill=No
+DecimalChar=Yes
+
+[Level]
+Label=DISTRI questionnaire
+Name=DISTRI_QUEST
+
+[IdItems]
+
+[Item]
+Label=Departamento Distrito
+Name=DEPTODIS
+Start=1
+Len=4
+DataType=Alpha
+
+[Record]
+Label=DISTRI record
+Name=DISTRI_REC
+RecordTypeValue=''
+RecordLen=39
+
+[Item]
+Label=Distrito descripción
+Name=DISTRIDES
+Start=5
+Len=35
+DataType=Alpha

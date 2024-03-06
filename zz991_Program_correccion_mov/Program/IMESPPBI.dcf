@@ -1,0 +1,5941 @@
+﻿[Dictionary]
+Version=CSPro 7.7
+Label=IMESPPBI
+Name=IMESPPBI_DICT
+RecordTypeStart=1
+RecordTypeLen=2
+Positions=Relative
+ZeroFill=Yes
+DecimalChar=Yes
+SecurityOptions=72F7CAC724F10D780DA16FBBF63A5AB527981D8E46A4673C1C83C33E9A75955F
+
+[Level]
+Label=IMESPPBI questionnaire
+Name=IMESPPBI_QUEST
+
+[IdItems]
+
+[Item]
+Label=CI_CLAVE
+Name=CI_CLAVE
+Start=3
+Len=15
+DataType=Alpha
+
+[Record]
+Label=REG01_VIVIENDA
+Name=REG01_VIVIENDA
+RecordTypeValue='01'
+RecordLen=1669
+
+[Item]
+Label=Año del Censo
+Name=ANIO
+Start=18
+Len=4
+DataType=Numeric
+ZeroFill=Yes
+
+[ValueSet]
+Label=Año del Censo
+Name=ANIO_VS1
+Value=2024;Año 2024
+Value='    ';NA
+Name=NOTAPPL,Special
+
+[Item]
+Label=Departamento y Distrito
+Name=DEPDIS
+Start=22
+Len=4
+DataType=Numeric
+ZeroFill=Yes
+
+[ValueSet]
+Label=Departamento y Distrito
+Name=DEPDIS_VS1
+Value=0:9999;depdis
+Value='    ';NA
+Name=NOTAPPL,Special
+
+[Item]
+Label=AREA de Residencia
+Name=AREA
+Start=26
+Len=1
+DataType=Numeric
+ZeroFill=Yes
+
+[ValueSet]
+Label=AREA de Residencia
+Name=AREA_VS1
+Value=1;Urbana
+Value=6;Rural
+Value=' ';NA
+Name=NOTAPPL,Special
+
+[Item]
+Label=Tipo de encuesta
+Name=TENCUEST
+Start=27
+Len=1
+DataType=Numeric
+ZeroFill=Yes
+
+[ValueSet]
+Label=Tipo de encuesta
+Name=TENCUEST_VS1
+Value=1;Encuesta original
+Value=2;Reentrevista
+Value=8;Prueba
+Value=' ';NA
+Name=NOTAPPL,Special
+
+[Item]
+Label=EQUIPO
+Name=EQUI
+Start=28
+Len=3
+DataType=Alpha
+
+[Item]
+Label=Toma de coordenadas
+Name=XGPS
+Start=31
+Len=1
+DataType=Numeric
+ZeroFill=Yes
+
+[ValueSet]
+Label=Toma de coordenadas
+Name=XGPS_VS1
+Value=2;Toma manual
+Value=' ';NA
+Name=NOTAPPL,Special
+
+[ValueSet]
+Label=Toma de coordenadas
+Name=XGPS_VS2
+Value=1;Toma automática
+Value=2;Toma manual
+Value=' ';NA
+Name=NOTAPPL,Special
+
+[Item]
+Label=Latitud
+Name=ST_LATITUDE
+Start=32
+Len=10
+DataType=Numeric
+Decimal=6
+DecimalChar=Yes
+ZeroFill=Yes
+
+[Item]
+Label=Longitud
+Name=ST_LONGITUDE
+Start=42
+Len=11
+DataType=Numeric
+Decimal=6
+DecimalChar=Yes
+ZeroFill=Yes
+
+[Item]
+Label=GPS Altitude
+Name=HH_GPS_ALTITUDE
+Start=53
+Len=7
+DataType=Numeric
+Decimal=1
+DecimalChar=Yes
+ZeroFill=Yes
+
+[Item]
+Label=GPS Precisión
+Name=HH_GPS_ACCURACY
+Start=60
+Len=6
+DataType=Numeric
+Decimal=1
+DecimalChar=Yes
+ZeroFill=Yes
+
+[Item]
+Label=GPS Satellites
+Name=HH_GPS_SATELLITES
+Start=66
+Len=3
+DataType=Numeric
+ZeroFill=Yes
+
+[Item]
+Label=GPS Readtime
+Name=HH_GPS_READTIME
+Start=69
+Len=6
+DataType=Numeric
+ZeroFill=Yes
+
+[Item]
+Label=Lectura de GPS
+Name=HH_GPS_READING
+Start=75
+Len=1
+DataType=Numeric
+ZeroFill=Yes
+
+[ValueSet]
+Label=Lectura de GPS
+Name=HH_GPS_MOBILE_NO_DATA_VS
+Value=1;Si
+Value=' ';NA
+Name=NOTAPPL,Special
+
+[ValueSet]
+Label=Lectura de GPS
+Name=HH_GPS_MOBILE_EXISTING_DATA_VS
+Value=1;Si
+Value=2;No, pero guarde los datos GPS previamente recopilados
+Value=3;No, pero elimine los datos GPS previamente recopilados
+Value=' ';NA
+Name=NOTAPPL,Special
+
+[ValueSet]
+Label=Lectura de GPS
+Name=HH_GPS_WINDOWS_NO_DATA_VS
+Value=3;No
+Value=' ';NA
+Name=NOTAPPL,Special
+
+[ValueSet]
+Label=Lectura de GPS
+Name=HH_GPS_WINDOWS_EXISTING_DATA_VS
+Value=2;No, pero guarde los datos GPS previamente recopilados
+Value=3;No, pero elimine los datos GPS previamente recopilados
+Value=' ';NA
+Name=NOTAPPL,Special
+
+[Item]
+Label=Coordenadas X
+Name=COORDENADA_X
+Start=76
+Len=10
+DataType=Numeric
+Decimal=6
+ZeroFill=Yes
+
+[Item]
+Label=Coordenadas Y
+Name=COORDENADA_Y
+Start=86
+Len=11
+DataType=Numeric
+Decimal=6
+ZeroFill=Yes
+
+[Item]
+Label=Coordenadas XY captura manual
+Name=COORD_XY
+Start=97
+Len=30
+DataType=Alpha
+
+[Item]
+Label=HOMBRES
+Name=HOMBRES
+Start=127
+Len=2
+DataType=Numeric
+ZeroFill=Yes
+
+[ValueSet]
+Label=HOMBRES
+Name=HOMBRES_VS1
+Value=0:25;HOMBRES
+Value='  ';NA
+Name=NOTAPPL,Special
+
+[Item]
+Label=MUJERES
+Name=MUJERES
+Start=129
+Len=2
+DataType=Numeric
+ZeroFill=Yes
+
+[ValueSet]
+Label=MUJERES
+Name=MUJERES_VS1
+Value=0:25;MUJERES
+Value='  ';NA
+Name=NOTAPPL,Special
+
+[Item]
+Label=Otro Género
+Name=OTROGEN
+Start=131
+Len=2
+DataType=Numeric
+ZeroFill=Yes
+
+[ValueSet]
+Label=Otro Género
+Name=OTROGEN_VS1
+Value=0:25;Otro género
+Value='  ';NA
+Name=NOTAPPL,Special
+
+[Item]
+Label=prefiere no responder
+Name=PREFNR
+Start=133
+Len=2
+DataType=Numeric
+ZeroFill=Yes
+
+[ValueSet]
+Label=prefiere no responder
+Name=PREFNR_VS1
+Value=0:25;prefiere no decir
+Value='  ';NA
+Name=NOTAPPL,Special
+
+[Item]
+Label=TOTAL
+Name=TOTAL
+Start=135
+Len=2
+DataType=Numeric
+ZeroFill=Yes
+
+[ValueSet]
+Label=TOTAL
+Name=TOTAL_VS1
+Value=1:50;TOTAL
+Value='  ';NA
+Name=NOTAPPL,Special
+
+[Item]
+Label=Total No miembro
+Name=TOTNM
+Start=137
+Len=2
+DataType=Numeric
+ZeroFill=Yes
+
+[ValueSet]
+Label=Total No miembro
+Name=TOTNM_VS1
+Value=0:10
+Value='  ';NA
+Name=NOTAPPL,Special
+
+[Item]
+Label=Teléfono
+Name=TELEF
+Start=139
+Len=40
+DataType=Alpha
+
+[Item]
+Label=Dirección y Nº
+Name=DIREC
+Start=179
+Len=150
+DataType=Alpha
+
+[Item]
+Label=Situación de la Entrevista
+Name=SITU
+Start=329
+Len=2
+DataType=Numeric
+ZeroFill=Yes
+
+[ValueSet]
+Label=Situación de la Entrevista
+Name=SITU_VS1
+Value=1;Completa
+Value=2;Incompleta
+Value=3;Otra situación
+Value='  ';NA
+Name=NOTAPPL,Special
+
+[Item]
+Label=Especifique
+Name=SITUE
+Start=331
+Len=40
+DataType=Alpha
+
+[Item]
+Label=Fecha de 1ª visita
+Name=F1
+Start=371
+Len=8
+DataType=Numeric
+ZeroFill=Yes
+
+[Item]
+Label=Día de 1ª visita
+Name=DIA1
+Start=371
+Len=2
+ItemType=SubItem
+DataType=Numeric
+ZeroFill=Yes
+
+[ValueSet]
+Label=Día de primera visita
+Name=DIA1_VS1
+Value=1:31;Día primera visita
+Value='  ';NA
+Name=NOTAPPL,Special
+
+[Item]
+Label=Mes de 1ª visita
+Name=MES1
+Start=373
+Len=2
+ItemType=SubItem
+DataType=Numeric
+ZeroFill=Yes
+
+[ValueSet]
+Label=Mes de primera visita
+Name=MES1_VS1
+Value=1;Enero
+Value=2;Febrero
+Value=3;Marzo
+Value=4;Abril
+Value=5;Mayo
+Value=6;Junio
+Value=7;Julio
+Value=8;Agosto
+Value=9;Setiembre
+Value=10;Octubre
+Value=11;Noviembre
+Value=12;Diciembre
+Value='  ';NA
+Name=NOTAPPL,Special
+
+[Item]
+Label=Año de 1ª visita
+Name=ANO1
+Start=375
+Len=4
+ItemType=SubItem
+DataType=Numeric
+ZeroFill=Yes
+
+[ValueSet]
+Label=Año de primera visita
+Name=ANO1_VS1
+Value=2024;Año primera visita
+Value='    ';NA
+Name=NOTAPPL,Special
+
+[Item]
+Label=Fecha de Resultado Final
+Name=F2
+Start=379
+Len=8
+DataType=Numeric
+ZeroFill=Yes
+
+[Item]
+Label=Día de Resultado Final
+Name=DIA2
+Start=379
+Len=2
+ItemType=SubItem
+DataType=Numeric
+ZeroFill=Yes
+
+[ValueSet]
+Label=Día de Resultado Final
+Name=DIA2_VS1
+Value=1:31;Día Resultado Final
+Value='  ';NA
+Name=NOTAPPL,Special
+
+[Item]
+Label=Mes de Resultado Final
+Name=MES2
+Start=381
+Len=2
+ItemType=SubItem
+DataType=Numeric
+ZeroFill=Yes
+
+[ValueSet]
+Label=Mes de Resultado Final
+Name=MES2_VS1
+Value=1;Enero
+Value=2;Febrero
+Value=3;Marzo
+Value=4;Abril
+Value=5;Mayo
+Value=6;Junio
+Value=7;Julio
+Value=8;Agosto
+Value=9;Setiembre
+Value=10;Octubre
+Value=11;Noviembre
+Value=12;Diciembre
+Value='  ';NA
+Name=NOTAPPL,Special
+
+[Item]
+Label=Año de Resultado Final
+Name=ANO2
+Start=383
+Len=4
+ItemType=SubItem
+DataType=Numeric
+ZeroFill=Yes
+
+[ValueSet]
+Label=Año de Resultado Final
+Name=ANO2_VS1
+Value=2024;Año Resultado Final
+Value='    ';NA
+Name=NOTAPPL,Special
+
+[Item]
+Label=DEPDISV
+Name=DEPDISV
+Start=387
+Len=4
+DataType=Numeric
+ZeroFill=Yes
+
+[Item]
+Label=DPTOV
+Name=DPTOV
+Start=387
+Len=2
+ItemType=SubItem
+DataType=Numeric
+ZeroFill=Yes
+
+[ValueSet]
+Label=DPTOV
+Name=DPTOV_VS1
+Value=0;Asunción
+Value=1;Concepción
+Value=2;San Pedro
+Value=3;Cordillera
+Value=4;Guairá
+Value=5;Caaguazú
+Value=6;Caazapá
+Value=7;Itapúa
+Value=8;Misiones
+Value=9;Paraguarí
+Value=10;Alto Paraná
+Value=11;Central
+Value=12;Ñeembucú
+Value=13;Amambay
+Value=14;Canindeyú
+Value=15;Presidente Hayes
+Value=16;Boquerón
+Value=17;Alto Paraguay
+
+[Item]
+Label=DISTV
+Name=DISTV
+Start=389
+Len=2
+ItemType=SubItem
+DataType=Numeric
+ZeroFill=Yes
+
+[ValueSet]
+Label=DISTV
+Name=DISTV_VS1
+Value=1;Fuerte Olimpo
+Value=2;Puerto Casado
+Value=4;Bahía Negra
+Value=5;Carmelo Peralta
+
+[ValueSet]
+Label=DISTV
+Name=DISTV_VS2
+Value=2;Mariscal José Félix Estigarrib
+Value=4;Filadelfia
+Value=5;Loma Plata
+
+[ValueSet]
+Label=DISTV
+Name=DISTV_VS3
+Value=2;Benjamín Aceval
+Value=3;Puerto Pinasco
+Value=4;Villa Hayes
+Value=5;Nanawa
+Value=6;José Falcón
+Value=7;Tte. 1° Manuel Irala Fernández
+Value=8;Teniente Esteban Martínez
+Value=9;General José María Bruguez
+
+[ValueSet]
+Label=DISTV
+Name=DISTV_VS4
+Value=1;Salto Del Guairá
+Value=2;Corpus Christi
+Value=3;Villa Curuguaty
+Value=4;Villa Ygatimí
+Value=5;Itanará
+Value=6;Ypejhú
+Value=7;Francisco Caballero Alvarez
+Value=8;Katueté
+Value=9;La Paloma Del Espíritu Santo
+Value=10;Nueva Esperanza
+Value=11;Yasy Cañy
+Value=12;Ybyrarobaná
+
+[ValueSet]
+Label=DISTV
+Name=DISTV_VS5
+Value=1;Pedro Juan Caballero
+Value=2;Bella Vista
+Value=3;Capitán Bado
+Value=4;Zanja Pyta
+
+[ValueSet]
+Label=DISTV
+Name=DISTV_VS6
+Value=1;Pilar
+Value=2;Alberdi
+Value=3;Cerrito
+Value=4;Desmochados
+Value=5;Gral. José Eduvigis Díaz
+Value=6;Guazú-Cuá
+Value=7;Humaitá
+Value=8;Isla Umbú
+Value=9;Laureles
+Value=10;Mayor José Dejesús Martínez
+Value=11;Paso De Patria
+Value=12;San Juan Bautista De Ñeembucú
+Value=13;Tacuaras
+Value=14;Villa Franca
+Value=15;Villa Oliva
+Value=16;Villalbín
+
+[ValueSet]
+Label=DISTV
+Name=DISTV_VS7
+Value=1;Areguá
+Value=2;Capiatá
+Value=3;Fernando De La Mora
+Value=4;Guarambaré
+Value=5;Itá
+Value=6;Itauguá
+Value=7;Lambaré
+Value=8;Limpio
+Value=9;Luque
+Value=10;Mariano Roque Alonso
+Value=11;Nueva Italia
+Value=12;Ñemby
+Value=13;San Antonio
+Value=14;San Lorenzo
+Value=15;Villa Elisa
+Value=16;Villeta
+Value=17;Ypacaraí
+Value=18;Ypané
+Value=19;J. Augusto Saldivar
+
+[ValueSet]
+Label=DISTV
+Name=DISTV_VS8
+Value=1;Ciudad Del Este
+Value=2;Presidente Franco
+Value=3;Domingo Martínez De Irala
+Value=4;Dr. Juan León Mallorquín
+Value=5;Hernandarias
+Value=6;Itakyry
+Value=7;Juan E. O'leary
+Value=8;Ñacunday
+Value=9;Yguazú
+Value=10;Los Cedrales
+Value=11;Minga Guazú
+Value=12;San Cristobal
+Value=13;Santa Rita
+Value=14;Naranjal
+Value=15;Santa Rosa Del Monday
+Value=16;Minga Porá
+Value=17;Mbaracayú
+Value=18;San Alberto
+Value=19;Iruña
+Value=20;Santa Fe Del Paraná
+Value=21;Tavapy
+Value=22;Dr. Raúl Peña
+
+[ValueSet]
+Label=DISTV
+Name=DISTV_VS9
+Value=1;Paraguarí
+Value=2;Acahay
+Value=3;Caapucú
+Value=4;Caballero
+Value=5;Carapeguá
+Value=6;Escobar
+Value=7;La Colmena
+Value=8;Mbuyapey
+Value=9;Pirayú
+Value=10;Quiindy
+Value=11;Quyquyhó
+Value=12;Roque Gonzalez De Santacruz
+Value=13;Sapucái
+Value=14;Tebicuary-Mí
+Value=15;Yaguarón
+Value=16;Ybycuí
+Value=17;Ybytymí
+
+[ValueSet]
+Label=DISTV
+Name=DISTV_VS10
+Value=1;San Juan Bautista De Las Misio
+Value=2;Ayolas
+Value=3;San Ignacio
+Value=4;San Miguel
+Value=5;San Patricio
+Value=6;Santa María
+Value=7;Santa Rosa
+Value=8;Santiago
+Value=9;Villa Florida
+Value=10;Yabebyry
+
+[ValueSet]
+Label=DISTV
+Name=DISTV_VS11
+Value=1;Encarnación
+Value=2;Bella Vista
+Value=3;Cambyretá
+Value=4;Capitán Meza
+Value=5;Capitán Miranda
+Value=6;Nueva Alborada
+Value=7;Carmen Del Paraná
+Value=8;Coronel Bogado
+Value=9;Carlos Antonio López
+Value=10;Natalio
+Value=11;Fram
+Value=12;General Artigas
+Value=13;General Delgado
+Value=14;Hohenau
+Value=15;Jesús
+Value=16;José Leandro Oviedo
+Value=17;Obligado
+Value=18;Mayor Julio Dionisio Otaño
+Value=19;San Cosme Y Damian
+Value=20;San Pedro Del Paraná
+Value=21;San Rafael Del Paraná
+Value=22;Trinidad
+Value=23;Edelira
+Value=24;Tomás Romero Pereira
+Value=25;Alto Verá
+Value=26;La Paz
+Value=27;Yatytay
+Value=28;San Juan Del Paraná
+Value=29;Pirapó
+Value=30;Itapúa Poty
+
+[ValueSet]
+Label=DISTV
+Name=DISTV_VS12
+Value=1;Caazapá
+Value=2;Abaí
+Value=3;Buena Vista
+Value=4;Dr. Moisés S. Bertoni
+Value=5;Gral. Higinio Morinigo
+Value=6;Maciel
+Value=7;San Juan Nepomuceno
+Value=8;Tavaí
+Value=9;Yegros
+Value=10;Yuty
+Value=11;3 De Mayo
+
+[ValueSet]
+Label=DISTV
+Name=DISTV_VS13
+Value=1;Coronel Oviedo
+Value=2;Caaguazú
+Value=3;Carayaó
+Value=4;Dr. Cecilio Báez
+Value=5;Santa Rosa Del Mbutuy
+Value=6;Dr. Juan Manuel Frutos
+Value=7;Repatriación
+Value=8;Nueva Londres
+Value=9;San Joaquín
+Value=10;San José De Los Arroyos
+Value=11;Yhú
+Value=12;Dr. J. Eulogio Estigarribia
+Value=13;R.I. 3 Corrales
+Value=14;Raúl Arsenio Oviedo
+Value=15;José Domingo Ocampos
+Value=16;Mariscal Francisco Solano Lópe
+Value=17;La Pastora
+Value=18;3 De Febrero
+Value=19;Simón Bolivar
+Value=20;Vaquería
+Value=21;Tembiaporá
+Value=22;Nueva Toledo
+
+[ValueSet]
+Label=DISTV
+Name=DISTV_VS14
+Value=1;Villarrica
+Value=2;Borja
+Value=3;Capitán Mauricio José Troche
+Value=4;Coronel Martínez
+Value=5;Félix Pérez Cardozo
+Value=6;Gral. Eugenio A. Garay
+Value=7;Independencia
+Value=8;Itapé
+Value=9;Iturbe
+Value=10;José Fassardi
+Value=11;Mbocayaty
+Value=12;Natalicio Talavera
+Value=13;Ñumí
+Value=14;San Salvador
+Value=15;Yataity
+Value=16;Doctor Bottrell
+Value=17;Paso Yobai
+Value=18;Tebicuary
+
+[ValueSet]
+Label=DISTV
+Name=DISTV_VS15
+Value=1;Caacupé
+Value=2;Altos
+Value=3;Arroyos Y Esteros
+Value=4;Atyrá
+Value=5;Caraguatay
+Value=6;Emboscada
+Value=7;Eusebio Ayala
+Value=8;Isla Pucú
+Value=9;Itacurubí De La Cordillera
+Value=10;Juan De Mena
+Value=11;Loma Grande
+Value=12;Mbocayaty Del Yhaguy
+Value=13;Nueva Colombia
+Value=14;Piribebuy
+Value=15;Primero De Marzo
+Value=16;San Bernardino
+Value=17;Santa Elena
+Value=18;Tobatí
+Value=19;Valenzuela
+Value=20;San Jose Obrero
+
+[ValueSet]
+Label=DISTV
+Name=DISTV_VS16
+Value=1;San Pedro Del Ycuamandyyú
+Value=2;Antequera
+Value=3;Choré
+Value=4;General Elizardo Aquino
+Value=5;Itacurubí Del Rosario
+Value=6;Lima
+Value=7;Nueva Germania
+Value=8;San Estanislao
+Value=9;San Pablo
+Value=10;Tacuatí
+Value=11;Unión
+Value=12;25 De Diciembre
+Value=13;Villa Del Rosario
+Value=14;General Francisco Isidoro Resq
+Value=15;Yataity Del Norte
+Value=16;Guajayvi
+Value=17;Capiibary
+Value=18;Santa Rosa Del Aguaray
+Value=19;Yrybucua
+Value=20;Liberación
+
+[ValueSet]
+Label=DISTV
+Name=DISTV_VS17
+Value=1;Concepción
+Value=2;Belén
+Value=3;Horqueta
+Value=4;Loreto
+Value=5;San Carlos Del Apa
+Value=6;San Lázaro
+Value=7;Yby Yaú
+Value=8;Azote'y
+Value=9;Sargento José Félix López
+
+[ValueSet]
+Label=DISTV
+Name=DISTV_VS18
+Value=0;Asunción
+
+[Item]
+Label=BARRIO
+Name=BARRIO
+Start=391
+Len=3
+DataType=Numeric
+ZeroFill=Yes
+
+[Item]
+Label=AREAV
+Name=AREAV
+Start=394
+Len=1
+DataType=Numeric
+ZeroFill=Yes
+
+[Item]
+Label=CENSISTA
+Name=CENSISTA
+Start=395
+Len=3
+DataType=Numeric
+ZeroFill=Yes
+
+[Item]
+Label=1.¿Cuál es la situación de la propiedad / vivienda...
+Name=V201
+Start=398
+Len=1
+DataType=Numeric
+ZeroFill=Yes
+
+[ValueSet]
+Label=1.¿Cuál es la situación de la propiedad / vivienda...
+Name=V201_VS1
+Value=1;propia con título?
+Value=2;propia sin título?
+Value=3;alquilada?
+Value=4;prestada/cedida?
+Value=5;es fiscal o municipal?
+Value=6;es ocupada de hecho?
+Value=7;Otro
+Value=9;NR
+Value=' ';NA
+Name=NOTAPPL,Special
+
+[Item]
+Label=1E. Especifique
+Name=V201E
+Start=399
+Len=40
+DataType=Alpha
+
+[Item]
+Label=2a. ¿Cuántas piezas son de uso exclusivo de este hogar?
+Name=V202A
+Start=439
+Len=2
+DataType=Numeric
+ZeroFill=Yes
+
+[ValueSet]
+Label=2a. ¿Cuántas piezas son de uso exclusivo de este hogar?
+Name=V202A_VS1
+Value=0:20;Cantidad
+Value=99;NR
+Value='  ';NA
+Name=NOTAPPL,Special
+
+[Item]
+Label=2b. De estas piezas, ¿cuántas se usan como dormitorio?
+Name=V202B
+Start=441
+Len=2
+DataType=Numeric
+ZeroFill=Yes
+
+[ValueSet]
+Label=2b. De estas piezas, ¿cuántas se usan como dormitorio?
+Name=V202B_VS1
+Value=0:20;Cantidad
+Value=99;NR
+Value='  ';NA
+Name=NOTAPPL,Special
+
+[Item]
+Label=3. ¿De qué material es la mayor parte de las apredes de esta vivienda?
+Name=V203
+Start=443
+Len=2
+DataType=Numeric
+ZeroFill=Yes
+
+[ValueSet]
+Label=3. ¿De qué material es la mayor parte de las apredes de esta vivienda?
+Name=V203_VS1
+Value=1;Estaqueo
+Value=2;Adobe
+Value=3;Madera
+Value=4;Ladrillo
+Value=5;Bloque de cemento
+Value=6;Tronco de palma
+Value=7;Cartón, hule, madera de embalaje
+Value=8;No tiene pared
+Value=9;Otro
+Value=99;NR
+Value='  ';NA
+Name=NOTAPPL,Special
+
+[Item]
+Label=3E. Especifique
+Name=V203E
+Start=445
+Len=40
+DataType=Alpha
+
+[Item]
+Label=4. ¿De qué material es la mayor parte del piso de esa vivienda?
+Name=V204
+Start=485
+Len=2
+DataType=Numeric
+ZeroFill=Yes
+
+[ValueSet]
+Label=4. ¿De qué material es la mayor parte del piso de esa vivienda?
+Name=V204_VS1
+Value=1;Tierra
+Value=2;Madera
+Value=3;Ladrillo
+Value=4;Lecherada
+Value=5;Baldosa común, mosaico, cerámica
+Value=6;Porcelanato, mármol, granito
+Value=7;Parquet
+Value=8;Alfombra, vinílico
+Value=9;Otro
+Value=99;NR
+Value='  ';NA
+Name=NOTAPPL,Special
+
+[Item]
+Label=4E. Especifique
+Name=V204E
+Start=487
+Len=40
+DataType=Alpha
+
+[Item]
+Label=5. ¿De qué material es la mayor parte del techo de esta vivienda?
+Name=V205
+Start=527
+Len=2
+DataType=Numeric
+ZeroFill=Yes
+
+[ValueSet]
+Label=5. ¿De qué material es la mayor parte del techo de esta vivienda?
+Name=V205_VS1
+Value=1;Teja
+Value=2;Paja
+Value=3;Fibrocemento (eternit)
+Value=4;Chapa de zinc
+Value=5;Tablilla de madera
+Value=6;Hormigón armado, loza o bovedilla
+Value=7;Tronco de palma
+Value=8;Cartón, hule, madera de embalaje
+Value=9;Otro
+Value=99;NR
+Value='  ';NA
+Name=NOTAPPL,Special
+
+[Item]
+Label=5E. Especifique
+Name=V205E
+Start=529
+Len=40
+DataType=Alpha
+
+[Item]
+Label=6. ¿El agua que más beben en el hogar proviene de ...
+Name=V206
+Start=569
+Len=2
+DataType=Numeric
+ZeroFill=Yes
+
+[ValueSet]
+Label=6. ¿El agua que más beben en el hogar proviene de ...
+Name=V206_VS1
+Value=1;ESSAP (ex-corposana)?
+Value=2;Junta de Saneamiento (SENASA)?
+Value=3;Red Comunitaria?
+Value=4;Red o Prestador privado?
+Value=5;Pozo artesiano?
+Value=6;Pozo excavado protegido (brocal y tapa)?
+Value=7;Pozo excavado sin protección (sin brocal y/o sin tapa)?
+Value=8;Manantial protegido?
+Value=9;Manantial sin protección?
+Value=10;Agua de lluvia?
+Value=11;Agua embotellada [Agua Mineral]?
+Value=12;Aguatero?
+Value=13;Agua superficial(río,represa,lago,estanque,arroyo)?
+Value=14;Otro?
+Value=99;NR
+Value='  ';NA
+Name=NOTAPPL,Special
+
+[Item]
+Label=6E. Especifique
+Name=V206E
+Start=571
+Len=40
+DataType=Alpha
+
+[Item]
+Label=7. ¿Para cocinar usa principalmente ...
+Name=V207
+Start=611
+Len=2
+DataType=Numeric
+ZeroFill=Yes
+
+[ValueSet]
+Label=7. ¿Para cocinar usa principalmente ...
+Name=V207_VS1
+Value=1;gas?
+Value=2;carbón?
+Value=3;leña?
+Value=4;electricidad?
+Value=5;otro?
+Value=9;NR
+Value='  ';NA
+Name=NOTAPPL,Special
+
+[Item]
+Label=7E. Especifique
+Name=V207E
+Start=613
+Len=40
+DataType=Alpha
+
+[Item]
+Label=8. ¿Tiene acceso a electricidad?
+Name=V208
+Start=653
+Len=2
+DataType=Numeric
+ZeroFill=Yes
+
+[ValueSet]
+Label=8. ¿Tiene acceso a electricidad?
+Name=V208_VS1
+Value=1;Sí, con medidor propio
+Value=2;Sí, sin medidor propio
+Value=3;No tiene acceso
+Value=4;Otro
+Value=99;NR
+Value='  ';NA
+Name=NOTAPPL,Special
+
+[Item]
+Label=8E. Especifique
+Name=V208E
+Start=655
+Len=40
+DataType=Alpha
+
+[Item]
+Label=9. ¿El hogar cuenta con tarifa social?
+Name=V209
+Start=695
+Len=2
+DataType=Numeric
+ZeroFill=Yes
+
+[ValueSet]
+Label=9. ¿El hogar cuenta con tarifa social?
+Name=V209_VS1
+Value=1;Sí
+Value=6;No
+Value=9;NR
+Value='  ';NA
+Name=NOTAPPL,Special
+
+[Item]
+Label=10. ¿El baño se desagua en ...
+Name=V210
+Start=697
+Len=2
+DataType=Numeric
+ZeroFill=Yes
+
+[ValueSet]
+Label=10. ¿El baño se desagua en ...
+Name=V210_VS1
+Value=1;Red alcantarillado sanitario (cloaca)?
+Value=2;Cámara séptica y pozo ciego?
+Value=3;Pozo ciego, sin cámara séptica?
+Value=4;La superficie de la tierra, hoyo abierto, zanja, arroyo, río?
+Value=5;Letrina ventilada de hoyo seco (común c/tubo de ventilación)?
+Value=6;Letrina común de hoyo seco (con losa,techo,paredes y puertas)?
+Value=7;Letrina común sin techo o puerta?
+Value=8;Otro?
+Value=9;no tiene baño?
+Value=99;NR
+Value='  ';NA
+Name=NOTAPPL,Special
+
+[Item]
+Label=10E. Especifique
+Name=V210E
+Start=699
+Len=40
+DataType=Alpha
+
+[Item]
+Label=V211_1. COMPUTADOR/NOTEBOOK?
+Name=V211_1
+Start=739
+Len=2
+DataType=Numeric
+ZeroFill=Yes
+
+[ValueSet]
+Label=V211_1. COMPUTADOR/NOTEBOOK?
+Name=V211_1_VS1
+Value=1;Sí
+Value=6;No
+Value=9;NR
+Value='  ';NA
+Name=NOTAPPL,Special
+
+[Item]
+Label=V211_2. TABLETA O DISPOSITIVO SIMILAR?
+Name=V211_2
+Start=741
+Len=2
+DataType=Numeric
+ZeroFill=Yes
+
+[ValueSet]
+Label=V211_2. TABLETA O DISPOSITIVO SIMILAR?
+Name=V211_2_VS1
+Value=1;Sí
+Value=6;No
+Value=9;NR
+Value='  ';NA
+Name=NOTAPPL,Special
+
+[Item]
+Label=12. ¿Tiene este hogar internet?
+Name=V212
+Start=743
+Len=2
+DataType=Numeric
+ZeroFill=Yes
+
+[ValueSet]
+Label=12. ¿Tiene este hogar internet?
+Name=V212_VS1
+Value=1;Sí
+Value=6;No
+Value=9;NR
+Value='  ';NA
+Name=NOTAPPL,Special
+
+[Item]
+Label=13. ¿Tiene este hogar TV cable?
+Name=V213
+Start=745
+Len=2
+DataType=Numeric
+ZeroFill=Yes
+
+[ValueSet]
+Label=13. ¿Tiene este hogar TV cable?
+Name=V213_VS1
+Value=1;Sí
+Value=6;No
+Value=9;NR
+Value='  ';NA
+Name=NOTAPPL,Special
+
+[Item]
+Label=V213_1. radio?
+Name=V213_1
+Start=747
+Len=2
+DataType=Numeric
+ZeroFill=Yes
+
+[ValueSet]
+Label=V213_1. radio?
+Name=V213_1_VS1
+Value=1;Sí
+Value=6;No
+Value=9;NR
+Value='  ';NA
+Name=NOTAPPL,Special
+
+[Item]
+Label=V213_2. televisor?
+Name=V213_2
+Start=749
+Len=2
+DataType=Numeric
+ZeroFill=Yes
+
+[ValueSet]
+Label=V213_2. televisor?
+Name=V213_2_VS1
+Value=1;Sí
+Value=6;No
+Value=9;NR
+Value='  ';NA
+Name=NOTAPPL,Special
+
+[Item]
+Label=V213_3. heladera?
+Name=V213_3
+Start=751
+Len=2
+DataType=Numeric
+ZeroFill=Yes
+
+[ValueSet]
+Label=V213_3. heladera?
+Name=V213_3_VS1
+Value=1;Sí
+Value=6;No
+Value=9;NR
+Value='  ';NA
+Name=NOTAPPL,Special
+
+[Item]
+Label=V213_4. cocina a gas?
+Name=V213_4
+Start=753
+Len=2
+DataType=Numeric
+ZeroFill=Yes
+
+[ValueSet]
+Label=V213_4. cocina a gas?
+Name=V213_4_VS1
+Value=1;Sí
+Value=6;No
+Value=9;NR
+Value='  ';NA
+Name=NOTAPPL,Special
+
+[Item]
+Label=V213_4A. cocina eléctrica?
+Name=V213_4A
+Start=755
+Len=2
+DataType=Numeric
+ZeroFill=Yes
+
+[ValueSet]
+Label=V213_4A. cocina eléctrica?
+Name=V213_4A_VS1
+Value=1;Sí
+Value=6;No
+Value=9;NR
+Value='  ';NA
+Name=NOTAPPL,Special
+
+[Item]
+Label=V213_5. máquina lavarropa?...
+Name=V213_5
+Start=757
+Len=2
+DataType=Numeric
+ZeroFill=Yes
+
+[ValueSet]
+Label=V213_5. máquina lavarropa?...
+Name=V213_5_VS1
+Value=1;Sí
+Value=6;No
+Value=9;NR
+Value='  ';NA
+Name=NOTAPPL,Special
+
+[Item]
+Label=V213_6. video/DVD?
+Name=V213_6
+Start=759
+Len=2
+DataType=Numeric
+ZeroFill=Yes
+
+[ValueSet]
+Label=V213_6. video/DVD?
+Name=V213_6_VS1
+Value=1;Sí
+Value=6;No
+Value=9;NR
+Value='  ';NA
+Name=NOTAPPL,Special
+
+[Item]
+Label=V213_7. termocalefón?
+Name=V213_7
+Start=761
+Len=2
+DataType=Numeric
+ZeroFill=Yes
+
+[ValueSet]
+Label=V213_7. termocalefón?
+Name=V213_7_VS1
+Value=1;Sí
+Value=6;No
+Value=9;NR
+Value='  ';NA
+Name=NOTAPPL,Special
+
+[Item]
+Label=V213_8. acondicionador de aire?
+Name=V213_8
+Start=763
+Len=2
+DataType=Numeric
+ZeroFill=Yes
+
+[ValueSet]
+Label=V213_8. acondicionador de aire?
+Name=V213_8_VS1
+Value=1;Sí
+Value=6;No
+Value=9;NR
+Value='  ';NA
+Name=NOTAPPL,Special
+
+[Item]
+Label=V213_9. antena parabólica?
+Name=V213_9
+Start=765
+Len=2
+DataType=Numeric
+ZeroFill=Yes
+
+[ValueSet]
+Label=V213_9. antena parabólica?
+Name=V213_9_VS1
+Value=1;Sí
+Value=6;No
+Value=9;NR
+Value='  ';NA
+Name=NOTAPPL,Special
+
+[Item]
+Label=V213_10. TV cable?
+Name=V213_10
+Start=767
+Len=2
+DataType=Numeric
+ZeroFill=Yes
+
+[ValueSet]
+Label=V213_10. TV cable?
+Name=V213_10_VS1
+Value=1;Sí
+Value=6;No
+Value=9;NR
+Value='  ';NA
+Name=NOTAPPL,Special
+
+[Item]
+Label=V213_11. horno microondas?
+Name=V213_11
+Start=769
+Len=2
+DataType=Numeric
+ZeroFill=Yes
+
+[ValueSet]
+Label=V213_11. horno microondas?
+Name=V213_11_VS1
+Value=1;Sí
+Value=6;No
+Value=9;NR
+Value='  ';NA
+Name=NOTAPPL,Special
+
+[Item]
+Label=V213_12. horno eléctrico?
+Name=V213_12
+Start=771
+Len=2
+DataType=Numeric
+ZeroFill=Yes
+
+[ValueSet]
+Label=V213_12. horno eléctrico?
+Name=V213_12_VS1
+Value=1;Sí
+Value=6;No
+Value=9;NR
+Value='  ';NA
+Name=NOTAPPL,Special
+
+[Item]
+Label=V213_13. automóvil, camión o camioneta?
+Name=V213_13
+Start=773
+Len=2
+DataType=Numeric
+ZeroFill=Yes
+
+[ValueSet]
+Label=V213_13. automóvil, camión o camioneta?
+Name=V213_13_VS1
+Value=1;Sí
+Value=6;No
+Value=9;NR
+Value='  ';NA
+Name=NOTAPPL,Special
+
+[Item]
+Label=V213_14. motocicleta?
+Name=V213_14
+Start=775
+Len=2
+DataType=Numeric
+ZeroFill=Yes
+
+[ValueSet]
+Label=V213_14. motocicleta?
+Name=V213_14_VS1
+Value=1;Sí
+Value=6;No
+Value=9;NR
+Value='  ';NA
+Name=NOTAPPL,Special
+
+[Item]
+Label=14. ¿Hay personas que necesitan independizarse en la vivienda y no lo han hecho por falta de recursos?
+Name=V214
+Start=777
+Len=2
+DataType=Numeric
+ZeroFill=Yes
+
+[ValueSet]
+Label=14. ¿Hay personas que necesitan independizarse en la vivienda y no lo han hecho por falta de recursos?
+Name=V214_VS1
+Value=1;Sí, Hermano/a
+Value=2;Sí, Hermano/a Con Familia
+Value=3;Sí, Pariente Solo
+Value=4;Sí, Pariente Con Familia
+Value=5;Sí, Otro
+Value=6;No
+Value='  ';NA
+Name=NOTAPPL,Special
+
+[Item]
+Label=14E. Especifique
+Name=V214E
+Start=779
+Len=40
+DataType=Alpha
+
+[Item]
+Label=OC01. Caminos y medio de transporte para acceder a la vivienda
+Name=V215
+Start=819
+Len=1
+DataType=Numeric
+ZeroFill=Yes
+
+[ValueSet]
+Label=OC01. Caminos y medio de transporte para acceder a la vivienda
+Name=V215_VS1
+Value=1;Facil acceso
+Value=2;Con dificultad para acceso
+Value=3;Con mucha dificultad para el acceso
+Value=' ';NA
+Name=NOTAPPL,Special
+
+[Item]
+Label=OC02. Tipo de vivienda
+Name=V216
+Start=820
+Len=1
+DataType=Numeric
+ZeroFill=Yes
+
+[ValueSet]
+Label=OC02. Tipo de vivienda
+Name=V216_VS1
+Value=1;Tipo 1(predomina hule/carton/terciada)
+Value=2;Tipo 2(predomina madera)
+Value=3;Tipo 3(material cocido + madera)
+Value=4;Tipo 4 (predomina material cocido)
+Value=5;Tipo 5 (predomina material lujoso)
+Value=' ';NA
+Name=NOTAPPL,Special
+
+[Item]
+Label=OC03. Situación de la vivienda, ¿Cual es la necesidad de mejora según la observación?
+Name=V217
+Start=821
+Len=1
+DataType=Numeric
+ZeroFill=Yes
+
+[ValueSet]
+Label=OC03. Situación de la vivienda, ¿Cual es la necesidad de mejora según la observación?
+Name=V217_VS1
+Value=1;Mucha necesidad (falta de paredes/aberturas/techos seguros)
+Value=2;Bastante necesidad (falta dormitorios o faltacocina)
+Value=3;Alguna necesidad (necesidad rejas/ ventanas)
+Value=4;Poca necesidad (pinturas)
+Value=' ';NA
+Name=NOTAPPL,Special
+
+[Item]
+Label=OC04. Comentarios del Censista
+Name=V218O
+Start=822
+Len=800
+DataType=Alpha
+
+[Item]
+Label=OC05. ¿Considera que los datos proveidos por la familia son dudosos?
+Name=V219
+Start=1622
+Len=1
+DataType=Numeric
+ZeroFill=Yes
+
+[ValueSet]
+Label=OC05. ¿Considera que los datos proveidos por la familia son dudosos?
+Name=V219_VS1
+Value=1;Sí
+Value=6;No
+Value=' ';NA
+Name=NOTAPPL,Special
+
+[Item]
+Label=D01. ¿Presentó certificado de no contribuyente de todos los que corresponde?
+Name=D101
+Start=1623
+Len=1
+DataType=Numeric
+ZeroFill=Yes
+
+[ValueSet]
+Label=D01. ¿Presentó certificado de no contribuyente de todos los que corresponde?
+Name=D101_VS1
+Value=1;Sí
+Value=6;No
+Value=' ';NA
+Name=NOTAPPL,Special
+
+[Item]
+Label=D02. ¿Presentó certificado de trabajo o boleta de IPS de todos los que corresponde?
+Name=D102
+Start=1624
+Len=1
+DataType=Numeric
+ZeroFill=Yes
+
+[ValueSet]
+Label=D02. ¿Presentó certificado de trabajo o boleta de IPS de todos los que corresponde?
+Name=D102_VS1
+Value=1;Sí
+Value=6;No
+Value=' ';NA
+Name=NOTAPPL,Special
+
+[Item]
+Label=D03. ¿Presentó 3 últimos comprobantes de IVA de todos los que corresponde?
+Name=D103
+Start=1625
+Len=1
+DataType=Numeric
+ZeroFill=Yes
+
+[ValueSet]
+Label=D03. ¿Presentó 3 últimos comprobantes de IVA de todos los que corresponde?
+Name=D103_VS1
+Value=1;Sí
+Value=6;No
+Value=' ';NA
+Name=NOTAPPL,Special
+
+[Item]
+Label=D04. ¿Presentó certificado de vida y residencia?
+Name=D104
+Start=1626
+Len=1
+DataType=Numeric
+ZeroFill=Yes
+
+[ValueSet]
+Label=D04. ¿Presentó certificado de vida y residencia?
+Name=D104_VS1
+Value=1;Sí
+Value=6;No
+Value=' ';NA
+Name=NOTAPPL,Special
+
+[Item]
+Label=D104_1. Estado de la foto
+Name=D104_1
+Start=1627
+Len=1
+DataType=Numeric
+ZeroFill=Yes
+
+[ValueSet]
+Label=D104_1. Estado de la foto
+Name=D104_1_VS1
+Value=1;Tomar foto
+Value=2;Ver si hay foto
+Value=3;Dejar foto
+Value=4;Borrar foto
+Value=5;Ya no tomar foto
+
+[Item]
+Label=D05. ¿Presentó copia de algún servicio público como ANDE, ESSAP, TV cable, etc?
+Name=D105
+Start=1628
+Len=1
+DataType=Numeric
+ZeroFill=Yes
+
+[ValueSet]
+Label=D05. ¿Presentó copia de algún servicio público como ANDE, ESSAP, TV cable, etc?
+Name=D105_VS1
+Value=1;Sí
+Value=6;No
+Value=' ';NA
+Name=NOTAPPL,Special
+
+[Item]
+Label=D105_1. Estado de la foto
+Name=D105_1
+Start=1629
+Len=1
+DataType=Numeric
+ZeroFill=Yes
+
+[ValueSet]
+Label=D105_1. Estado de la foto
+Name=D105_1_VS1
+Value=1;Tomar foto
+Value=2;Ver si hay foto
+Value=3;Dejar foto
+Value=4;Borrar foto
+Value=5;Ya no tomar foto
+
+[Item]
+Label=D105_2. Estado de la foto
+Name=D105_2
+Start=1630
+Len=1
+DataType=Numeric
+ZeroFill=Yes
+
+[ValueSet]
+Label=D105_2. Estado de la foto
+Name=D105_2_VS1
+Value=1;Tomar foto
+Value=2;Ver si hay foto
+Value=3;Dejar foto
+Value=4;Borrar foto
+Value=5;Ya no tomar foto
+
+[Item]
+Label=D105_3. Estado de la foto
+Name=D105_3
+Start=1631
+Len=1
+DataType=Numeric
+ZeroFill=Yes
+
+[ValueSet]
+Label=D105_3. Estado de la foto
+Name=D105_3_VS1
+Value=1;Tomar foto
+Value=2;Ver si hay foto
+Value=3;Dejar foto
+Value=4;Borrar foto
+Value=5;Ya no tomar foto
+
+[Item]
+Label=D06. ¿Presentó certificado de discapacidad, de todos los miembros del hogar con discapacidad?
+Name=D106
+Start=1632
+Len=1
+DataType=Numeric
+ZeroFill=Yes
+
+[ValueSet]
+Label=D06. ¿Presentó certificado de discapacidad, de todos los miembros del hogar con discapacidad?
+Name=D106_VS1
+Value=1;Sí
+Value=6;No
+Value=' ';NA
+Name=NOTAPPL,Special
+
+[Item]
+Label=D107. ¿PRESENTÓ CERTIFICADO DE ENFERMEDAD DE TODOS LOS MIEMBROS DEL HOGAR CON DISCAPACIDAD?
+Name=D107
+Start=1633
+Len=1
+DataType=Numeric
+ZeroFill=Yes
+
+[ValueSet]
+Label=D107. ¿PRESENTÓ CERTIFICADO DE ENFERMEDAD DE TODOS LOS MIEMBROS DEL HOGAR CON DISCAPACIDAD?
+Name=D107_VS1
+Value=1;Sí
+Value=6;No
+Value=' ';NA
+Name=NOTAPPL,Special
+
+[Item]
+Label=D08. ¿Presentó carnet indígena?
+Name=D108
+Start=1634
+Len=1
+DataType=Numeric
+ZeroFill=Yes
+
+[ValueSet]
+Label=D08. ¿Presentó carnet indígena?
+Name=D108_VS1
+Value=1;Sí
+Value=6;No
+Value=' ';NA
+Name=NOTAPPL,Special
+
+[Item]
+Label=D108_1. Estado de la foto
+Name=D108_1
+Start=1635
+Len=1
+DataType=Numeric
+ZeroFill=Yes
+
+[ValueSet]
+Label=D108_1. Estado de la foto
+Name=D108_1_VS1
+Value=1;Tomar foto
+Value=2;Ver si hay foto
+Value=3;Dejar foto
+Value=4;Borrar foto
+Value=5;Ya no tomar foto
+
+[Item]
+Label=D109. Estado de la foto de la vivienda
+Name=D109
+Start=1636
+Len=1
+DataType=Numeric
+ZeroFill=Yes
+
+[ValueSet]
+Label=D109. Estado de la foto de la vivienda
+Name=D109_VS1
+Value=1;Tomar foto
+Value=2;Ver si hay foto
+Value=3;Dejar foto
+Value=4;Borrar foto
+Value=5;Ya no tomar foto
+
+[Item]
+Label=D110. Estado de la foto del postulante
+Name=D110
+Start=1637
+Len=1
+DataType=Numeric
+ZeroFill=Yes
+
+[ValueSet]
+Label=D110. Estado de la foto del postulante
+Name=D110_VS1
+Value=1;Tomar foto
+Value=2;Ver si hay foto
+Value=3;Dejar foto
+Value=4;Borrar foto
+Value=5;Ya no tomar foto
+
+[Item]
+Label=D111. Estado de la foto de la vivienda con el postulante
+Name=D111
+Start=1638
+Len=1
+DataType=Numeric
+ZeroFill=Yes
+
+[ValueSet]
+Label=D111. Estado de la foto de la vivienda con el postulante
+Name=D111_VS1
+Value=1;Tomar foto
+Value=2;Ver si hay foto
+Value=3;Dejar foto
+Value=4;Borrar foto
+Value=5;Ya no tomar foto
+
+[Item]
+Label=D112. Estado Firma
+Name=D112
+Start=1639
+Len=1
+DataType=Numeric
+ZeroFill=Yes
+
+[ValueSet]
+Label=D112. Estado Firma
+Name=D112_VS1
+Value=1;Tomar firma
+Value=2;Ver si hay firma
+Value=3;Dejar firma
+Value=4;Borrar firma
+Value=5;Ya no tomar firma
+
+[Item]
+Label=D113. FALTA ALGUN DOCUMENTO
+Name=D113
+Start=1640
+Len=1
+DataType=Numeric
+ZeroFill=Yes
+
+[ValueSet]
+Label=D113. FALTA ALGUN DOCUMENTO
+Name=D113_VS1
+Value=1;Sí
+Value=6;No
+Value=' ';NA
+Name=NOTAPPL,Special
+
+[Item]
+Label=D113B. ANOTE LOS DOCUMENTOS FALTANTES
+Name=D113B
+Start=1641
+Len=8
+DataType=Alpha
+
+[ValueSet]
+Label=D113B. ANOTE LOS DOCUMENTOS FALTANTES
+Name=D113B_VS1
+Value='1       ';D01. ¿Presentó certificado de no contribuyente de todos los que corresponde?
+Value='2       ';D02. ¿Presentó certificado de trabajo o boleta de IPS de todos los que corresponde?
+Value='3       ';D03. ¿Presentó 3 últimos comprobantes de IVA de todos los que corresponde?
+Value='4       ';D04. ¿Presentó certificado de vida y residencia?
+Value='5       ';D05. ¿Presentó copia de algún servicio público como ANDE, ESSAP, TV cable, etc?
+Value='6       ';D06. ¿Presentó certificado de discapacidad, de todos los miembros del hogar con discapacidad?
+Value='8       ';D08. ¿Presentó carnet indígena?
+
+[Item]
+Label=D01. ¿Presentó certificado de no contribuyente de todos los que corresponde?
+Name=D1011
+Start=1641
+Len=1
+ItemType=SubItem
+DataType=Numeric
+ZeroFill=Yes
+
+[ValueSet]
+Label=D01. ¿Presentó certificado de no contribuyente de todos los que corresponde?
+Name=D1011_VS1
+Value=1;Sí
+Value=6;No
+Value=' ';NA
+Name=NOTAPPL,Special
+
+[Item]
+Label=D02. ¿Presentó certificado de trabajo o boleta de IPS de todos los que corresponde?
+Name=D1021
+Start=1642
+Len=1
+ItemType=SubItem
+DataType=Numeric
+ZeroFill=Yes
+
+[ValueSet]
+Label=D02. ¿Presentó certificado de trabajo o boleta de IPS de todos los que corresponde?
+Name=D1021_VS1
+Value=1;Sí
+Value=6;No
+Value=' ';NA
+Name=NOTAPPL,Special
+
+[Item]
+Label=D03. ¿Presentó 3 últimos comprobantes de IVA de todos los que corresponde?
+Name=D1031
+Start=1643
+Len=1
+ItemType=SubItem
+DataType=Numeric
+ZeroFill=Yes
+
+[ValueSet]
+Label=D03. ¿Presentó 3 últimos comprobantes de IVA de todos los que corresponde?
+Name=D1031_VS1
+Value=1;Sí
+Value=6;No
+Value=' ';NA
+Name=NOTAPPL,Special
+
+[Item]
+Label=D04. ¿Presentó certificado de vida y residencia?
+Name=D1041
+Start=1644
+Len=1
+ItemType=SubItem
+DataType=Numeric
+ZeroFill=Yes
+
+[ValueSet]
+Label=D04. ¿Presentó certificado de vida y residencia?
+Name=D1041_VS1
+Value=1;Sí
+Value=6;No
+Value=' ';NA
+Name=NOTAPPL,Special
+
+[Item]
+Label=D05. ¿Presentó copia de algún servicio público como ANDE, ESSAP, TV cable, etc?
+Name=D1051
+Start=1645
+Len=1
+ItemType=SubItem
+DataType=Numeric
+ZeroFill=Yes
+
+[ValueSet]
+Label=D05. ¿Presentó copia de algún servicio público como ANDE, ESSAP, TV cable, etc?
+Name=D1051_VS1
+Value=1;Sí
+Value=6;No
+Value=' ';NA
+Name=NOTAPPL,Special
+
+[Item]
+Label=D06. ¿Presentó certificado de discapacidad, de todos los miembros del hogar con discapacidad?
+Name=D1061
+Start=1646
+Len=1
+ItemType=SubItem
+DataType=Numeric
+ZeroFill=Yes
+
+[ValueSet]
+Label=D06. ¿Presentó certificado de discapacidad, de todos los miembros del hogar con discapacidad?
+Name=D1061_VS1
+Value=1;Sí
+Value=6;No
+Value=' ';NA
+Name=NOTAPPL,Special
+
+[Item]
+Label=D107. ¿PRESENTÓ CERTIFICADO DE ENFERMEDAD DE TODOS LOS MIEMBROS DEL HOGAR CON ENFERMEDAD ?
+Name=D1071
+Start=1647
+Len=1
+ItemType=SubItem
+DataType=Numeric
+ZeroFill=Yes
+
+[ValueSet]
+Label=D107. ¿PRESENTÓ CERTIFICADO DE ENFERMEDAD DE TODOS LOS MIEMBROS DEL HOGAR CON ENFERMEDAD ?
+Name=D1071_VS1
+Value=1;Sí
+Value=6;No
+Value=' ';NA
+Name=NOTAPPL,Special
+
+[Item]
+Label=D08. ¿Presentó carnet indígena?
+Name=D1081
+Start=1648
+Len=1
+ItemType=SubItem
+DataType=Numeric
+ZeroFill=Yes
+
+[ValueSet]
+Label=D08. ¿Presentó carnet indígena?
+Name=D1081_VS1
+Value=1;Sí
+Value=6;No
+Value=' ';NA
+Name=NOTAPPL,Special
+
+[Item]
+Label=AUXHORA
+Name=AUXHORA
+Start=1649
+Len=5
+DataType=Numeric
+Decimal=2
+DecimalChar=Yes
+ZeroFill=Yes
+
+[Item]
+Label=AUXH
+Name=AUXH
+Start=1649
+Len=2
+ItemType=SubItem
+DataType=Numeric
+ZeroFill=Yes
+
+[Item]
+Label=AUXM
+Name=AUXM
+Start=1652
+Len=2
+ItemType=SubItem
+DataType=Numeric
+ZeroFill=Yes
+
+[Item]
+Label=¿Terminó entrevista?
+Name=BD_ENTREX
+Start=1654
+Len=1
+DataType=Numeric
+ZeroFill=Yes
+
+[ValueSet]
+Label=¿Terminó entrevista?
+Name=BD_ENTREX_VS1
+Value=1;Encuesta Terminada
+Value=' ';N/A
+Name=NOTAPPL,Special
+
+[Item]
+Label=Total de Beneficiarios
+Name=TOTAL_BENEFICIARIOS
+Start=1655
+Len=2
+DataType=Numeric
+ZeroFill=Yes
+
+[Item]
+Label=Total de responsable de manutención
+Name=TOTAL_RESPMANUT
+Start=1657
+Len=2
+DataType=Numeric
+ZeroFill=Yes
+
+[Item]
+Label=Total de lineas bienes durables
+Name=TOTALBIENESD
+Start=1659
+Len=2
+DataType=Numeric
+ZeroFill=Yes
+
+[Item]
+Label=Total de lineas situaciones adversas
+Name=TOTAL_SITU_ADV
+Start=1661
+Len=2
+DataType=Numeric
+ZeroFill=Yes
+
+[Item]
+Label=Total de Personas en la grilla
+Name=TOTALPERSONAS
+Start=1663
+Len=2
+DataType=Numeric
+ZeroFill=Yes
+
+[Item]
+Label=Total de Visitas
+Name=TOTALVISITAS
+Start=1665
+Len=2
+DataType=Numeric
+ZeroFill=Yes
+
+[Item]
+Label=ultima variable
+Name=VAR_FIN
+Start=1667
+Len=1
+DataType=Alpha
+
+[Item]
+Label=Que área es?
+Name=AREAV11
+Start=1668
+Len=1
+DataType=Numeric
+ZeroFill=Yes
+
+[ValueSet]
+Label=Que área es?
+Name=AREAV11_VS1
+Value=1;Urbana
+Value=6;Rural
+Value=' ';NA
+Name=NOTAPPL,Special
+
+[Item]
+Label=Bandera de existencia de registro válido
+Name=X01_BAND
+Start=1669
+Len=1
+DataType=Numeric
+ZeroFill=Yes
+
+[ValueSet]
+Label=Bandera de existencia de registro válido
+Name=X01_BAND_VS1
+Value=0;sin datos
+Value=1;con datos
+Value=' ';NA
+Name=NOTAPPL,Special
+
+[Record]
+Label=Registro de beneficiarios
+Name=REG_BENEFICIARIOS
+RecordTypeValue='02'
+Required=No
+MaxRecords=30
+RecordLen=22
+
+[Item]
+Label=LP021 Número de línea
+Name=L021
+Start=18
+Len=2
+DataType=Numeric
+ZeroFill=Yes
+
+[Item]
+Label=P116. Nro de linea del beneficiario
+Name=P116
+Start=20
+Len=2
+DataType=Numeric
+ZeroFill=Yes
+
+[ValueSet]
+Label=P116. Nro de linea del beneficiario
+Name=P116_VS1
+Value=0;Sin datos
+Value=1:25;Línea de la persona
+Value=88;Busca
+Value=99;NR
+Value='  ';NA
+Name=NOTAPPL,Special
+
+[Item]
+Label=MBENEFICIARIO
+Name=MBENEFICIARIO
+Start=22
+Len=1
+DataType=Numeric
+ZeroFill=Yes
+
+[ValueSet]
+Label=MBENEFICIARIO
+Name=MBENEFICIARIO_VS1
+Value=1;Sí
+Value=6;No
+Value=' ';NA
+Name=NOTAPPL,Special
+
+[Record]
+Label=RE_D01_CERTIFICADO_NO_CONTRIBUYENTE
+Name=REG_D01
+RecordTypeValue='03'
+Required=No
+MaxRecords=30
+RecordLen=21
+
+[Item]
+Label=NRO DE LINEA
+Name=LD01
+Start=18
+Len=2
+DataType=Numeric
+ZeroFill=Yes
+
+[Item]
+Label=Dispone del Documento?
+Name=D01_1
+Start=20
+Len=1
+DataType=Numeric
+ZeroFill=Yes
+
+[ValueSet]
+Label=Dispone del Documento?
+Name=D01_1_VS1
+Value=1;Sí
+Value=6;No
+Value=' ';NA
+Name=NOTAPPL,Special
+
+[Item]
+Label=Estado de la foto
+Name=EST_FOTO_D01
+Start=21
+Len=1
+DataType=Numeric
+ZeroFill=Yes
+
+[ValueSet]
+Label=Estado de la foto
+Name=EST_FOTO_D01_VS1
+Value=1;Tomar foto
+Value=2;Ver si hay foto
+Value=3;Dejar foto
+Value=4;Borrar foto
+Value=5;Ya no tomar foto
+Value=' ';NA
+Name=NOTAPPL,Special
+
+[Record]
+Label=Registro del Postulante
+Name=REG_POST
+RecordTypeValue='04'
+Required=No
+RecordLen=347
+
+[Item]
+Label=PL02 Número de línea
+Name=PL02
+Start=18
+Len=2
+DataType=Numeric
+ZeroFill=Yes
+
+[ValueSet]
+Label=PL02 Número de línea
+Name=PL02_VS1
+Value=1:30
+Value=88
+Value='  ';NA
+Name=NOTAPPL,Special
+
+[Item]
+Label=P101. Correo electrónico
+Name=P101
+Start=20
+Len=50
+DataType=Alpha
+
+[Item]
+Label=P102. Número de teléfono
+Name=P102
+Start=70
+Len=50
+DataType=Alpha
+
+[Item]
+Label=P103. ¿Vive en este lugar hace más de tres años?
+Name=P103
+Start=120
+Len=1
+DataType=Numeric
+ZeroFill=Yes
+
+[ValueSet]
+Label=P103. ¿Vive en este lugar hace más de tres años?
+Name=P103_VS1
+Value=1;Sí
+Value=6;No
+Value=9;NR
+Value=' ';NA
+Name=NOTAPPL,Special
+
+[Item]
+Label=P104. ¿Hace cuánto tiempo vive en este lugar?
+Name=P104
+Start=121
+Len=5
+DataType=Numeric
+ZeroFill=Yes
+
+[Item]
+Label=P104. Año
+Name=P104A
+Start=121
+Len=3
+ItemType=SubItem
+DataType=Numeric
+ZeroFill=Yes
+
+[ValueSet]
+Label=P104. Año
+Name=P104A_VS1
+Value=0:100;Cantidad de años
+Value=999;NR
+Value='   ';NA
+Name=NOTAPPL,Special
+
+[Item]
+Label=P104. Mes
+Name=P104M
+Start=124
+Len=2
+ItemType=SubItem
+DataType=Numeric
+ZeroFill=Yes
+
+[ValueSet]
+Label=P104. Mes
+Name=P104M_VS1
+Value=0:11;Cantidad de meses
+Value=99;NR
+Value='  ';NA
+Name=NOTAPPL,Special
+
+[Item]
+Label=P105. ¿Este será su lugar de residencia permanente?
+Name=P105
+Start=126
+Len=1
+DataType=Numeric
+ZeroFill=Yes
+
+[ValueSet]
+Label=P105. ¿Este será su lugar de residencia permanente?
+Name=P105_VS1
+Value=1;Sí
+Value=6;No
+Value=9;NR
+Value=' ';NA
+Name=NOTAPPL,Special
+
+[Item]
+Label=P106.Departamento
+Name=P106_DPTO
+Start=127
+Len=2
+DataType=Numeric
+ZeroFill=Yes
+
+[ValueSet]
+Label=P106.Departamento
+Name=P106_DPTO_VS1
+Value=0;Asunción
+Value=1;Concepción
+Value=2;San Pedro
+Value=3;Cordillera
+Value=4;Guairá
+Value=5;Caaguazú
+Value=6;Caazapá
+Value=7;Itapúa
+Value=8;Misiones
+Value=9;Paraguarí
+Value=10;Alto Paraná
+Value=11;Central
+Value=12;Ñeembucú
+Value=13;Amambay
+Value=14;Canindeyú
+Value=15;Presidente Hayes
+Value=16;Boquerón
+Value=17;Alto Paraguay
+
+[Item]
+Label=P106.Distrito
+Name=P106_DISTV
+Start=129
+Len=4
+DataType=Numeric
+ZeroFill=Yes
+
+[Item]
+Label=P107. ¿Pertenece a alguna comunidad indígena?
+Name=P107
+Start=133
+Len=1
+DataType=Numeric
+ZeroFill=Yes
+
+[ValueSet]
+Label=P107. ¿Pertenece a alguna comunidad indígena?
+Name=P107_VS1
+Value=1;Sí
+Value=6;No
+Value=9;NR
+Value=' ';NA
+Name=NOTAPPL,Special
+
+[Item]
+Label=P108. ¿A qué comunidad pertenece?
+Name=P108
+Start=134
+Len=1
+DataType=Numeric
+ZeroFill=Yes
+
+[ValueSet]
+Label=P108. ¿A qué comunidad pertenece?
+Name=P108_VS1
+Value=1;Aché
+Value=2;Mbya Guaraní
+Value=3;Qom
+Value=4;Nivaclé
+Value=5;Lengua
+Value=6;Ava Guaraní
+Value=7;Paí Tavytera
+Value=8;Otro
+Value=9;NR
+Value=' ';NA
+Name=NOTAPPL,Special
+
+[Item]
+Label=P108E. Especifique
+Name=P108E
+Start=135
+Len=40
+DataType=Alpha
+
+[Item]
+Label=P109. ¿En los últimos 12 meses. ¿viajó fuera del País?
+Name=P109
+Start=175
+Len=1
+DataType=Numeric
+ZeroFill=Yes
+
+[ValueSet]
+Label=P109. ¿En los últimos 12 meses. ¿viajó fuera del País?
+Name=P109_VS1
+Value=1;Sí
+Value=6;No
+Value=9;NR
+Value=' ';NA
+Name=NOTAPPL,Special
+
+[Item]
+Label=P110. ¿Cuál fue el motivo del viaje?
+Name=P110
+Start=176
+Len=1
+DataType=Numeric
+ZeroFill=Yes
+
+[ValueSet]
+Label=P110. ¿Cuál fue el motivo del viaje?
+Name=P110_VS1
+Value=1;Vacaciones
+Value=2;Estudio
+Value=3;Becas
+Value=4;Motivos familiares
+Value=5;Enfermedad
+Value=6;Otro
+Value=9;NR
+Value=' ';NA
+Name=NOTAPPL,Special
+
+[Item]
+Label=P110E. Especifique
+Name=P110E
+Start=177
+Len=40
+DataType=Alpha
+
+[Item]
+Label=P111M. Madre
+Name=P111M
+Start=217
+Len=1
+DataType=Numeric
+ZeroFill=Yes
+
+[ValueSet]
+Label=P111M. Madre
+Name=P111M_VS1
+Value=3;Madre
+Value=0;No hay Madre
+Value=' ';NA
+Name=NOTAPPL,Special
+
+[Item]
+Label=P111P. Padre
+Name=P111P
+Start=218
+Len=1
+DataType=Numeric
+ZeroFill=Yes
+
+[ValueSet]
+Label=P111P. Padre
+Name=P111P_VS1
+Value=2;Padre
+Value=0;No hay Padre
+Value=' ';NA
+Name=NOTAPPL,Special
+
+[Item]
+Label=P112. ¿Porqué no vive con su Papá?
+Name=P112
+Start=219
+Len=1
+DataType=Numeric
+ZeroFill=Yes
+
+[ValueSet]
+Label=P112. ¿Porqué no vive con su Papá?
+Name=P112_VS1
+Value=1;Vive en otro lugar dentro del país
+Value=2;Vive en el extranjero
+Value=3;No sabe donde vive
+Value=4;Falleció
+Value=5;Otro?
+Value=' ';NA
+Name=NOTAPPL,Special
+
+[Item]
+Label=P112E. Especifique
+Name=P112E
+Start=220
+Len=40
+DataType=Alpha
+
+[Item]
+Label=P113. ¿Porqué no vive con su Mamá?
+Name=P113
+Start=260
+Len=1
+DataType=Numeric
+ZeroFill=Yes
+
+[ValueSet]
+Label=P113. ¿Porqué no vive con su Mamá?
+Name=P113_VS1
+Value=1;Vive en otro lugar dentro del país
+Value=2;Vive en el extranjero
+Value=3;No sabe donde vive
+Value=4;Falleció
+Value=5;Otro?
+Value=' ';NA
+Name=NOTAPPL,Special
+
+[Item]
+Label=P113E. Especifique
+Name=P113E
+Start=261
+Len=40
+DataType=Alpha
+
+[Item]
+Label=P114. En este hogar, ¿a quién consideran como jefe/a del hogar?
+Name=P114
+Start=301
+Len=2
+DataType=Numeric
+ZeroFill=Yes
+
+[ValueSet]
+Label=P114. En este hogar, ¿a quién consideran como jefe/a del hogar?
+Name=P114_VS1
+Value=0;Sin datos
+Value=1:25;Línea de la persona
+Value=88;Busca
+Value=99;NR
+Value='  ';NA
+Name=NOTAPPL,Special
+
+[Item]
+Label=P115. En la vivienda, ¿algún miembro recibe beneficios de los programas del estado?
+Name=P115
+Start=303
+Len=5
+DataType=Alpha
+
+[ValueSet]
+Label=P115. En la vivienda, ¿algún miembro recibe beneficios de los programas del estado?
+Name=P115_VS1
+Value='1    ';Tekoporá
+Value='2    ';Pensión de adultos mayores
+Value='3    ';Otro
+Value='6    ';No recibe
+Value='9    ';NR
+
+[Item]
+Label=Tekoporá
+Name=P1151
+Start=303
+Len=1
+ItemType=SubItem
+DataType=Numeric
+ZeroFill=Yes
+
+[ValueSet]
+Label=Tekoporá
+Name=P1151_VS1
+Value=1;Tekopora
+Value=' ';NA
+Name=NOTAPPL,Special
+
+[Item]
+Label=Pensión de adultos mayores
+Name=P1152
+Start=304
+Len=1
+ItemType=SubItem
+DataType=Numeric
+ZeroFill=Yes
+
+[ValueSet]
+Label=Pensión de adultos mayores
+Name=P1152_VS1
+Value=2;pensión de adultos mayores?
+Value=' ';NA
+Name=NOTAPPL,Special
+
+[Item]
+Label=Otro
+Name=P1153
+Start=305
+Len=1
+ItemType=SubItem
+DataType=Numeric
+ZeroFill=Yes
+
+[ValueSet]
+Label=Otro
+Name=P1153_VS1
+Value=3;otro?
+Value=' ';NA
+Name=NOTAPPL,Special
+
+[Item]
+Label=No recibe
+Name=P1154
+Start=306
+Len=1
+ItemType=SubItem
+DataType=Numeric
+ZeroFill=Yes
+
+[ValueSet]
+Label=No recibe
+Name=P1154_VS1
+Value=6;No recibe
+Value=' ';NA
+Name=NOTAPPL,Special
+
+[Item]
+Label=NR
+Name=P1155
+Start=307
+Len=1
+ItemType=SubItem
+DataType=Numeric
+ZeroFill=Yes
+
+[ValueSet]
+Label=NR
+Name=P1155_VS1
+Value=5;NR
+Value=' ';NA
+Name=NOTAPPL,Special
+
+[Item]
+Label=P115E. Especifique
+Name=P115E
+Start=308
+Len=40
+DataType=Alpha
+
+[Record]
+Label=REG_GENERAL_MIEMBROS
+Name=REG_GENERAL
+RecordTypeValue='05'
+Required=No
+MaxRecords=30
+RecordLen=392
+
+[Item]
+Label=L02 Número de línea
+Name=L02
+Start=18
+Len=2
+DataType=Numeric
+ZeroFill=Yes
+
+[ValueSet]
+Label=L02 Número de línea
+Name=L02_VS1
+Value=1:30;Linea
+
+[Item]
+Label=LP101. ¿Cuál es el nombre de cada una de las personas que viven habitualmente en este hogar?
+Name=LP101
+Start=20
+Len=40
+DataType=Alpha
+
+[Item]
+Label=LP102. Relación de parentesco con el/la POSTULANTE
+Name=LP102
+Start=60
+Len=2
+DataType=Numeric
+ZeroFill=Yes
+
+[ValueSet]
+Label=LP102. Relación de parentesco con el/la POSTULANTE
+Name=LP102_VS1
+Value=1;POSTULANTE
+Value=2;PADRE
+Value=3;MADRE
+Value=4;TUTOR
+Value=5;PAREJA
+Value=6;HIJO/A
+Value=7;HERMANO/A
+Value=8;PARIENTE
+Value=9;NO PARIENTE
+Value=10;CUÑADO/A
+Value=11;PERSONAL DOMESTICO
+Value='  ';NA
+Name=NOTAPPL,Special
+
+[Item]
+Label=LP103X. Edad
+Name=LP103_AUX
+Start=62
+Len=3
+DataType=Numeric
+ZeroFill=Yes
+
+[ValueSet]
+Label=LP103X. Edad
+Name=LP103_AUX_VS1
+Value=0:150;Edad
+Value=999;NR
+Value='   ';NA
+Name=NOTAPPL,Special
+
+[Item]
+Label=LP103. Edad
+Name=LP103
+Start=65
+Len=3
+DataType=Numeric
+ZeroFill=Yes
+
+[ValueSet]
+Label=LP103. Edad
+Name=LP103_VS1
+Value=0:150;Edad
+Value=999;NR
+Value='   ';NA
+Name=NOTAPPL,Special
+
+[Item]
+Label=GM101. ¿Es miembro del Hogar?
+Name=GM101
+Start=68
+Len=1
+DataType=Numeric
+ZeroFill=Yes
+
+[ValueSet]
+Label=GM101. ¿Es miembro del Hogar?
+Name=GM101_VS1
+Value=1;Sí
+Value=6;No
+Value=9;NR
+Value=' ';NA
+Name=NOTAPPL,Special
+
+[Item]
+Label=GM103D. Dia de nacimiento
+Name=GM103D
+Start=69
+Len=2
+DataType=Numeric
+ZeroFill=Yes
+
+[ValueSet]
+Label=GM103D. Dia de nacimiento
+Name=GM103D_VS1
+Value=1:31;Día de nacimiento
+Value='  ';NA
+Name=NOTAPPL,Special
+
+[Item]
+Label=GM103M. Mes de nacimiento
+Name=GM103M
+Start=71
+Len=2
+DataType=Numeric
+ZeroFill=Yes
+
+[ValueSet]
+Label=GM103M. Mes de nacimiento
+Name=GM103M_VS1
+Value=1;Enero
+Value=2;Febrero
+Value=3;Marzo
+Value=4;Abril
+Value=5;Mayo
+Value=6;Junio
+Value=7;Julio
+Value=8;Agosto
+Value=9;Setiembre
+Value=10;Octubre
+Value=11;Noviembre
+Value=12;Diciembre
+Value='  ';NA
+Name=NOTAPPL,Special
+
+[Item]
+Label=GM103A. Año de nacimiento
+Name=GM103A
+Start=73
+Len=4
+DataType=Numeric
+ZeroFill=Yes
+
+[ValueSet]
+Label=GM103A. Año de nacimiento
+Name=GM103A_VS1
+Value=1890:2024;Año de nacimiento
+Value=9999;NR
+Value='    ';NA
+Name=NOTAPPL,Special
+
+[Item]
+Label=GM104. Género
+Name=GM104
+Start=77
+Len=1
+DataType=Numeric
+ZeroFill=Yes
+
+[ValueSet]
+Label=GM104. Género
+Name=GM104_VS1
+Value=1;FEMENINO
+Value=2;MASCULINO
+Value=3;OTRO
+Value=4;PREFIERO NO RESPONDER
+Value=' ';NA
+Name=NOTAPPL,Special
+
+[Item]
+Label=GM104E. Especifique
+Name=GM104E
+Start=78
+Len=40
+DataType=Alpha
+
+[Item]
+Label=GM105. ¿Tiene cédula de Identidad?
+Name=GM105
+Start=118
+Len=1
+DataType=Numeric
+
+[ValueSet]
+Label=GM105. ¿Tiene cédula de Identidad?
+Name=GM105_VS1
+Value=1;Sí
+Value=6;No
+Value=9;NR
+Value=' ';NA
+Name=NOTAPPL,Special
+
+[Item]
+Label=GM106. Anote el número de cédula
+Name=GM106
+Start=119
+Len=15
+DataType=Alpha
+
+[Item]
+Label=GM107.Tiene alguna discapacidad?
+Name=GM107
+Start=134
+Len=1
+DataType=Numeric
+ZeroFill=Yes
+
+[ValueSet]
+Label=GM107.Tiene alguna discapacidad?
+Name=GM107_VS1
+Value=1;Sí, con constancia
+Value=2;SI, sin constancia
+Value=3;No tiene discapacidad
+Value=9;NR
+Value=' ';NA
+Name=NOTAPPL,Special
+
+[Item]
+Label=GM108. Que tipo de discapacidad tiene?
+Name=GM108
+Start=135
+Len=6
+DataType=Alpha
+
+[ValueSet]
+Label=GM108. Que tipo de discapacidad tiene?
+Name=GM108_VS1
+Value='1     ';COGNITIVA
+Value='2     ';FISICA
+Value='3     ';SENSORIAL
+Value='4     ';INTELECTUAL
+Value='5     ';OTRO(ESPECIFICAR)
+Value='9     ';NR
+
+[Item]
+Label=GM1081. Cognitiva
+Name=GM1081
+Start=135
+Len=1
+ItemType=SubItem
+DataType=Numeric
+ZeroFill=Yes
+
+[ValueSet]
+Label=GM1081. Cognitiva
+Name=GM1081_VS1
+Value=1;COGNITIVA
+Value=' ';NA
+Name=NOTAPPL,Special
+
+[Item]
+Label=GM1082. Fisica
+Name=GM1082
+Start=136
+Len=1
+ItemType=SubItem
+DataType=Numeric
+ZeroFill=Yes
+
+[ValueSet]
+Label=GM1082. Fisica
+Name=GM1082_VS1
+Value=2;FISICA
+Value=' ';NA
+Name=NOTAPPL,Special
+
+[Item]
+Label=GM1083. Sensorial
+Name=GM1083
+Start=137
+Len=1
+ItemType=SubItem
+DataType=Numeric
+ZeroFill=Yes
+
+[ValueSet]
+Label=GM1083. Sensorial
+Name=GM1083_VS1
+Value=3;SENSORIAL
+Value=' ';NA
+Name=NOTAPPL,Special
+
+[Item]
+Label=GM1084. Intelectual
+Name=GM1084
+Start=138
+Len=1
+ItemType=SubItem
+DataType=Numeric
+ZeroFill=Yes
+
+[ValueSet]
+Label=GM1084. Intelectual
+Name=GM1084_VS1
+Value=4;INTELECTUAL
+Value=' ';NA
+Name=NOTAPPL,Special
+
+[Item]
+Label=GM1085. Otro
+Name=GM1085
+Start=139
+Len=1
+ItemType=SubItem
+DataType=Numeric
+ZeroFill=Yes
+
+[ValueSet]
+Label=GM1085. Otro
+Name=GM1085_VS1
+Value=5;Otro (especificar)
+Value=' ';NA
+Name=NOTAPPL,Special
+
+[Item]
+Label=GM1086. NR
+Name=GM1086
+Start=140
+Len=1
+ItemType=SubItem
+DataType=Numeric
+ZeroFill=Yes
+
+[ValueSet]
+Label=GM1086. NR
+Name=GM1086_VS1
+Value=6;NR
+Value=' ';NA
+Name=NOTAPPL,Special
+
+[Item]
+Label=GM108E. Especifique
+Name=GM108E
+Start=141
+Len=40
+DataType=Alpha
+
+[Item]
+Label=GM109. ¿Tiene algún tipo de enfermedad?
+Name=GM109
+Start=181
+Len=1
+DataType=Numeric
+ZeroFill=Yes
+
+[ValueSet]
+Label=GM109. ¿Tiene algún tipo de enfermedad?
+Name=GM109_VS1
+Value=1;Sí
+Value=3;No
+Value=9;NR
+Value=' ';NA
+Name=NOTAPPL,Special
+
+[Item]
+Label=GM110. La enfermedad que sufre es...
+Name=GM110
+Start=182
+Len=1
+DataType=Numeric
+ZeroFill=Yes
+
+[ValueSet]
+Label=GM110. La enfermedad que sufre es...
+Name=GM110_VS1
+Value=1;LEVE O TEMPORAL
+Value=2;LEVE Y PERMANENTE
+Value=3;GRAVE Y TEMPORAL
+Value=4;GRAVE Y PERMANENTE
+Value=6;NO
+Value=9;NR
+Value=' ';NA
+Name=NOTAPPL,Special
+
+[Item]
+Label=GM111 ¿Cuál es el máximo nivel educativo alcanzado por..?
+Name=GM111
+Start=183
+Len=1
+DataType=Numeric
+ZeroFill=Yes
+
+[ValueSet]
+Label=GM111 ¿Cuál es el máximo nivel educativo alcanzado por..?
+Name=GM111_VS1
+Value=0;NINGUNO
+Value=1;PRIMARIA
+Value=2;SECUNDARIA INCOMPLETA
+Value=3;SECUNDARIA COMPLETA
+Value=4;UNIVERSITARIA /TERCIARIA
+Value=9;NR
+Value=' ';NA
+Name=NOTAPPL,Special
+
+[Item]
+Label=GM112. ¿...asiste actualmente a la escuela o colegio?
+Name=GM112
+Start=184
+Len=1
+DataType=Numeric
+ZeroFill=Yes
+
+[ValueSet]
+Label=GM112. ¿...asiste actualmente a la escuela o colegio?
+Name=GM112_VS1
+Value=1;Sí
+Value=6;No
+Value=9;NR
+Value=' ';NA
+Name=NOTAPPL,Special
+
+[Item]
+Label=GM113. ¿A que tipo de institución asiste...?
+Name=GM113
+Start=185
+Len=1
+DataType=Numeric
+ZeroFill=Yes
+
+[ValueSet]
+Label=GM113. ¿A que tipo de institución asiste...?
+Name=GM113_VS1
+Value=1;PUBLICA
+Value=2;PRIVADA SUVBENCIONADA
+Value=3;PRIVADA
+Value=9;NR
+Value=' ';NA
+Name=NOTAPPL,Special
+
+[Item]
+Label=GM114. ¿Cuál es el monto de la cuota?
+Name=GM114
+Start=186
+Len=11
+DataType=Numeric
+ZeroFill=Yes
+
+[ValueSet]
+Label=GM114. ¿Cuál es el monto de la cuota?
+Name=GM114_VS1
+Value=0:9999999998
+Value=99999999999;NR
+Value='           ';NA
+Name=NOTAPPL,Special
+
+[Item]
+Label=GM115. ¿...trabajó la semana pasada?
+Name=GM115
+Start=197
+Len=1
+DataType=Numeric
+ZeroFill=Yes
+
+[ValueSet]
+Label=GM115. ¿...trabajó la semana pasada?
+Name=GM115_VS1
+Value=1;Sí
+Value=6;No
+Value=' ';NA
+Name=NOTAPPL,Special
+
+[Item]
+Label=GM116. ¿La semana pasada...
+Name=GM116
+Start=198
+Len=2
+DataType=Numeric
+ZeroFill=Yes
+
+[ValueSet]
+Label=GM116. ¿La semana pasada...
+Name=GM116_VS1
+Value=1;hizo o vendió algún producto?
+Value=2;ayudó en algún negocio? (familiar o de otra persona)
+Value=3;crió animales o cultivó algo?(en el terreno o en casa, principalmente para la venta)
+Value=4;ofreció algún servicio por un pago? (cargó bolsas, lavo autos, cuidó niñas(os). etc )
+Value=5;atendió su propio negocio?
+Value=6;tenía trabajo pero no trabajo? (por licencia, incapacidad o vacaciones)
+Value=7;buscó trabajo
+Value=8;estuvo estudiando?
+Value=9;fué jubilado(a) o pensionado(a
+Value=10;se dedica a los quehaceres de su hogar
+Value=11;tuvo alguna limitación fisica o mental?
+Value=12;vivió de renta o alquileres
+Value=13;otro,(especificar)
+Value=99;NR
+Value='  ';NA
+Name=NOTAPPL,Special
+
+[Item]
+Label=GM116E. Especifique
+Name=GM116E
+Start=200
+Len=40
+DataType=Alpha
+
+[Item]
+Label=GM116AD. Descripción Ocupación Principal
+Name=GM116AD
+Start=240
+Len=40
+DataType=Alpha
+
+[Item]
+Label=GM116AC. Código Ocupación Principal
+Name=GM116AC
+Start=280
+Len=4
+DataType=Numeric
+ZeroFill=Yes
+
+[ValueSet]
+Label=GM116AC. Código Ocupación Principal
+Name=GM116AC_VS1
+Value=110
+Value=1110
+Value=1120
+Value=1130
+Value=1141:1143
+Value=1211:1219
+Value=1221:1229
+Value=1231:1237
+Value=2111:2114
+Value=2121:2122
+Value=2131:2132
+Value=2141:2149
+Value=2211:2213
+Value=2221:2224
+Value=2230
+Value=2310
+Value=2320
+Value=2331:2332
+Value=2340
+Value=2351:2352
+Value=2411:2412
+Value=2419
+Value=2421:2422
+Value=2429
+Value=2431:2432
+Value=2441:2446
+Value=2451:2455
+Value=2460
+Value=3111:3119
+Value=3121:3122
+Value=3131:3133
+Value=3141:3145
+Value=3151:3152
+Value=3211:3213
+Value=3221:3229
+Value=3231:3232
+Value=3241:3242
+Value=3310
+Value=3320
+Value=3330
+Value=3340
+Value=3411:3417
+Value=3421:3423
+Value=3429
+Value=3431:3433
+Value=3439
+Value=3441:3444
+Value=3449:3450
+Value=3460
+Value=3471:3475
+Value=3480
+Value=4111:4115
+Value=4121:4122
+Value=4131:4133
+Value=4141:4144
+Value=4190
+Value=4211:4215
+Value=4221:4223
+Value=5111:5113
+Value=5121:5123
+Value=5131:5133
+Value=5139
+Value=5141:5143
+Value=5151:5152
+Value=5161:5163
+Value=5169
+Value=5210
+Value=5220
+Value=5230
+Value=6111:6114
+Value=6121:6124
+Value=6129:6130
+Value=6141:6142
+Value=6151:6153
+Value=6210
+Value=7111:7112
+Value=7121:7124
+Value=7129
+Value=7131:7137
+Value=7141:7142
+Value=7211:7216
+Value=7221:7224
+Value=7231:7233
+Value=7241:7245
+Value=7311:7313
+Value=7321:7323
+Value=7331:7332
+Value=7341:7346
+Value=7411:7416
+Value=7421:7424
+Value=7431:7437
+Value=7441:7442
+Value=8111:8113
+Value=8121:8124
+Value=8131
+Value=8139
+Value=8141:8143
+Value=8151:8155
+Value=8159
+Value=8161:8163
+Value=8170
+Value=8211:8212
+Value=8221:8224
+Value=8229
+Value=8231:8232
+Value=8240
+Value=8251:8253
+Value=8261:8266
+Value=8269
+Value=8271:8279
+Value=8281:8286
+Value=8290
+Value=8311:8312
+Value=8321:8324
+Value=8331:8333
+Value=8340
+Value=9111:9113
+Value=9120
+Value=9131:9133
+Value=9141:9142
+Value=9151:9153
+Value=9161:9162
+Value=9170
+Value=9211:9213
+Value=9311:9313
+Value=9321:9322
+Value=9331:9335
+Value=9999;NR
+Value='    ';NA
+Name=NOTAPPL,Special
+
+[Item]
+Label=GM116BD. Descripción Actividad Económica Principal
+Name=GM116BD
+Start=284
+Len=40
+DataType=Alpha
+
+[Item]
+Label=GM116BC. Código Actividad Económica Principal
+Name=GM116BC
+Start=324
+Len=4
+DataType=Numeric
+ZeroFill=Yes
+
+[ValueSet]
+Label=GM116BC. Código Actividad Económica Principal
+Name=GM116BC_VS1
+Value=111:113
+Value=121:122
+Value=130
+Value=140
+Value=150
+Value=200
+Value=500
+Value=1000
+Value=1100
+Value=1200
+Value=1300
+Value=1410
+Value=1421:1422
+Value=1429
+Value=1511:1514
+Value=1520
+Value=1531:1533
+Value=1541:1544
+Value=1549
+Value=1551:1554
+Value=1600
+Value=1711:1712
+Value=1721:1723
+Value=1729:1730
+Value=1810
+Value=1820
+Value=1911:1912
+Value=1920
+Value=2010
+Value=2021:2023
+Value=2029
+Value=2101:2102
+Value=2109
+Value=2211:2213
+Value=2219
+Value=2221:2222
+Value=2230
+Value=2310
+Value=2320
+Value=2330
+Value=2411:2413
+Value=2421:2424
+Value=2429:2430
+Value=2511
+Value=2519:2520
+Value=2610
+Value=2691:2696
+Value=2699
+Value=2710
+Value=2720
+Value=2730
+Value=2811:2812
+Value=2890
+Value=2911
+Value=2919
+Value=2920
+Value=2930
+Value=3000
+Value=3110
+Value=3120
+Value=3130
+Value=3140
+Value=3150
+Value=3190
+Value=3210
+Value=3220
+Value=3230
+Value=3310
+Value=3320
+Value=3330
+Value=3410
+Value=3420
+Value=3430
+Value=3510
+Value=3520
+Value=3530
+Value=3591:3592
+Value=3599
+Value=3610
+Value=3691:3694
+Value=3699
+Value=3710
+Value=3720
+Value=4010
+Value=4020
+Value=4030
+Value=4100
+Value=4510
+Value=4521:4522
+Value=4530
+Value=4540
+Value=4550
+Value=5010
+Value=5020
+Value=5030
+Value=5040
+Value=5050
+Value=5110
+Value=5121:5122
+Value=5131
+Value=5139
+Value=5141:5143
+Value=5149:5150
+Value=5190
+Value=5210
+Value=5220
+Value=5231:5234
+Value=5239:5240
+Value=5251:5252
+Value=5259
+Value=5260
+Value=5510
+Value=5520
+Value=6010
+Value=6021:6023
+Value=6030
+Value=6110
+Value=6120
+Value=6210
+Value=6220
+Value=6301:6304
+Value=6309
+Value=6411:6412
+Value=6420
+Value=6511
+Value=6519
+Value=6591:6592
+Value=6599
+Value=6601:6603
+Value=6710
+Value=6720
+Value=7010
+Value=7020
+Value=7110
+Value=7120
+Value=7130
+Value=7210
+Value=7220
+Value=7230
+Value=7240
+Value=7250
+Value=7290
+Value=7310
+Value=7320
+Value=7411:7414
+Value=7421:7422
+Value=7430
+Value=7491:7495
+Value=7499
+Value=7510
+Value=7520
+Value=7530
+Value=8010
+Value=8020
+Value=8030
+Value=8090
+Value=8510
+Value=8520
+Value=8530
+Value=9000
+Value=9110
+Value=9120
+Value=9191:9192
+Value=9199
+Value=9211:9214
+Value=9219:9220
+Value=9230
+Value=9241
+Value=9249
+Value=9301:9303
+Value=9309
+Value=9500
+Value=9900
+Value=9999;NR
+Value='    ';NA
+Name=NOTAPPL,Special
+
+[Item]
+Label=GM117. ¿En su trabajo o negocio de la semana pasada...,trabajó como...
+Name=GM117
+Start=328
+Len=1
+DataType=Numeric
+ZeroFill=Yes
+
+[ValueSet]
+Label=GM117. ¿En su trabajo o negocio de la semana pasada...,trabajó como...
+Name=GM117_VS1
+Value=1;empleado / obrero público?
+Value=2;empleado / obrero privado?
+Value=3;empleador o patrón?
+Value=4;trabajador por cuenta propia?
+Value=5;trabajador familiar no remunerado?
+Value=6;empleado doméstico?
+Value=7;Empleado / Obrero / empleado doméstico en el extranjero?
+Value=8;Patrón / Cuenta Propia en el extranjero?
+Value=9;NR
+Value=' ';NA
+Name=NOTAPPL,Special
+
+[Item]
+Label=GM118. ¿ La semana pasada tuvo..
+Name=GM118
+Start=329
+Len=1
+DataType=Numeric
+ZeroFill=Yes
+
+[ValueSet]
+Label=GM118. ¿ La semana pasada tuvo..
+Name=GM118_VS1
+Value=1;CONTRATO INDEFINIDO / NOMBRADO
+Value=2;CONTRATO DEFINIDO TEMPORAL CON EMISION DE FACTURA LEGAL
+Value=3;CONTRATO DEFINIDO / NOMBRADO TEMPORAL SIN EMISION DE FACTURA LEGAL
+Value=4;CONTRATO VERBAL
+Value=9;NR
+Value=' ';NA
+Name=NOTAPPL,Special
+
+[Item]
+Label=GM119.¿ QUE PRODUCE O A QUE SE DEDICA LA EMPRESA O NEGOCIO PARA EL QUE TRABAJA?
+Name=GM119
+Start=330
+Len=1
+DataType=Numeric
+ZeroFill=Yes
+
+[ValueSet]
+Label=GM119.¿ QUE PRODUCE O A QUE SE DEDICA LA EMPRESA O NEGOCIO PARA EL QUE TRABAJA?
+Name=GM119_VS1
+Value=1;AGRICULTURA, GANADERIA, CAZA, SILVICULTURA Y PESCA
+Value=2;INDUSTRIA MANUFACTURERA
+Value=3;ELECTRICIDAD, GAS Y AGUA
+Value=4;CONSTRUCCIONES
+Value=5;COMERCIO AL POR MAYOR Y MENOR, RESTAURANTES Y HOTELES
+Value=6;TRANSPORTE , ALMACENAMIENTO Y COMUNICACIONES
+Value=7;ESTABLECIMIENTOS FINANCIEROS, SEGUROS.BIENES INMUEBLES Y SERVICIOS PRESTADOS A LA EMPRESA
+Value=8;SERVICIOS COMUNALES, SOCIALES Y PERSONALES
+Value=9;NR
+Value=' ';NA
+Name=NOTAPPL,Special
+
+[Item]
+Label=GM120. ENCUESTADOR: REVISAR PGTA 17.
+Name=GM120
+Start=331
+Len=1
+DataType=Numeric
+ZeroFill=Yes
+
+[ValueSet]
+Label=GM120. ENCUESTADOR: REVISAR PGTA 17.
+Name=GM120_VS1
+Value=1;Sí
+Value=6;No
+Value=9;NR
+Value=' ';NA
+Name=NOTAPPL,Special
+
+[Item]
+Label=GM121. ¿ CUAL ES EL TAMAÑO DE LA PROPIEDAD?
+Name=GM121
+Start=332
+Len=1
+DataType=Numeric
+ZeroFill=Yes
+
+[ValueSet]
+Label=GM121. ¿ CUAL ES EL TAMAÑO DE LA PROPIEDAD?
+Name=GM121_VS1
+Value=1;MENOS DE 1 HECTAREA
+Value=2;ENTRE 1 Y 10 HECTAREAS
+Value=3;ENTRE 10 Y 20 HECTAREAS
+Value=4;ENTRE 20 Y 30 HECTAREAS
+Value=5;ENTRE 30 Y 40 HECTAREAS
+Value=6;MAS DE 50 HECTAREAS
+Value=9;NR
+Value=' ';NA
+Name=NOTAPPL,Special
+
+[Item]
+Label=GM122. ¿La situación del ingreso laboral es...
+Name=GM122
+Start=333
+Len=1
+DataType=Numeric
+ZeroFill=Yes
+
+[ValueSet]
+Label=GM122. ¿La situación del ingreso laboral es...
+Name=GM122_VS1
+Value=1;ESTABLE?
+Value=2;TEMPORAL?
+Value=3;FLUCTUANTE?
+Value=9;NR
+Value=' ';NA
+Name=NOTAPPL,Special
+
+[Item]
+Label=GM123. De su/s trabajo/s
+Name=GM123
+Start=334
+Len=11
+DataType=Numeric
+ZeroFill=Yes
+
+[ValueSet]
+Label=GM123. De su/s trabajo/s
+Name=GM123_VS1
+Value=0:9999999998
+Value=99999999999;NR
+Value='           ';NA
+Name=NOTAPPL,Special
+
+[Item]
+Label=GM124 Alquileres o rentas netos
+Name=GM124
+Start=345
+Len=11
+DataType=Numeric
+ZeroFill=Yes
+
+[ValueSet]
+Label=GM124 Alquileres o rentas netos
+Name=GM124_VS1
+Value=0:9999999998
+Value=99999999999;NR
+Value='           ';NA
+Name=NOTAPPL,Special
+
+[Item]
+Label=GM125. Jubilación
+Name=GM125
+Start=356
+Len=11
+DataType=Numeric
+ZeroFill=Yes
+
+[ValueSet]
+Label=GM125. Jubilación
+Name=GM125_VS1
+Value=0:9999999998
+Value=99999999999;NR
+Value='           ';NA
+Name=NOTAPPL,Special
+
+[Item]
+Label=GM126. Total
+Name=GM126
+Start=367
+Len=11
+DataType=Numeric
+ZeroFill=Yes
+
+[ValueSet]
+Label=GM126. Total
+Name=GM126_VS1
+Value=0:9999999998
+Value=99999999999;NR
+Value='           ';NA
+Name=NOTAPPL,Special
+
+[Item]
+Label=Edad88
+Name=EDAD88
+Start=378
+Len=3
+DataType=Numeric
+ZeroFill=Yes
+
+[Item]
+Label=MONTO TOTAL
+Name=P_TOTAL
+Start=381
+Len=11
+DataType=Numeric
+ZeroFill=Yes
+
+[Item]
+Label=Más personas viven en este hogar?
+Name=MPERSONA
+Start=392
+Len=1
+DataType=Numeric
+ZeroFill=Yes
+
+[ValueSet]
+Label=Más personas viven en este hogar?
+Name=MPERSONA_VS1
+Value=1;Si
+Value=6;No
+Value=' ';NA
+Name=NOTAPPL,Special
+
+[Record]
+Label=REG_D02_CERTIFICADO_TRABAJO_IPS
+Name=REG_D02
+RecordTypeValue='06'
+Required=No
+MaxRecords=30
+RecordLen=25
+
+[Item]
+Label=NRO DE LINEA
+Name=LD02
+Start=18
+Len=2
+DataType=Numeric
+ZeroFill=Yes
+
+[Item]
+Label=Dispone del Documento?
+Name=D02_1
+Start=20
+Len=1
+DataType=Numeric
+ZeroFill=Yes
+
+[ValueSet]
+Label=Dispone del Documento?
+Name=D02_1_VS1
+Value=1;Sí
+Value=6;No
+Value=' ';NA
+Name=NOTAPPL,Special
+
+[Item]
+Label=Estado de la foto
+Name=EST_FOTO_D02_1
+Start=21
+Len=1
+DataType=Numeric
+ZeroFill=Yes
+
+[ValueSet]
+Label=Estado de la foto
+Name=EST_FOTO_D02_1_VS1
+Value=1;Tomar foto
+Value=2;Ver si hay foto
+Value=3;Dejar foto
+Value=4;Borrar foto
+Value=5;Ya no tomar foto
+Value=' ';NA
+Name=NOTAPPL,Special
+
+[Item]
+Label=Estado de la foto
+Name=EST_FOTO_D02_2
+Start=22
+Len=1
+DataType=Numeric
+ZeroFill=Yes
+
+[ValueSet]
+Label=Estado de la foto
+Name=EST_FOTO_D02_2_VS1
+Value=1;Tomar foto
+Value=2;Ver si hay foto
+Value=3;Dejar foto
+Value=4;Borrar foto
+Value=5;Ya no tomar foto
+Value=' ';NA
+Name=NOTAPPL,Special
+
+[Item]
+Label=Estado de la foto
+Name=EST_FOTO_D02_3
+Start=23
+Len=1
+DataType=Numeric
+ZeroFill=Yes
+
+[ValueSet]
+Label=Estado de la foto
+Name=EST_FOTO_D02_3_VS1
+Value=1;Tomar foto
+Value=2;Ver si hay foto
+Value=3;Dejar foto
+Value=4;Borrar foto
+Value=5;Ya no tomar foto
+Value=' ';NA
+Name=NOTAPPL,Special
+
+[Item]
+Label=Estado de la foto
+Name=EST_FOTO_D02_4
+Start=24
+Len=1
+DataType=Numeric
+ZeroFill=Yes
+
+[ValueSet]
+Label=Estado de la foto
+Name=EST_FOTO_D02_4_VS1
+Value=1;Tomar foto
+Value=2;Ver si hay foto
+Value=3;Dejar foto
+Value=4;Borrar foto
+Value=5;Ya no tomar foto
+Value=' ';NA
+Name=NOTAPPL,Special
+
+[Item]
+Label=Estado de la foto
+Name=EST_FOTO_D02_5
+Start=25
+Len=1
+DataType=Numeric
+ZeroFill=Yes
+
+[ValueSet]
+Label=Estado de la foto
+Name=EST_FOTO_D02_5_VS1
+Value=1;Tomar foto
+Value=2;Ver si hay foto
+Value=3;Dejar foto
+Value=4;Borrar foto
+Value=5;Ya no tomar foto
+Value=' ';NA
+Name=NOTAPPL,Special
+
+[Record]
+Label=REG_D03_COMPROBANTES_IVA
+Name=REG_D03
+RecordTypeValue='07'
+Required=No
+MaxRecords=30
+RecordLen=70
+
+[Item]
+Label=NRO DE LINEA
+Name=LD03
+Start=18
+Len=2
+DataType=Numeric
+ZeroFill=Yes
+
+[Item]
+Label=D03_A1_C1. Dispone del Primer comprobante de IVA?
+Name=D03_A1_C1
+Start=20
+Len=1
+DataType=Numeric
+ZeroFill=Yes
+
+[ValueSet]
+Label=D03_A1_C1. Dispone del Primer comprobante de IVA?
+Name=D03_A1_C1_VS1
+Value=1;Sí
+Value=6;No
+Value=' ';NA
+Name=NOTAPPL,Special
+
+[Item]
+Label=Estado de la foto primera hoja
+Name=ESF_PC_H1
+Start=21
+Len=1
+DataType=Numeric
+ZeroFill=Yes
+
+[ValueSet]
+Label=Estado de la foto primera hoja
+Name=ESF_PC_H1_VS1
+Value=1;Tomar foto
+Value=2;Ver si hay foto
+Value=3;Dejar foto
+Value=4;Borrar foto
+Value=5;Ya no tomar foto
+Value=' ';NA
+Name=NOTAPPL,Special
+
+[Item]
+Label=Estado de la foto segunda hoja
+Name=ESF_PC_H2
+Start=22
+Len=1
+DataType=Numeric
+ZeroFill=Yes
+
+[ValueSet]
+Label=Estado de la foto segunda hoja
+Name=ESF_PC_H2_VS1
+Value=1;Tomar foto
+Value=2;Ver si hay foto
+Value=3;Dejar foto
+Value=4;Borrar foto
+Value=5;Ya no tomar foto
+Value=' ';NA
+Name=NOTAPPL,Special
+
+[Item]
+Label=Estado de la foto tercera hoja
+Name=ESF_PC_H3
+Start=23
+Len=1
+DataType=Numeric
+ZeroFill=Yes
+
+[ValueSet]
+Label=Estado de la foto tercera hoja
+Name=ESF_PC_H3_VS1
+Value=1;Tomar foto
+Value=2;Ver si hay foto
+Value=3;Dejar foto
+Value=4;Borrar foto
+Value=5;Ya no tomar foto
+Value=' ';NA
+Name=NOTAPPL,Special
+
+[Item]
+Label=D03_A1_C2. Dispone del Segundo comprobante de  IVA?
+Name=D03_A1_C2
+Start=24
+Len=1
+DataType=Numeric
+ZeroFill=Yes
+
+[ValueSet]
+Label=D03_A1_C2. Dispone del Segundo comprobante de  IVA?
+Name=D03_A1_C2_VS1
+Value=1;Sí
+Value=6;No
+Value=' ';NA
+Name=NOTAPPL,Special
+
+[Item]
+Label=Estado de la foto primera hoja
+Name=ESF_SC_H1
+Start=25
+Len=1
+DataType=Numeric
+ZeroFill=Yes
+
+[ValueSet]
+Label=Estado de la foto primera hoja
+Name=ESF_SC_H1_VS1
+Value=1;Tomar foto
+Value=2;Ver si hay foto
+Value=3;Dejar foto
+Value=4;Borrar foto
+Value=5;Ya no tomar foto
+Value=' ';NA
+Name=NOTAPPL,Special
+
+[Item]
+Label=Estado de la foto segunda hoja
+Name=ESF_SC_H2
+Start=26
+Len=1
+DataType=Numeric
+ZeroFill=Yes
+
+[ValueSet]
+Label=Estado de la foto segunda hoja
+Name=ESF_SC_H2_VS1
+Value=1;Tomar foto
+Value=2;Ver si hay foto
+Value=3;Dejar foto
+Value=4;Borrar foto
+Value=5;Ya no tomar foto
+Value=' ';NA
+Name=NOTAPPL,Special
+
+[Item]
+Label=Estado de la foto tercera hoja
+Name=ESF_SC_H3
+Start=27
+Len=1
+DataType=Numeric
+ZeroFill=Yes
+
+[ValueSet]
+Label=Estado de la foto tercera hoja
+Name=ESF_SC_H3_VS1
+Value=1;Tomar foto
+Value=2;Ver si hay foto
+Value=3;Dejar foto
+Value=4;Borrar foto
+Value=5;Ya no tomar foto
+Value=' ';NA
+Name=NOTAPPL,Special
+
+[Item]
+Label=D03_A1_C3. Dispone del Tercer comprobante de IVA?
+Name=D03_A1_C3
+Start=28
+Len=1
+DataType=Numeric
+ZeroFill=Yes
+
+[ValueSet]
+Label=D03_A1_C3. Dispone del Tercer comprobante de IVA?
+Name=D03_A1_C3_VS1
+Value=1;Sí
+Value=6;No
+Value=' ';NA
+Name=NOTAPPL,Special
+
+[Item]
+Label=Estado de la foto primera hoja
+Name=ESF_TC_H1
+Start=29
+Len=1
+DataType=Numeric
+ZeroFill=Yes
+
+[ValueSet]
+Label=Estado de la foto primera hoja
+Name=ESF_TC_H1_VS1
+Value=1;Tomar foto
+Value=2;Ver si hay foto
+Value=3;Dejar foto
+Value=4;Borrar foto
+Value=5;Ya no tomar foto
+Value=' ';NA
+Name=NOTAPPL,Special
+
+[Item]
+Label=Estado de la foto segunda hoja
+Name=ESF_TC_H2
+Start=30
+Len=1
+DataType=Numeric
+ZeroFill=Yes
+
+[ValueSet]
+Label=Estado de la foto segunda hoja
+Name=ESF_TC_H2_VS1
+Value=1;Tomar foto
+Value=2;Ver si hay foto
+Value=3;Dejar foto
+Value=4;Borrar foto
+Value=5;Ya no tomar foto
+Value=' ';NA
+Name=NOTAPPL,Special
+
+[Item]
+Label=Estado de la foto tercera hoja
+Name=ESF_TC_H3
+Start=31
+Len=1
+DataType=Numeric
+ZeroFill=Yes
+
+[ValueSet]
+Label=Estado de la foto tercera hoja
+Name=ESF_TC_H3_VS1
+Value=1;Tomar foto
+Value=2;Ver si hay foto
+Value=3;Dejar foto
+Value=4;Borrar foto
+Value=5;Ya no tomar foto
+Value=' ';NA
+Name=NOTAPPL,Special
+
+[Item]
+Label=Tiene otra actividad?
+Name=OTRA_ACTI2
+Start=32
+Len=1
+DataType=Numeric
+ZeroFill=Yes
+
+[ValueSet]
+Label=Tiene otra actividad?
+Name=OTRA_ACTI2_VS1
+Value=1;Sí
+Value=6;No
+Value=' ';NA
+Name=NOTAPPL,Special
+
+[Item]
+Label=D03_A2_C1. Dispone del Primer comprobante de  IVA?
+Name=D03_A2_C1
+Start=33
+Len=1
+DataType=Numeric
+ZeroFill=Yes
+
+[ValueSet]
+Label=D03_A2_C1. Dispone del Primer comprobante de  IVA?
+Name=D03_A2_C1_VS1
+Value=1;Sí
+Value=6;No
+Value=' ';NA
+Name=NOTAPPL,Special
+
+[Item]
+Label=Estado de la foto primera hoja
+Name=ESF_A2_PC_H1
+Start=34
+Len=1
+DataType=Numeric
+ZeroFill=Yes
+
+[ValueSet]
+Label=Estado de la foto primera hoja
+Name=ESF_A2_PC_H1_VS1
+Value=1;Tomar foto
+Value=2;Ver si hay foto
+Value=3;Dejar foto
+Value=4;Borrar foto
+Value=5;Ya no tomar foto
+Value=' ';NA
+Name=NOTAPPL,Special
+
+[Item]
+Label=Estado de la foto segunda hoja
+Name=ESF_A2_PC_H2
+Start=35
+Len=1
+DataType=Numeric
+ZeroFill=Yes
+
+[ValueSet]
+Label=Estado de la foto segunda hoja
+Name=ESF_A2_PC_H2_VS1
+Value=1;Tomar foto
+Value=2;Ver si hay foto
+Value=3;Dejar foto
+Value=4;Borrar foto
+Value=5;Ya no tomar foto
+Value=' ';NA
+Name=NOTAPPL,Special
+
+[Item]
+Label=Estado de la foto tercera hoja
+Name=ESF_A2_PC_H3
+Start=36
+Len=1
+DataType=Numeric
+ZeroFill=Yes
+
+[ValueSet]
+Label=Estado de la foto tercera hoja
+Name=ESF_A2_PC_H3_VS1
+Value=1;Tomar foto
+Value=2;Ver si hay foto
+Value=3;Dejar foto
+Value=4;Borrar foto
+Value=5;Ya no tomar foto
+Value=' ';NA
+Name=NOTAPPL,Special
+
+[Item]
+Label=D03_A2_C2. Dispone del Segundo comprobante de  IVA?
+Name=D03_A2_C2
+Start=37
+Len=1
+DataType=Numeric
+ZeroFill=Yes
+
+[ValueSet]
+Label=D03_A2_C2. Dispone del Segundo comprobante de  IVA?
+Name=D03_A2_C2_VS1
+Value=1;Sí
+Value=6;No
+Value=' ';NA
+Name=NOTAPPL,Special
+
+[Item]
+Label=Estado de la foto primera hoja
+Name=ESF_A2_SC_H1
+Start=38
+Len=1
+DataType=Numeric
+ZeroFill=Yes
+
+[ValueSet]
+Label=Estado de la foto primera hoja
+Name=ESF_A2_SC_H1_VS1
+Value=1;Tomar foto
+Value=2;Ver si hay foto
+Value=3;Dejar foto
+Value=4;Borrar foto
+Value=5;Ya no tomar foto
+Value=' ';NA
+Name=NOTAPPL,Special
+
+[Item]
+Label=Estado de la foto segunda hoja
+Name=ESF_A2_SC_H2
+Start=39
+Len=1
+DataType=Numeric
+ZeroFill=Yes
+
+[ValueSet]
+Label=Estado de la foto segunda hoja
+Name=ESF_A2_SC_H2_VS1
+Value=1;Tomar foto
+Value=2;Ver si hay foto
+Value=3;Dejar foto
+Value=4;Borrar foto
+Value=5;Ya no tomar foto
+Value=' ';NA
+Name=NOTAPPL,Special
+
+[Item]
+Label=Estado de la foto tercera hoja
+Name=ESF_A2_SC_H3
+Start=40
+Len=1
+DataType=Numeric
+ZeroFill=Yes
+
+[ValueSet]
+Label=Estado de la foto tercera hoja
+Name=ESF_A2_SC_H3_VS1
+Value=1;Tomar foto
+Value=2;Ver si hay foto
+Value=3;Dejar foto
+Value=4;Borrar foto
+Value=5;Ya no tomar foto
+Value=' ';NA
+Name=NOTAPPL,Special
+
+[Item]
+Label=D03_A2_C3. Dispone del Tercer comprobante de  IVA?
+Name=D03_A2_C3
+Start=41
+Len=1
+DataType=Numeric
+ZeroFill=Yes
+
+[ValueSet]
+Label=D03_A2_C3. Dispone del Tercer comprobante de  IVA?
+Name=D03_A2_C3_VS1
+Value=1;Sí
+Value=6;No
+Value=' ';NA
+Name=NOTAPPL,Special
+
+[Item]
+Label=Estado de la foto primera hoja
+Name=ESF_A2_TC_H1
+Start=42
+Len=1
+DataType=Numeric
+ZeroFill=Yes
+
+[ValueSet]
+Label=Estado de la foto primera hoja
+Name=ESF_A2_TC_H1_VS1
+Value=1;Tomar foto
+Value=2;Ver si hay foto
+Value=3;Dejar foto
+Value=4;Borrar foto
+Value=5;Ya no tomar foto
+Value=' ';NA
+Name=NOTAPPL,Special
+
+[Item]
+Label=Estado de la foto segunda hoja
+Name=ESF_A2_TC_H2
+Start=43
+Len=1
+DataType=Numeric
+ZeroFill=Yes
+
+[ValueSet]
+Label=Estado de la foto segunda hoja
+Name=ESF_A2_TC_H2_VS1
+Value=1;Tomar foto
+Value=2;Ver si hay foto
+Value=3;Dejar foto
+Value=4;Borrar foto
+Value=5;Ya no tomar foto
+Value=' ';NA
+Name=NOTAPPL,Special
+
+[Item]
+Label=Estado de la foto tercera hoja
+Name=ESF_A2_TC_H3
+Start=44
+Len=1
+DataType=Numeric
+ZeroFill=Yes
+
+[ValueSet]
+Label=Estado de la foto tercera hoja
+Name=ESF_A2_TC_H3_VS1
+Value=1;Tomar foto
+Value=2;Ver si hay foto
+Value=3;Dejar foto
+Value=4;Borrar foto
+Value=5;Ya no tomar foto
+Value=' ';NA
+Name=NOTAPPL,Special
+
+[Item]
+Label=Tiene otra actividad?
+Name=OTRA_ACTI3
+Start=45
+Len=1
+DataType=Numeric
+ZeroFill=Yes
+
+[ValueSet]
+Label=Tiene otra actividad?
+Name=OTRA_ACTI3_VS1
+Value=1;Sí
+Value=6;No
+Value=' ';NA
+Name=NOTAPPL,Special
+
+[Item]
+Label=D03_A3_C1. Dispone del Primer comprobante de  IVA?
+Name=D03_A3_C1
+Start=46
+Len=1
+DataType=Numeric
+ZeroFill=Yes
+
+[ValueSet]
+Label=D03_A3_C1. Dispone del Primer comprobante de  IVA?
+Name=D03_A3_C1_VS1
+Value=1;Sí
+Value=6;No
+Value=' ';NA
+Name=NOTAPPL,Special
+
+[Item]
+Label=Estado de la foto primera hoja
+Name=ESF_A3_PC_H1
+Start=47
+Len=1
+DataType=Numeric
+ZeroFill=Yes
+
+[ValueSet]
+Label=Estado de la foto primera hoja
+Name=ESF_A3_PC_H1_VS1
+Value=1;Tomar foto
+Value=2;Ver si hay foto
+Value=3;Dejar foto
+Value=4;Borrar foto
+Value=5;Ya no tomar foto
+Value=' ';NA
+Name=NOTAPPL,Special
+
+[Item]
+Label=Estado de la foto segunda hoja
+Name=ESF_A3_PC_H2
+Start=48
+Len=1
+DataType=Numeric
+ZeroFill=Yes
+
+[ValueSet]
+Label=Estado de la foto segunda hoja
+Name=ESF_A3_PC_H2_VS1
+Value=1;Tomar foto
+Value=2;Ver si hay foto
+Value=3;Dejar foto
+Value=4;Borrar foto
+Value=5;Ya no tomar foto
+Value=' ';NA
+Name=NOTAPPL,Special
+
+[Item]
+Label=Estado de la foto tercera hoja
+Name=ESF_A3_PC_H3
+Start=49
+Len=1
+DataType=Numeric
+ZeroFill=Yes
+
+[ValueSet]
+Label=Estado de la foto tercera hoja
+Name=ESF_A3_PC_H3_VS1
+Value=1;Tomar foto
+Value=2;Ver si hay foto
+Value=3;Dejar foto
+Value=4;Borrar foto
+Value=5;Ya no tomar foto
+Value=' ';NA
+Name=NOTAPPL,Special
+
+[Item]
+Label=D03_A3_C2. Dispone del Segundo comprobante de  IVA?
+Name=D03_A3_C2
+Start=50
+Len=1
+DataType=Numeric
+ZeroFill=Yes
+
+[ValueSet]
+Label=D03_A3_C2. Dispone del Segundo comprobante de  IVA?
+Name=D03_A3_C2_VS1
+Value=1;Sí
+Value=6;No
+Value=' ';NA
+Name=NOTAPPL,Special
+
+[Item]
+Label=Estado de la foto primera hoja
+Name=ESF_A3_SC_H1
+Start=51
+Len=1
+DataType=Numeric
+ZeroFill=Yes
+
+[ValueSet]
+Label=Estado de la foto primera hoja
+Name=ESF_A3_SC_H1_VS1
+Value=1;Tomar foto
+Value=2;Ver si hay foto
+Value=3;Dejar foto
+Value=4;Borrar foto
+Value=5;Ya no tomar foto
+Value=' ';NA
+Name=NOTAPPL,Special
+
+[Item]
+Label=Estado de la foto segunda hoja
+Name=ESF_A3_SC_H2
+Start=52
+Len=1
+DataType=Numeric
+ZeroFill=Yes
+
+[ValueSet]
+Label=Estado de la foto segunda hoja
+Name=ESF_A3_SC_H2_VS1
+Value=1;Tomar foto
+Value=2;Ver si hay foto
+Value=3;Dejar foto
+Value=4;Borrar foto
+Value=5;Ya no tomar foto
+Value=' ';NA
+Name=NOTAPPL,Special
+
+[Item]
+Label=Estado de la foto tercera hoja
+Name=ESF_A3_SC_H3
+Start=53
+Len=1
+DataType=Numeric
+ZeroFill=Yes
+
+[ValueSet]
+Label=Estado de la foto tercera hoja
+Name=ESF_A3_SC_H3_VS1
+Value=1;Tomar foto
+Value=2;Ver si hay foto
+Value=3;Dejar foto
+Value=4;Borrar foto
+Value=5;Ya no tomar foto
+Value=' ';NA
+Name=NOTAPPL,Special
+
+[Item]
+Label=D03_A3_C3. Dispone del Tercer comprobante de  IVA?
+Name=D03_A3_C3
+Start=54
+Len=1
+DataType=Numeric
+ZeroFill=Yes
+
+[ValueSet]
+Label=D03_A3_C3. Dispone del Tercer comprobante de  IVA?
+Name=D03_A3_C3_VS1
+Value=1;Sí
+Value=6;No
+Value=' ';NA
+Name=NOTAPPL,Special
+
+[Item]
+Label=Estado de la foto primera hoja
+Name=ESF_A3_TC_H1
+Start=55
+Len=1
+DataType=Numeric
+ZeroFill=Yes
+
+[ValueSet]
+Label=Estado de la foto primera hoja
+Name=ESF_A3_TC_H1_VS1
+Value=1;Tomar foto
+Value=2;Ver si hay foto
+Value=3;Dejar foto
+Value=4;Borrar foto
+Value=5;Ya no tomar foto
+Value=' ';NA
+Name=NOTAPPL,Special
+
+[Item]
+Label=Estado de la foto segunda hoja
+Name=ESF_A3_TC_H2
+Start=56
+Len=1
+DataType=Numeric
+ZeroFill=Yes
+
+[ValueSet]
+Label=Estado de la foto segunda hoja
+Name=ESF_A3_TC_H2_VS1
+Value=1;Tomar foto
+Value=2;Ver si hay foto
+Value=3;Dejar foto
+Value=4;Borrar foto
+Value=5;Ya no tomar foto
+Value=' ';NA
+Name=NOTAPPL,Special
+
+[Item]
+Label=Estado de la foto tercera hoja
+Name=ESF_A3_TC_H3
+Start=57
+Len=1
+DataType=Numeric
+ZeroFill=Yes
+
+[ValueSet]
+Label=Estado de la foto tercera hoja
+Name=ESF_A3_TC_H3_VS1
+Value=1;Tomar foto
+Value=2;Ver si hay foto
+Value=3;Dejar foto
+Value=4;Borrar foto
+Value=5;Ya no tomar foto
+Value=' ';NA
+Name=NOTAPPL,Special
+
+[Item]
+Label=Tiene otra actividad?
+Name=OTRA_ACTI4
+Start=58
+Len=1
+DataType=Numeric
+ZeroFill=Yes
+
+[ValueSet]
+Label=Tiene otra actividad?
+Name=OTRA_ACTI4_VS1
+Value=1;Sí
+Value=6;No
+Value=' ';NA
+Name=NOTAPPL,Special
+
+[Item]
+Label=D03_A4_C1. Dispone del Primer comprobante de  IVA?
+Name=D03_A4_C1
+Start=59
+Len=1
+DataType=Numeric
+ZeroFill=Yes
+
+[ValueSet]
+Label=D03_A4_C1. Dispone del Primer comprobante de  IVA?
+Name=D03_A4_C1_VS1
+Value=1;Sí
+Value=6;No
+Value=' ';NA
+Name=NOTAPPL,Special
+
+[Item]
+Label=Estado de la foto primera hoja
+Name=ESF_A4_PC_H1
+Start=60
+Len=1
+DataType=Numeric
+ZeroFill=Yes
+
+[ValueSet]
+Label=Estado de la foto primera hoja
+Name=ESF_A4_PC_H1_VS1
+Value=1;Tomar foto
+Value=2;Ver si hay foto
+Value=3;Dejar foto
+Value=4;Borrar foto
+Value=5;Ya no tomar foto
+Value=' ';NA
+Name=NOTAPPL,Special
+
+[Item]
+Label=Estado de la foto segunda hoja
+Name=ESF_A4_PC_H2
+Start=61
+Len=1
+DataType=Numeric
+ZeroFill=Yes
+
+[ValueSet]
+Label=Estado de la foto segunda hoja
+Name=ESF_A4_PC_H2_VS1
+Value=1;Tomar foto
+Value=2;Ver si hay foto
+Value=3;Dejar foto
+Value=4;Borrar foto
+Value=5;Ya no tomar foto
+Value=' ';NA
+Name=NOTAPPL,Special
+
+[Item]
+Label=Estado de la foto tercera hoja
+Name=ESF_A4_PC_H3
+Start=62
+Len=1
+DataType=Numeric
+ZeroFill=Yes
+
+[ValueSet]
+Label=Estado de la foto tercera hoja
+Name=ESF_A4_PC_H3_VS1
+Value=1;Tomar foto
+Value=2;Ver si hay foto
+Value=3;Dejar foto
+Value=4;Borrar foto
+Value=5;Ya no tomar foto
+Value=' ';NA
+Name=NOTAPPL,Special
+
+[Item]
+Label=D03_A4_C2. Dispone del Segundo comprobante de  IVA?
+Name=D03_A4_C2
+Start=63
+Len=1
+DataType=Numeric
+ZeroFill=Yes
+
+[ValueSet]
+Label=D03_A4_C2. Dispone del Segundo comprobante de  IVA?
+Name=D03_A4_C2_VS1
+Value=1;Sí
+Value=6;No
+Value=' ';NA
+Name=NOTAPPL,Special
+
+[Item]
+Label=Estado de la foto primera hoja
+Name=ESF_A4_SC_H1
+Start=64
+Len=1
+DataType=Numeric
+ZeroFill=Yes
+
+[ValueSet]
+Label=Estado de la foto primera hoja
+Name=ESF_A4_SC_H1_VS1
+Value=1;Tomar foto
+Value=2;Ver si hay foto
+Value=3;Dejar foto
+Value=4;Borrar foto
+Value=5;Ya no tomar foto
+Value=' ';NA
+Name=NOTAPPL,Special
+
+[Item]
+Label=Estado de la foto segunda hoja
+Name=ESF_A4_SC_H2
+Start=65
+Len=1
+DataType=Numeric
+ZeroFill=Yes
+
+[ValueSet]
+Label=Estado de la foto segunda hoja
+Name=ESF_A4_SC_H2_VS1
+Value=1;Tomar foto
+Value=2;Ver si hay foto
+Value=3;Dejar foto
+Value=4;Borrar foto
+Value=5;Ya no tomar foto
+Value=' ';NA
+Name=NOTAPPL,Special
+
+[Item]
+Label=Estado de la foto tercera hoja
+Name=ESF_A4_SC_H3
+Start=66
+Len=1
+DataType=Numeric
+ZeroFill=Yes
+
+[ValueSet]
+Label=Estado de la foto tercera hoja
+Name=ESF_A4_SC_H3_VS1
+Value=1;Tomar foto
+Value=2;Ver si hay foto
+Value=3;Dejar foto
+Value=4;Borrar foto
+Value=5;Ya no tomar foto
+Value=' ';NA
+Name=NOTAPPL,Special
+
+[Item]
+Label=D03_A4_C3. Dispone del Tercer comprobante de  IVA?
+Name=D03_A4_C3
+Start=67
+Len=1
+DataType=Numeric
+ZeroFill=Yes
+
+[ValueSet]
+Label=D03_A4_C3. Dispone del Tercer comprobante de  IVA?
+Name=D03_A4_C3_VS1
+Value=1;Sí
+Value=6;No
+Value=' ';NA
+Name=NOTAPPL,Special
+
+[Item]
+Label=Estado de la foto primera hoja
+Name=ESF_A4_TC_H1
+Start=68
+Len=1
+DataType=Numeric
+ZeroFill=Yes
+
+[ValueSet]
+Label=Estado de la foto primera hoja
+Name=ESF_A4_TC_H1_VS1
+Value=1;Tomar foto
+Value=2;Ver si hay foto
+Value=3;Dejar foto
+Value=4;Borrar foto
+Value=5;Ya no tomar foto
+Value=' ';NA
+Name=NOTAPPL,Special
+
+[Item]
+Label=Estado de la foto segunda hoja
+Name=ESF_A4_TC_H2
+Start=69
+Len=1
+DataType=Numeric
+ZeroFill=Yes
+
+[ValueSet]
+Label=Estado de la foto segunda hoja
+Name=ESF_A4_TC_H2_VS1
+Value=1;Tomar foto
+Value=2;Ver si hay foto
+Value=3;Dejar foto
+Value=4;Borrar foto
+Value=5;Ya no tomar foto
+Value=' ';NA
+Name=NOTAPPL,Special
+
+[Item]
+Label=Estado de la foto tercera hoja
+Name=ESF_A4_TC_H3
+Start=70
+Len=1
+DataType=Numeric
+ZeroFill=Yes
+
+[ValueSet]
+Label=Estado de la foto tercera hoja
+Name=ESF_A4_TC_H3_VS1
+Value=1;Tomar foto
+Value=2;Ver si hay foto
+Value=3;Dejar foto
+Value=4;Borrar foto
+Value=5;Ya no tomar foto
+Value=' ';NA
+Name=NOTAPPL,Special
+
+[Record]
+Label=REG_D06_CERTF_DISCAPACIDAD
+Name=REG_D06
+RecordTypeValue='08'
+Required=No
+MaxRecords=30
+RecordLen=23
+
+[Item]
+Label=NRO DE LINEA
+Name=LD06
+Start=18
+Len=2
+DataType=Numeric
+ZeroFill=Yes
+
+[Item]
+Label=DISPONE DEL DOCUMENTO?
+Name=D06_1
+Start=20
+Len=1
+DataType=Numeric
+ZeroFill=Yes
+
+[ValueSet]
+Label=DISPONE DEL DOCUMENTO?
+Name=D06_1_VS1
+Value=1;Sí
+Value=6;No
+Value=' ';NA
+Name=NOTAPPL,Special
+
+[Item]
+Label=Estado de la foto HOJA 1
+Name=EST_FOTO_D06_1
+Start=21
+Len=1
+DataType=Numeric
+ZeroFill=Yes
+
+[ValueSet]
+Label=Estado de la foto HOJA 1
+Name=EST_FOTO_D06_1_VS1
+Value=1;Tomar foto
+Value=2;Ver si hay foto
+Value=3;Dejar foto
+Value=4;Borrar foto
+Value=5;Ya no tomar foto
+Value=' ';NA
+Name=NOTAPPL,Special
+
+[Item]
+Label=Estado de la foto HOJA 2
+Name=EST_FOTO_D06_2
+Start=22
+Len=1
+DataType=Numeric
+ZeroFill=Yes
+
+[ValueSet]
+Label=Estado de la foto HOJA 2
+Name=EST_FOTO_D06_2_VS1
+Value=1;Tomar foto
+Value=2;Ver si hay foto
+Value=3;Dejar foto
+Value=4;Borrar foto
+Value=5;Ya no tomar foto
+Value=' ';NA
+Name=NOTAPPL,Special
+
+[Item]
+Label=Estado de la foto HOJA 3
+Name=EST_FOTO_D06_3
+Start=23
+Len=1
+DataType=Numeric
+ZeroFill=Yes
+
+[ValueSet]
+Label=Estado de la foto HOJA 3
+Name=EST_FOTO_D06_3_VS1
+Value=1;Tomar foto
+Value=2;Ver si hay foto
+Value=3;Dejar foto
+Value=4;Borrar foto
+Value=5;Ya no tomar foto
+Value=' ';NA
+Name=NOTAPPL,Special
+
+[Record]
+Label=REG_D07_CERTF_ENFERMEDAD
+Name=REG_D07
+RecordTypeValue='09'
+Required=No
+MaxRecords=30
+RecordLen=23
+
+[Item]
+Label=NRO DE LINEA
+Name=LD07
+Start=18
+Len=2
+DataType=Numeric
+ZeroFill=Yes
+
+[Item]
+Label=DISPONE DEL DOCUMENTO?
+Name=D07_1
+Start=20
+Len=1
+DataType=Numeric
+ZeroFill=Yes
+
+[ValueSet]
+Label=DISPONE DEL DOCUMENTO?
+Name=D07_1_VS1
+Value=1;Sí
+Value=6;No
+Value=' ';NA
+Name=NOTAPPL,Special
+
+[Item]
+Label=Estado de la foto HOJA 1
+Name=EST_FOTO_D07_1
+Start=21
+Len=1
+DataType=Numeric
+ZeroFill=Yes
+
+[ValueSet]
+Label=Estado de la foto HOJA 1
+Name=EST_FOTO_D07_1_VS1
+Value=1;Tomar foto
+Value=2;Ver si hay foto
+Value=3;Dejar foto
+Value=4;Borrar foto
+Value=5;Ya no tomar foto
+Value=' ';NA
+Name=NOTAPPL,Special
+
+[Item]
+Label=Estado de la foto HOJA 2
+Name=EST_FOTO_D07_2
+Start=22
+Len=1
+DataType=Numeric
+ZeroFill=Yes
+
+[ValueSet]
+Label=Estado de la foto HOJA 2
+Name=EST_FOTO_D07_2_VS1
+Value=1;Tomar foto
+Value=2;Ver si hay foto
+Value=3;Dejar foto
+Value=4;Borrar foto
+Value=5;Ya no tomar foto
+Value=' ';NA
+Name=NOTAPPL,Special
+
+[Item]
+Label=Estado de la foto HOJA 3
+Name=EST_FOTO_D07_3
+Start=23
+Len=1
+DataType=Numeric
+ZeroFill=Yes
+
+[ValueSet]
+Label=Estado de la foto HOJA 3
+Name=EST_FOTO_D07_3_VS1
+Value=1;Tomar foto
+Value=2;Ver si hay foto
+Value=3;Dejar foto
+Value=4;Borrar foto
+Value=5;Ya no tomar foto
+Value=' ';NA
+Name=NOTAPPL,Special
+
+[Record]
+Label=Registro de Bienes Duraderos
+Name=REG04A_BIENES
+RecordTypeValue='10'
+Required=No
+MaxRecords=15
+RecordLen=119
+
+[Item]
+Label=BD15.1. Bienes
+Name=BD15_01
+Start=18
+Len=2
+DataType=Numeric
+ZeroFill=Yes
+
+[ValueSet]
+Label=BD15.1. Bienes
+Name=BD15_01_VS1
+Value=1;computador PC?
+Value=2;notebook?
+Value=3;tableta?
+Value=4;televisión?
+Value=5;heladera?
+Value=6;cocina a gas?
+Value=7;cocina eléctrica?
+Value=8;placa eléctrica?
+Value=9;máquina lavarropa?
+Value=10;termocalefón?
+Value=11;acondicionador de aire?
+Value=12;horno microondas?
+Value=13;horno eléctrico?
+Value=14;automóvil, camión o camioneta?
+Value=15;motocicleta?
+
+[Item]
+Label=BD15.2. ¿Este hogar tiene...
+Name=BD15_02
+Start=20
+Len=1
+DataType=Numeric
+ZeroFill=Yes
+
+[ValueSet]
+Label=BD15.2. ¿Este hogar tiene...
+Name=BD15_02_VS1
+Value=1;Sí
+Value=6;No
+Value=9;NR
+Value=' ';NA
+Name=NOTAPPL,Special
+
+[Item]
+Label=BD15.3. ¿Cuántos tienen
+Name=BD15_03
+Start=21
+Len=2
+DataType=Numeric
+ZeroFill=Yes
+
+[ValueSet]
+Label=BD15.3. ¿Cuántos tienen
+Name=BD15_03_VS1
+Value=1:98;Cantidad
+Value=99;NR
+Value='  ';NA
+Name=NOTAPPL,Special
+
+[Item]
+Label=BD15.4. ¿Cómo lo adquirió...
+Name=BD15_04
+Start=23
+Len=2
+DataType=Numeric
+ZeroFill=Yes
+
+[ValueSet]
+Label=BD15.4. ¿Cómo lo adquirió...
+Name=BD15_04_VS1
+Value=1;Compró
+Value=2;Le regalaron
+Value=3;Otro
+Value=99;NR
+Value='  ';NA
+Name=NOTAPPL,Special
+
+[Item]
+Label=BD15.4E. Especificar
+Name=BD15_04E
+Start=25
+Len=80
+DataType=Alpha
+
+[Item]
+Label=BD15.5. ¿En qué año compro el más reciente?
+Name=BD15_05
+Start=105
+Len=4
+DataType=Numeric
+ZeroFill=Yes
+
+[ValueSet]
+Label=BD15.5. ¿En qué año compro el más reciente?
+Name=BD15_05_VS1
+Value=1900:2024;Año
+Value=9999;NR
+Value='    ';NA
+Name=NOTAPPL,Special
+
+[Item]
+Label=BD15.6. ¿Cuánto le costó?
+Name=BD15_06
+Start=109
+Len=11
+DataType=Numeric
+ZeroFill=Yes
+
+[ValueSet]
+Label=BD15.6. ¿Cuánto le costó?
+Name=BD15_06_VS1
+Value=1:99999999998;Guaranies
+Value=99999999999;NR
+Value='           ';NA
+Name=NOTAPPL,Special
+
+[Record]
+Label=Registro de responsable manutención
+Name=REG_MANUTENC
+RecordTypeValue='11'
+Required=No
+MaxRecords=30
+RecordLen=62
+
+[Item]
+Label=LP13 Número de línea
+Name=LP13
+Start=18
+Len=2
+DataType=Numeric
+ZeroFill=Yes
+
+[Item]
+Label=P113A. ¿Número de línea de la persona?
+Name=P113A
+Start=20
+Len=2
+DataType=Numeric
+ZeroFill=Yes
+
+[ValueSet]
+Label=P113A. ¿Número de línea de la persona?
+Name=P113A_VS1
+Value=0;Sin datos
+Value=1:25;Línea de la persona miembros del hogar
+Value=30:39;Línea de la persona no miembros del hogar
+Value=88;Busca
+Value=99;NR
+Value='  ';NA
+Name=NOTAPPL,Special
+
+[Item]
+Label=P113AE. Especifique
+Name=P113AE
+Start=22
+Len=40
+DataType=Alpha
+
+[Item]
+Label=MManutenc
+Name=MMANUTENC
+Start=62
+Len=1
+DataType=Numeric
+ZeroFill=Yes
+
+[ValueSet]
+Label=MManutenc
+Name=MMANUTENC_VS1
+Value=1;Sí
+Value=6;No
+Value=' ';NA
+Name=NOTAPPL,Special
+
+[Record]
+Label=Situaciones Adversas
+Name=REG_SITU_ADVERSAS
+RecordTypeValue='12'
+Required=No
+MaxRecords=10
+RecordLen=174
+
+[Item]
+Label=SADL02 Número de línea
+Name=SADL021
+Start=18
+Len=2
+DataType=Numeric
+ZeroFill=Yes
+
+[ValueSet]
+Label=SADL02 Número de línea
+Name=SADL021_VS1
+Value=1;la pérdida del empleo de algún miembro del hogar?
+Value=2;la quiebra del negocio familiar?
+Value=3;la enfermedad o accidente grave de algún miembro del hogar?
+Value=4;el abandono del jefe del hogar?
+Value=5;el incendio de la vivienda, negocio o propiedad?
+Value=6;por algún hecho delictivo?
+Value=7;alguna sequia?
+Value=8;una inundación o alguna tormenta?
+Value=9;alguna plaga?
+Value=10;algún otro hecho adverso
+Value='  ';NA
+Name=NOTAPPL,Special
+
+[Item]
+Label=SAD01C. 1. Fueron afectados
+Name=SAD01C
+Start=20
+Len=2
+DataType=Numeric
+ZeroFill=Yes
+
+[ValueSet]
+Label=SAD01C. 1. Fueron afectados
+Name=SAD01C_VS1
+Value=1;Sí
+Value=6;No
+Value='  ';NA
+Name=NOTAPPL,Special
+
+[Item]
+Label=SAD01CE. Especifique
+Name=SAD01CE
+Start=22
+Len=40
+DataType=Alpha
+
+[Item]
+Label=SAD01M. 1. ¿En qué mes ocurrió?
+Name=SAD01M
+Start=62
+Len=2
+DataType=Numeric
+ZeroFill=Yes
+
+[ValueSet]
+Label=SAD01M. 1. ¿En qué mes ocurrió?
+Name=SAD01M_VS1
+Value=1;enero
+Value=2;febrero
+Value=3;marzo
+Value=4;abril
+Value=5;mayo
+Value=6;junio
+Value=7;julio
+Value=8;agosto
+Value=9;setiembre
+Value=10;octubre
+Value=11;noviembre
+Value=12;diciembre
+Value=99;NR
+Value='  ';NA
+Name=NOTAPPL,Special
+
+[Item]
+Label=SAD02.  ¿ha significado para el hogar una pérdida de
+Name=SAD02
+Start=64
+Len=1
+DataType=Numeric
+ZeroFill=Yes
+
+[ValueSet]
+Label=SAD02.  ¿ha significado para el hogar una pérdida de
+Name=SAD02_VS1
+Value=1;sólo los ingresos?
+Value=2;solo los bienes o el patrimonio?
+Value=3;ambos?
+Value=4;otros?
+Value=9;NR
+Value=' ';NA
+Name=NOTAPPL,Special
+
+[Item]
+Label=SAD02E. Especifique
+Name=SAD02E
+Start=65
+Len=40
+DataType=Alpha
+
+[Item]
+Label=SAD03. ¿Para compensar o solucionar esta pérdida de ingresos, bienes o patrimonio...
+Name=SAD03
+Start=105
+Len=28
+DataType=Alpha
+
+[ValueSet]
+Label=SAD03. ¿Para compensar o solucionar esta pérdida de ingresos, bienes o patrimonio...
+Name=SAD03_VS1
+Value='01                          ';utilizaron sus ahorros?
+Value='02                          ';disminuyeron el consumo o el gasto?
+Value='03                          ';empeñaron bienes?
+Value='04                          ';hipotecaron alguna propiedad?
+Value='05                          ';vendieron bienes (joyas, muebles, maquinarias, etc.)?
+Value='06                          ';vendieron alguna casa o terreno?
+Value='07                          ';vendieron la cosecha por adelantado?
+Value='08                          ';le prestaron dinero?
+Value='09                          ';cobraron algún seguro?
+Value='10                          ';trabajaron otros miembros del hogar?
+Value='11                          ';recibieron ayuda familiar, vecinal, iglesia?
+Value='12                          ';recibieron ayuda del gobierno?
+Value='13                          ';otros?
+Value='98                          ';no hicieron nada?
+
+[Item]
+Label=utilizaron sus ahorros?
+Name=SAD03_01
+Start=105
+Len=2
+ItemType=SubItem
+DataType=Alpha
+
+[ValueSet]
+Label=utilizaron sus ahorros?
+Name=SAD03_01_VS1
+Value=01;utilizaron sus ahorros?
+
+[Item]
+Label=disminuyeron el consumo o el gasto?
+Name=SAD03_02
+Start=107
+Len=2
+ItemType=SubItem
+DataType=Alpha
+
+[ValueSet]
+Label=disminuyeron el consumo o el gasto?
+Name=SAD03_02_VS1
+Value=02;disminuyeron el consumo o el gasto?
+
+[Item]
+Label=empeñaron bienes?
+Name=SAD03_03
+Start=109
+Len=2
+ItemType=SubItem
+DataType=Alpha
+
+[ValueSet]
+Label=empeñaron bienes?
+Name=SAD03_03_VS1
+Value=03;empeñaron bienes?
+
+[Item]
+Label=hipotecaron alguna propiedad?
+Name=SAD03_04
+Start=111
+Len=2
+ItemType=SubItem
+DataType=Alpha
+
+[ValueSet]
+Label=hipotecaron alguna propiedad?
+Name=SAD03_04_VS1
+Value=04;hipotecaron alguna propiedad?
+
+[Item]
+Label=vendieron bienes (joyas, muebles, maquinarias, etc.)?
+Name=SAD03_05
+Start=113
+Len=2
+ItemType=SubItem
+DataType=Alpha
+
+[ValueSet]
+Label=vendieron bienes (joyas, muebles, maquinarias, etc.)?
+Name=SAD03_05_VS1
+Value=05;vendieron bienes (joyas, muebles, maquinarias, etc.)?
+
+[Item]
+Label=vendieron alguna casa o terreno?
+Name=SAD03_06
+Start=115
+Len=2
+ItemType=SubItem
+DataType=Alpha
+
+[ValueSet]
+Label=vendieron alguna casa o terreno?
+Name=SAD03_06_VS1
+Value=06;vendieron alguna casa o terreno?
+
+[Item]
+Label=vendieron la cosecha por adelantado?
+Name=SAD03_07
+Start=117
+Len=2
+ItemType=SubItem
+DataType=Alpha
+
+[ValueSet]
+Label=vendieron la cosecha por adelantado?
+Name=SAD03_07_VS1
+Value=07;vendieron la cosecha por adelantado?
+
+[Item]
+Label=le prestaron dinero?
+Name=SAD03_08
+Start=119
+Len=2
+ItemType=SubItem
+DataType=Alpha
+
+[ValueSet]
+Label=le prestaron dinero?
+Name=SAD03_08_VS1
+Value=08;le prestaron dinero?
+
+[Item]
+Label=cobraron algún seguro?
+Name=SAD03_09
+Start=121
+Len=2
+ItemType=SubItem
+DataType=Alpha
+
+[ValueSet]
+Label=cobraron algún seguro?
+Name=SAD03_09_VS1
+Value=09;cobraron algún seguro?
+
+[Item]
+Label=trabajaron otros miembros del hogar?
+Name=SAD03_10
+Start=123
+Len=2
+ItemType=SubItem
+DataType=Alpha
+
+[ValueSet]
+Label=trabajaron otros miembros del hogar?
+Name=SAD03_10_VS1
+Value=10;trabajaron otros miembros del hogar?
+
+[Item]
+Label=recibieron ayuda familiar, vecinal, iglesia?
+Name=SAD03_11
+Start=125
+Len=2
+ItemType=SubItem
+DataType=Alpha
+
+[ValueSet]
+Label=recibieron ayuda familiar, vecinal, iglesia?
+Name=SAD03_11_VS1
+Value=11;recibieron ayuda familiar, vecinal, iglesia?
+
+[Item]
+Label=recibieron ayuda del gobierno?
+Name=SAD03_12
+Start=127
+Len=2
+ItemType=SubItem
+DataType=Alpha
+
+[ValueSet]
+Label=recibieron ayuda del gobierno?
+Name=SAD03_12_VS1
+Value=12;recibieron ayuda del gobierno?
+
+[Item]
+Label=otros?
+Name=SAD03_13
+Start=129
+Len=2
+ItemType=SubItem
+DataType=Alpha
+
+[ValueSet]
+Label=otros?
+Name=SAD03_13_VS1
+Value=13;otros?
+
+[Item]
+Label=no hicieron nada?
+Name=SAD03_98
+Start=131
+Len=2
+ItemType=SubItem
+DataType=Alpha
+
+[ValueSet]
+Label=no hicieron nada?
+Name=SAD03_98_VS1
+Value=98;no hicieron nada?
+
+[Item]
+Label=SAD03E. Especifique
+Name=SAD03E
+Start=133
+Len=40
+DataType=Alpha
+
+[Item]
+Label=SAD04. ¿se solucionó totalmente?
+Name=SAD04
+Start=173
+Len=1
+DataType=Numeric
+ZeroFill=Yes
+
+[ValueSet]
+Label=SAD04. ¿se solucionó totalmente?
+Name=SAD04_VS1
+Value=1;Sí
+Value=6;No
+Value=' ';NA
+Name=NOTAPPL,Special
+
+[Item]
+Label=Tuvo alguna otra Situación Adversa?
+Name=MSITU_ADV
+Start=174
+Len=1
+DataType=Numeric
+ZeroFill=Yes
+
+[ValueSet]
+Label=Tuvo alguna otra Situación Adversa?
+Name=MSITU_ADV_VS1
+Value=1;Sí
+Value=6;No
+Value=' ';NA
+Name=NOTAPPL,Special
+
+[Record]
+Label=Registro de Visitas
+Name=REG_VISITA
+RecordTypeValue='16'
+Required=No
+MaxRecords=80
+RecordLen=89
+
+[Item]
+Label=N° de visita
+Name=VISITAX
+Start=18
+Len=1
+DataType=Numeric
+ZeroFill=Yes
+
+[Item]
+Label=Fecha visita
+Name=FV
+Start=19
+Len=8
+DataType=Numeric
+ZeroFill=Yes
+
+[Item]
+Label=FVD. Día
+Name=FVD
+Start=19
+Len=2
+ItemType=SubItem
+DataType=Numeric
+ZeroFill=Yes
+
+[ValueSet]
+Label=FVD. Día
+Name=FVD_VS1
+Value=1:31;Día visita
+Value='  ';NA
+Name=NOTAPPL,Special
+
+[Item]
+Label=FVM. Mes
+Name=FVM
+Start=21
+Len=2
+ItemType=SubItem
+DataType=Numeric
+ZeroFill=Yes
+
+[ValueSet]
+Label=FVM. Mes
+Name=FVM_VS1
+Value=1;Enero
+Value=2;Febrero
+Value=3;Marzo
+Value=4;Abril
+Value=5;Mayo
+Value=6;Junio
+Value=7;Julio
+Value=8;Agosto
+Value=9;Setiembre
+Value=10;Octubre
+Value=11;Noviembre
+Value=12;Diciembre
+Value='  ';NA
+Name=NOTAPPL,Special
+
+[Item]
+Label=FVA. Año
+Name=FVA
+Start=23
+Len=4
+ItemType=SubItem
+DataType=Numeric
+ZeroFill=Yes
+
+[ValueSet]
+Label=FVA. Año
+Name=FVA_VS1
+Value=2024;Año visita
+Value=9999;NR
+Value='    ';NA
+Name=NOTAPPL,Special
+
+[Item]
+Label=HIV. Hora inicio visita
+Name=HIV
+Start=27
+Len=5
+DataType=Numeric
+Decimal=2
+DecimalChar=Yes
+ZeroFill=Yes
+
+[Item]
+Label=Hora Inicio visita - Horas
+Name=HIVH
+Start=27
+Len=2
+ItemType=SubItem
+DataType=Numeric
+ZeroFill=Yes
+
+[ValueSet]
+Label=Hora Inicio visita - Horas
+Name=HIVH_VS1
+Value=0:23;Hora visita
+Value='  ';NA
+Name=NOTAPPL,Special
+
+[Item]
+Label=Hora Inicio visita - Minutos
+Name=HIVM
+Start=30
+Len=2
+ItemType=SubItem
+DataType=Numeric
+ZeroFill=Yes
+
+[ValueSet]
+Label=Hora Inicio visita - Minutos
+Name=HIVM_VS1
+Value=0:59;Minuto visita
+Value='  ';NA
+Name=NOTAPPL,Special
+
+[Item]
+Label=HFV. Hora final visita
+Name=HFV
+Start=32
+Len=5
+DataType=Numeric
+Decimal=2
+DecimalChar=Yes
+ZeroFill=Yes
+
+[Item]
+Label=Hora Final visita - Horas
+Name=HFVH
+Start=32
+Len=2
+ItemType=SubItem
+DataType=Numeric
+ZeroFill=Yes
+
+[ValueSet]
+Label=Hora Final visita - Horas
+Name=HFVH_VS1
+Value=0:23;Hora fin visita
+Value='  ';NA
+Name=NOTAPPL,Special
+
+[Item]
+Label=Hora Final visita - Minutos
+Name=HFVM
+Start=35
+Len=2
+ItemType=SubItem
+DataType=Numeric
+ZeroFill=Yes
+
+[ValueSet]
+Label=Hora Final visita - Minutos
+Name=HFVM_VS1
+Value=0:59;Minuto fin visita
+Value='  ';NA
+Name=NOTAPPL,Special
+
+[Item]
+Label=Fecha próxima visita
+Name=FPV
+Start=37
+Len=8
+DataType=Numeric
+ZeroFill=Yes
+
+[Item]
+Label=FPVD. Día
+Name=FPVD
+Start=37
+Len=2
+ItemType=SubItem
+DataType=Numeric
+ZeroFill=Yes
+
+[ValueSet]
+Label=FPVD. Día
+Name=FPVD_VS1
+Value=1:31;Día próxima visita
+Value=99;NR
+
+[Item]
+Label=FPVM. Mes
+Name=FPVM
+Start=39
+Len=2
+ItemType=SubItem
+DataType=Numeric
+ZeroFill=Yes
+
+[ValueSet]
+Label=FPVM. Mes
+Name=FPVM_VS1
+Value=1;Enero
+Value=2;Febrero
+Value=3;Marzo
+Value=4;Abril
+Value=5;Mayo
+Value=6;Junio
+Value=7;Julio
+Value=8;Agosto
+Value=9;Setiembre
+Value=10;Octubre
+Value=11;Noviembre
+Value=12;Diciembre
+Value=99;NR
+Value='  ';NA
+Name=NOTAPPL,Special
+
+[Item]
+Label=FPVA. Año
+Name=FPVA
+Start=41
+Len=4
+ItemType=SubItem
+DataType=Numeric
+ZeroFill=Yes
+
+[ValueSet]
+Label=FPVA. Año
+Name=FPVA_VS1
+Value=2024;Año próxima visita
+Value=9999;NR
+Value='    ';NA
+Name=NOTAPPL,Special
+
+[Item]
+Label=HPV. Hora próxima visita
+Name=HPV
+Start=45
+Len=5
+DataType=Numeric
+Decimal=2
+DecimalChar=Yes
+ZeroFill=Yes
+
+[Item]
+Label=Hora próxima visita - Horas
+Name=HPVH
+Start=45
+Len=2
+ItemType=SubItem
+DataType=Numeric
+ZeroFill=Yes
+
+[Item]
+Label=Hora próxima visita - Minutos
+Name=HPVM
+Start=48
+Len=2
+ItemType=SubItem
+DataType=Numeric
+ZeroFill=Yes
+
+[Item]
+Label=Situación visita
+Name=SITUV
+Start=50
+Len=2
+DataType=Numeric
+ZeroFill=Yes
+
+[ValueSet]
+Label=SITU. Situación de la Entrevista/Hogar
+Name=SITUV_VS1
+Value=1;Completa
+Value=2;Incompleta
+Value=3;Ocupantes ausentes
+Value=4;Rechazo
+Value=5;No se inició la entrevista
+Value=6;Desocupada
+Value=7;En alquiler o venta
+Value=8;En construcción
+Value=9;De veraneo
+Value=10;Abandonada
+Value=11;Otra situación
+Value=21;No atiende la llamada
+Value=22;El teléfono da apagado
+Value=23;Rechazo (No acepta dar sus datos por teléfono)
+Value=24;Rechazo (No quiere dar sus datos)
+Value=25;Número equivocado/No existe el número
+Value='  ';NA
+Name=NOTAPPL,Special
+
+[Item]
+Label=SITU1V. Especifique (Otra)
+Name=SITUVE
+Start=52
+Len=30
+DataType=Alpha
+
+[Item]
+Label=Duración visita - Horas y Minutos
+Name=DV
+Start=82
+Len=5
+DataType=Numeric
+Decimal=2
+DecimalChar=Yes
+ZeroFill=Yes
+
+[Item]
+Label=Duración visita - Horas
+Name=DVH
+Start=82
+Len=2
+ItemType=SubItem
+DataType=Numeric
+ZeroFill=Yes
+
+[Item]
+Label=Duración visita - Minutos
+Name=DVM
+Start=85
+Len=2
+ItemType=SubItem
+DataType=Numeric
+ZeroFill=Yes
+
+[Item]
+Label=¿Terminó la entrevista?
+Name=BD_ENTRE
+Start=87
+Len=1
+DataType=Numeric
+ZeroFill=Yes
+
+[ValueSet]
+Label=¿Terminó la entrevista?
+Name=BD_ENTRE_VS1
+Value=1;Encuesta Terminada
+Value=' ';NA
+Name=NOTAPPL,Special
+
+[Item]
+Label=N° de visita
+Name=VISITA
+Start=88
+Len=2
+DataType=Numeric
+ZeroFill=Yes

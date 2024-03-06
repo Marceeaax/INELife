@@ -1,0 +1,149 @@
+﻿
+##########################################################################
+#                                                                        #
+# Postulante: 6004361 [MIA RAQUEL CACERES LEGAL                          ] 
+#                                                                        #
+##########################################################################
+
+-----------------------------------------------------------------
+
+-----------------------------------------
+ SITUACION / UBICACION / BIENES DURADEROS
+-----------------------------------------
+Res. últ. visita: Completa  
+-----------------------------------------------------------------------------
+EMP-VERR322C, Si GM116 <> 9 (Jublado ó pensionado) y GM117 = 5 -> GM125.Jubilación <> BLANCO
+Módulo Empleo
+PERSONA: 07, EDAD: 068
+GM115: 6
+GM116: 10
+GM117: NOTAPPL
+GM118: NOTAPPL
+GM125:        637,000
+  
+*******************************************************
+* Certificado de No Contribuyente - Tabla de Registro *
+*******************************************************
+Persona: 01
+     Dispone del Documento?: 1 [Sí]
+     Foto D01: 6004361_01_D01.jpg
+ 
+Persona: 02
+     Dispone del Documento?: 1 [Sí]
+     Foto D01: 6004361_02_D01.jpg
+ 
+Persona: 03
+     Dispone del Documento?: 1 [Sí]
+     Foto D01: 6004361_03_D01.jpg
+ 
+Persona: 04
+     Dispone del Documento?: 1 [Sí]
+     Foto D01: 6004361_04_D01.jpg
+ 
+Persona: 05
+     Dispone del Documento?: 1 [Sí]
+     Foto D01: 6004361_05_D01.jpg
+ 
+Persona: 06
+     Dispone del Documento?: 1 [Sí]
+     Foto D01: 6004361_06_D01.jpg
+ 
+Persona: 07
+     Dispone del Documento?: 1 [Sí]
+     Foto D01: 6004361_07_D01.jpg
+ 
+Persona: 08
+     Dispone del Documento?: 1 [Sí]
+     Foto D01: 6004361_08_D01.jpg
+ 
+*******************************************************
+ 
+**************************************************************
+* Certificado de trabajo o boleta de IPS - Tabla de Registro *
+**************************************************************
+Persona: 01
+     Dispone del Documento?: 6 [No]
+     Foto D02_1:
+     Foto D02_2:
+     Foto D02_3:
+     Foto D02_4:
+     Foto D02_5:
+ 
+Persona: 02
+     Dispone del Documento?: 6 [No]
+     Foto D02_1:
+     Foto D02_2:
+     Foto D02_3:
+     Foto D02_4:
+     Foto D02_5:
+ 
+Persona: 03
+     Dispone del Documento?: 1 [Sí]
+     Foto D02_1: 6004361_03_D02_1.jpg
+     Foto D02_2:
+     Foto D02_3:
+     Foto D02_4:
+     Foto D02_5:
+ 
+Persona: 04
+     Dispone del Documento?: 1 [Sí]
+     Foto D02_1: 6004361_04_D02_1.jpg
+     Foto D02_2: 6004361_04_D02_2.jpg
+     Foto D02_3:
+     Foto D02_4:
+     Foto D02_5:
+ 
+Persona: 05
+     Dispone del Documento?: 6 [No]
+     Foto D02_1:
+     Foto D02_2:
+     Foto D02_3:
+     Foto D02_4:
+     Foto D02_5:
+ 
+Persona: 06
+     Dispone del Documento?: 6 [No]
+     Foto D02_1:
+     Foto D02_2:
+     Foto D02_3:
+     Foto D02_4:
+     Foto D02_5:
+ 
+Persona: 07
+     Dispone del Documento?: 6 [No]
+     Foto D02_1:
+     Foto D02_2:
+     Foto D02_3:
+     Foto D02_4:
+     Foto D02_5:
+ 
+Persona: 08
+     Dispone del Documento?: 6 [No]
+     Foto D02_1:
+     Foto D02_2:
+     Foto D02_3:
+     Foto D02_4:
+     Foto D02_5:
+ 
+**************************************************************
+ 
+***********************************************************************
+* Copia de algÚn servicio (ANDE,ESSAP, TV cable) - Tabla de Registro *
+***********************************************************************
+     D05. ¿Presentó copia de algún servicio público como ANDE, ESSAP, TV cable, etc?: 1 [Sí]
+     Foto D05_1: 6004361_D05_1.jpg
+     Foto D05_2: 6004361_D05_2.jpg
+     Foto D05_3: 6004361_D05_3.jpg
+ 
+*******************************************************
+ 
+*******************************************************
+* Certificado de Discapacidad     - Tabla de Registro *
+*******************************************************
+No hay registros para mostrar
+ 
+*******************************************************
+ 
+**********************************************************************************************************
+**********************************************************************************************************
+                                      

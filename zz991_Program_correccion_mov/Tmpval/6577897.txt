@@ -1,0 +1,154 @@
+﻿
+##########################################################################
+#                                                                        #
+# Postulante: 6577897 [JUAN RAFAEL BERNAL BOBADILLA                      ] 
+#                                                                        #
+##########################################################################
+
+-----------------------------------------------------------------
+
+-----------------------------------------
+ SITUACION / UBICACION / BIENES DURADEROS
+-----------------------------------------
+Res. últ. visita: Incompleta  
+-----------------------------------------------------------------------------
+EMP-ERR322B, Si GM116 = 9 (Jublado ó pensionado) y GM117 = 5 -> GM125.Jubilación <> BLANCO
+Módulo Empleo
+PERSONA: 04, EDAD: 070
+GM115: 6
+GM116: 9
+GM117: NOTAPPL
+GM118: NOTAPPL
+GM125: 
+  
+EMP-ERR322B, Si GM116 = 9 (Jublado ó pensionado) y GM117 = 5 -> GM125.Jubilación <> BLANCO
+Módulo Empleo
+PERSONA: 05, EDAD: 066
+GM115: 6
+GM116: 9
+GM117: NOTAPPL
+GM118: NOTAPPL
+GM125: 
+  
+DOC-ERR001.4, D101 ¿Presentó certificado de no contribuyente? = 1 y D01_1 = 1-> IMAGEN <> BLANCO)
+Persona: 1, Filtro de Documento: 1, D01_1: 1
+------------------
+ 
+DOC-ERR001.4, D101 ¿Presentó certificado de no contribuyente? = 1 y D01_1 = 1-> IMAGEN <> BLANCO)
+Persona: 2, Filtro de Documento: 1, D01_1: 1
+------------------
+ 
+DOC-ERR001.4, D101 ¿Presentó certificado de no contribuyente? = 1 y D01_1 = 1-> IMAGEN <> BLANCO)
+Persona: 4, Filtro de Documento: 1, D01_1: 1
+------------------
+ 
+DOC-ERR001.4, D101 ¿Presentó certificado de no contribuyente? = 1 y D01_1 = 1-> IMAGEN <> BLANCO)
+Persona: 5, Filtro de Documento: 1, D01_1: 1
+------------------
+ 
+*******************************************************
+* Certificado de No Contribuyente - Tabla de Registro *
+*******************************************************
+Persona: 01
+     Dispone del Documento?: 1 [Sí]
+     Foto D01:
+ 
+Persona: 02
+     Dispone del Documento?: 1 [Sí]
+     Foto D01:
+ 
+Persona: 04
+     Dispone del Documento?: 1 [Sí]
+     Foto D01:
+ 
+Persona: 05
+     Dispone del Documento?: 1 [Sí]
+     Foto D01:
+ 
+*******************************************************
+ 
+DOC-ERR002.4, D102 ¿Presentó certificado de trabajo o boleta de IPS de todos los que corresponde? = 1 y D02_1 = 1-> IMAGEN <> BLANCO)
+Persona: 2, Documentos: 1, D01_1: 1
+------------------
+ 
+**************************************************************
+* Certificado de trabajo o boleta de IPS - Tabla de Registro *
+**************************************************************
+Persona: 01
+     Dispone del Documento?: 6 [No]
+     Foto D02_1:
+     Foto D02_2:
+     Foto D02_3:
+     Foto D02_4:
+     Foto D02_5:
+ 
+Persona: 02
+     Dispone del Documento?: 1 [Sí]
+     Foto D02_1:
+     Foto D02_2:
+     Foto D02_3:
+     Foto D02_4:
+     Foto D02_5:
+ 
+Persona: 04
+     Dispone del Documento?: 6 [No]
+     Foto D02_1:
+     Foto D02_2:
+     Foto D02_3:
+     Foto D02_4:
+     Foto D02_5:
+ 
+Persona: 05
+     Dispone del Documento?: 6 [No]
+     Foto D02_1:
+     Foto D02_2:
+     Foto D02_3:
+     Foto D02_4:
+     Foto D02_5:
+ 
+**************************************************************
+ 
+DOC-ERR004.1, D104 ¿Presentó certificado de vida y residencia? = 1 -> D104_1 <> BLANCO)
+Documentos: 1
+------------------
+ 
+DOC-ERR005.1, D105 ¿Presentó copia de la boleta del servicio público ANDE? = 1 -> D105_1 <> BLANCO)
+Documentos: 1
+------------------
+ 
+***********************************************************************
+* Copia de algÚn servicio (ANDE,ESSAP, TV cable) - Tabla de Registro *
+***********************************************************************
+     D05. ¿Presentó copia de algún servicio público como ANDE, ESSAP, TV cable, etc?: 1 [Sí]
+     Foto D05_1:
+     Foto D05_2:
+     Foto D05_3:
+ 
+*******************************************************
+ 
+*******************************************************
+* Certificado de Discapacidad     - Tabla de Registro *
+*******************************************************
+No hay registros para mostrar
+ 
+*******************************************************
+ 
+DOC-ERR009, D109 FOTO DE LA VIVIENDA NO DEBE ESTAR BLANCO)
+FOTO: 3
+------------------
+ 
+DOC-ERR010, D110 FOTO DEL POSTULANTE NO DEBE ESTAR BLANCO)
+FOTO: 3
+------------------
+ 
+DOC-ERR011, D111 FOTO DE LA VIVIENDA Y DEL POSTULANTE NO DEBE ESTAR BLANCO)
+FOTO: 3
+------------------
+ 
+DOC-ERR012, D112 FIRMA DEL POSTULANTE NO DEBE ESTAR BLANCO)
+FOTO: 3
+------------------
+ 
+**********************************************************************************************************
+**********************************************************************************************************
+                                      

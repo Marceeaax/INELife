@@ -1,0 +1,13 @@
+﻿[CSPro Application]
+Version=CSPro 7.7
+Label=VAL_CONVERT_CSDB_DAT
+Name=VAL_CONVERT_CSDB_DAT
+AppType=Batch
+[AppCode]
+File=.\val_convert_csdb_dat.bch.apc
+[Message]
+File=.\val_convert_csdb_dat.bch.mgf
+[Order]
+File=.\val_convert_csdb_dat.ord
+[Dictionary Types]
+Dict-Type=.\IMESPPBI.dcf,Input,.\val_convert_csdb_dat.ord

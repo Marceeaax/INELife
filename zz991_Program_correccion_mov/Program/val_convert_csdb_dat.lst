@@ -1,0 +1,26 @@
+﻿Application     d:\Encuestas_varias\Programas_vb6_encuesta\DEH\Encuestas_coyunturales\P006_Encuesta_Becarios_Itaipu_2024\zz991_Program_correccion_mov\Base_dat\val_convert_csdb_dat.bch
+Type            BATCH
+Input Data      <<Text File>> D:\Encuestas_varias\Programas_vb6_encuesta\DEH\Encuestas_coyunturales\P006_Encuesta_Becarios_Itaipu_2024\zz991_Program_correccion_mov\Base_dat\6249376.dat
+Output Data     <<CSPro DB>> d:\Encuestas_varias\Programas_vb6_encuesta\DEH\Encuestas_coyunturales\P006_Encuesta_Becarios_Itaipu_2024\zz991_Program_correccion_mov\Base_dat\6249376.csdb
+
+Date            Feb 26, 2024
+Start Time      08:07:08
+End Time        08:07:08
+
+CSPro Process Summary
+
+      ╔══════════════════════════════════════════════════════╗
+      ║        46 Records Read   100% of input file          ║
+      ║         0 Ignored:       0 Unknown         0 Erased  ║
+      ║         0 Messages:      0 E      0 W      0 User    ║
+      ╠═════════╦══════════════╦══════════════╦══════════════╣
+      ║  Level  ║  Input Case  ║  Bad Struct  ║  Level Post  ║
+      ╠═════════╬══════════════╬══════════════╬══════════════╣
+      ║      1  ║           1  ║           0  ║           1  ║
+      ╚═════════╩══════════════╩══════════════╩══════════════╝
+
+Process Messages
+
+
+CSPro Executor Normal End
+------------------------------------------------------------------------------------------------------------------------

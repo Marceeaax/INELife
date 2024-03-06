@@ -1,0 +1,13 @@
+﻿[CSPro Application]
+Version=CSPro 7.7
+Label=NOTAS_FALTANTES_DOC
+Name=NOTAS_FALTANTES_DOC
+AppType=Batch
+[AppCode]
+File=.\val_faltantes_doc.bch.apc
+[Message]
+File=.\val_faltantes_doc.bch.mgf
+[Order]
+File=.\val_faltantes_doc.ord
+[Dictionary Types]
+Dict-Type=.\val_IMESPPBI.dcf,Input,.\val_faltantes_doc.ord

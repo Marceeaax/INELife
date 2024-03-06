@@ -1,0 +1,35 @@
+﻿[Dictionary]
+Version=CSPro 6.1
+Label=dpto
+Name=DPTO_DICT
+RecordTypeStart=0
+RecordTypeLen=0
+Positions=Relative
+ZeroFill=No
+DecimalChar=Yes
+
+[Level]
+Label=dpto questionnaire
+Name=DPTO_QUEST
+
+[IdItems]
+
+[Item]
+Label=dpto identification
+Name=DPTO_ID
+Start=1
+Len=2
+DataType=Alpha
+
+[Record]
+Label=dpto record
+Name=DPTO_REC
+RecordTypeValue=''
+RecordLen=22
+
+[Item]
+Label=Descripción
+Name=DESCRIP
+Start=3
+Len=20
+DataType=Alpha

@@ -1,0 +1,22 @@
+﻿[CSPro Application]
+Version=CSPro 7.7
+Label=VAL_CONSISTENCIA
+Name=VAL_CONSISTENCIA
+AppType=Batch
+[External Dictionaries]
+File=.\marco.dcf
+File=.\dpto.dcf
+File=.\Distri.dcf
+File=.\Staff.dcf
+[AppCode]
+File=.\val_consistencia.bch.apc
+[Message]
+File=.\val_consistencia.bch.mgf
+[Order]
+File=.\val_consistencia.ord
+[Dictionary Types]
+Dict-Type=.\marco.dcf,External
+Dict-Type=.\dpto.dcf,External
+Dict-Type=.\Distri.dcf,External
+Dict-Type=.\val_IMESPPBI.dcf,Input,.\val_consistencia.ord
+Dict-Type=.\Staff.dcf,External

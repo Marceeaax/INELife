@@ -1,0 +1,53 @@
+ El volumen de la unidad D es Datos
+ El n£mero de serie del volumen es: 08D2-A50D
+
+ Directorio de d:\Encuestas_varias\Programas_vb6_encuesta\DEH\Encuestas_coyunturales\P006_Encuesta_Becarios_Itaipu_2024\zz991_Program_correccion_mov\Program
+
+03/03/2024  10:12 p.m.    <DIR>          .
+03/03/2024  10:12 p.m.    <DIR>          ..
+25/02/2024  05:30 p.m.    <DIR>          Unidos
+04/04/2023  01:05 p.m.                 0 Base_unida_out.csdb
+26/02/2024  10:32 p.m.               282 CAMBIA_CLAVE.bch
+26/02/2024  07:55 a.m.             1.345 CAMBIA_CLAVE.bch.apc
+15/12/2019  12:05 p.m.                66 CAMBIA_CLAVE.bch.mgf
+03/04/2022  09:39 a.m.             2.274 CAMBIA_CLAVE.lst
+26/02/2024  07:52 a.m.            31.283 CAMBIA_CLAVE.ord
+02/04/2022  08:13 p.m.               328 CAMBIA_CLAVE.pff
+06/12/2021  11:17 a.m.           594.513 concat_file.pff
+28/02/2020  09:17 a.m.               485 Distri.dcf
+19/07/2021  06:04 p.m.             8.033 Distri.txt
+28/02/2020  09:17 a.m.               457 dpto.dcf
+19/07/2021  06:04 p.m.               238 dpto.txt
+23/02/2024  11:23 a.m.           101.196 IMESPPBI.dcf
+29/02/2024  08:46 a.m.         4.063.232 marco.csdb
+21/03/2023  04:47 p.m.             3.445 marco.dcf
+03/03/2024  10:12 p.m.                 0 ruta_lista_excel.txt
+20/02/2024  12:15 p.m.           753.664 staff.csdb
+17/03/2023  07:31 a.m.             1.394 Staff.dcf
+20/02/2024  12:17 p.m.           753.664 Staff_equipo.csdb
+10/03/2022  09:13 a.m.               935 Staff_equipo.dcf
+01/04/2023  08:02 p.m.               535 val_consistencia.bch
+01/04/2023  08:02 p.m.           128.791 val_consistencia.bch.apc
+30/03/2022  09:16 a.m.                69 val_consistencia.bch.mgf
+01/04/2023  01:51 p.m.            81.405 val_consistencia.lst
+30/03/2022  09:38 a.m.            26.634 val_consistencia.ord
+26/02/2024  11:24 a.m.               330 val_convert_csdb_dat.bch
+26/02/2024  11:24 a.m.               524 val_convert_csdb_dat.bch.apc
+07/12/2019  06:42 p.m.                74 val_convert_csdb_dat.bch.mgf
+26/02/2024  08:07 a.m.             1.923 val_convert_csdb_dat.lst
+26/02/2024  11:23 a.m.            31.291 val_convert_csdb_dat.ord
+12/04/2022  01:23 p.m.               356 val_convert_csdb_dat.pff
+12/04/2022  02:23 p.m.               320 val_faltantes_doc.bch
+12/04/2022  01:47 p.m.             6.437 val_faltantes_doc.bch.apc
+12/04/2022  08:40 a.m.                72 val_faltantes_doc.bch.mgf
+12/04/2022  08:40 a.m.            26.641 val_faltantes_doc.ord
+12/04/2022  01:47 p.m.               378 val_faltantes_doc.pff
+30/03/2022  09:38 a.m.            80.730 val_IMESPPBI.dcf
+01/04/2023  01:35 p.m.               336 VAL02_NAME_FILE_CLAVE.bch
+30/03/2022  08:18 a.m.               431 VAL02_NAME_FILE_CLAVE.bch.apc
+26/02/2024  11:21 a.m.               402 VAL02_NAME_FILE_CLAVE.bch.err
+09/02/2020  09:49 a.m.                75 VAL02_NAME_FILE_CLAVE.bch.mgf
+01/04/2023  01:35 p.m.            26.170 VAL02_NAME_FILE_CLAVE.ord
+30/03/2022  08:16 a.m.               383 VAL02_NAME_FILE_CLAVE.pff
+              43 archivos      6.731.141 bytes
+               3 dirs  217.485.004.800 bytes libres

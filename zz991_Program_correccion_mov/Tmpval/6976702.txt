@@ -1,0 +1,199 @@
+﻿
+##########################################################################
+#                                                                        #
+# Postulante: 6976702 [ANA DE JESÚS VALENZUELA FRETES                    ] 
+#                                                                        #
+##########################################################################
+
+-----------------------------------------------------------------
+
+-----------------------------------------
+ SITUACION / UBICACION / BIENES DURADEROS
+-----------------------------------------
+Res. últ. visita: Incompleta  
+-----------------------------------------------------------------------------
+*******************************************************
+* Certificado de No Contribuyente - Tabla de Registro *
+*******************************************************
+Persona: 01
+     Dispone del Documento?: 1 [Sí]
+     Foto D01: 6976702_01_D01.jpg
+ 
+Persona: 02
+     Dispone del Documento?: 6 [No]
+     Foto D01:
+ 
+Persona: 04
+     Dispone del Documento?: 6 [No]
+     Foto D01:
+ 
+Persona: 05
+     Dispone del Documento?: 1 [Sí]
+     Foto D01: 6976702_05_D01.jpg
+ 
+Persona: 06
+     Dispone del Documento?: 1 [Sí]
+     Foto D01: 6976702_06_D01.jpg
+ 
+Persona: 07
+     Dispone del Documento?: 1 [Sí]
+     Foto D01: 6976702_07_D01.jpg
+ 
+*******************************************************
+ 
+DOC-ERR: Si GM115 = 1 entonces REG_D02 no puede ser igual a 6
+ 
+**************************************************************
+* Certificado de trabajo o boleta de IPS - Tabla de Registro *
+**************************************************************
+Persona: 01
+     Dispone del Documento?: 6 [No]
+     Foto D02_1:
+     Foto D02_2:
+     Foto D02_3:
+     Foto D02_4:
+     Foto D02_5:
+ 
+Persona: 02
+     Dispone del Documento?: 1 [Sí]
+     Foto D02_1: 6976702_02_D02_1.jpg
+     Foto D02_2:
+     Foto D02_3:
+     Foto D02_4:
+     Foto D02_5:
+ 
+Persona: 04
+     Dispone del Documento?: 6 [No]
+     Foto D02_1:
+     Foto D02_2:
+     Foto D02_3:
+     Foto D02_4:
+     Foto D02_5:
+ 
+Persona: 05
+     Dispone del Documento?: 6 [No]
+     Foto D02_1:
+     Foto D02_2:
+     Foto D02_3:
+     Foto D02_4:
+     Foto D02_5:
+ 
+Persona: 06
+     Dispone del Documento?: 6 [No]
+     Foto D02_1:
+     Foto D02_2:
+     Foto D02_3:
+     Foto D02_4:
+     Foto D02_5:
+ 
+Persona: 07
+     Dispone del Documento?: 1 [Sí]
+     Foto D02_1: 6976702_07_D02_1.jpg
+     Foto D02_2:
+     Foto D02_3:
+     Foto D02_4:
+     Foto D02_5:
+ 
+**************************************************************
+ 
+**************************************************************
+* Comprobante de IVA, IRP, IRE y Otros - Tabla de Registro   *
+**************************************************************
+Persona: 01
+      Dispone del Primer comprobante de IVA: 6 [No]
+      Foto Primer comprobante:
+ 
+      Dispone del Segundo comprobante de IVA:   [NA]
+      Foto Segundo comprobante:
+ 
+      Dispone del Tercer comprobante de IVA:   [NA]
+      Foto Tercer comprobante:
+Persona: 02
+      Dispone del Primer comprobante de IVA: 1 [Sí]
+      Foto Primer comprobante: 6976702_02_D03_A1_PC_H1.jpg
+ 
+      Dispone del Segundo comprobante de IVA: 1 [Sí]
+      Foto Segundo comprobante: 6976702_02_D03_A1_SC_H1.jpg
+ 
+      Dispone del Tercer comprobante de IVA: 6 [No]
+      Foto Tercer comprobante:
+ 
+    Tiene otra actividad [2da actividad]?: 6 [No]
+ 
+      Dispone del Primer comprobante de IVA:   [NA]
+      Foto Primer comprobante:
+ 
+      Dispone del Segundo comprobante de IVA:   [NA]
+      Foto Segundo comprobante:
+ 
+      Dispone del Tercer comprobante de IVA:   [NA]
+      Foto Tercer comprobante:
+Persona: 04
+      Dispone del Primer comprobante de IVA: 1 [Sí]
+      Foto Primer comprobante: 6976702_04_D03_A1_PC_H1.jpg
+ 
+      Dispone del Segundo comprobante de IVA: 1 [Sí]
+      Foto Segundo comprobante: 6976702_04_D03_A1_SC_H1.jpg
+ 
+      Dispone del Tercer comprobante de IVA: 1 [Sí]
+      Foto Tercer comprobante: 6976702_04_D03_A1_TC_H1.jpg
+ 
+    Tiene otra actividad [2da actividad]?: 6 [No]
+ 
+      Dispone del Primer comprobante de IVA:   [NA]
+      Foto Primer comprobante:
+ 
+      Dispone del Segundo comprobante de IVA:   [NA]
+      Foto Segundo comprobante:
+ 
+      Dispone del Tercer comprobante de IVA:   [NA]
+      Foto Tercer comprobante:
+Persona: 05
+      Dispone del Primer comprobante de IVA: 6 [No]
+      Foto Primer comprobante:
+ 
+      Dispone del Segundo comprobante de IVA:   [NA]
+      Foto Segundo comprobante:
+ 
+      Dispone del Tercer comprobante de IVA:   [NA]
+      Foto Tercer comprobante:
+Persona: 06
+      Dispone del Primer comprobante de IVA: 6 [No]
+      Foto Primer comprobante:
+ 
+      Dispone del Segundo comprobante de IVA:   [NA]
+      Foto Segundo comprobante:
+ 
+      Dispone del Tercer comprobante de IVA:   [NA]
+      Foto Tercer comprobante:
+Persona: 07
+      Dispone del Primer comprobante de IVA: 6 [No]
+      Foto Primer comprobante:
+ 
+      Dispone del Segundo comprobante de IVA:   [NA]
+      Foto Segundo comprobante:
+ 
+      Dispone del Tercer comprobante de IVA:   [NA]
+      Foto Tercer comprobante:
+**************************************************************
+ 
+***********************************************************************
+* Copia de algÚn servicio (ANDE,ESSAP, TV cable) - Tabla de Registro *
+***********************************************************************
+     D05. ¿Presentó copia de algún servicio público como ANDE, ESSAP, TV cable, etc?: 1 [Sí]
+     Foto D05_1: 6976702_D05_1.jpg
+     Foto D05_2:
+     Foto D05_3:
+ 
+*******************************************************
+ 
+*******************************************************
+* Certificado de Discapacidad     - Tabla de Registro *
+*******************************************************
+No hay registros para mostrar
+ 
+*******************************************************
+ 
+**********************************************************************************************************
+**********************************************************************************************************
+                                      

@@ -1,0 +1,100 @@
+﻿
+##########################################################################
+#                                                                        #
+# Postulante: 6246219 [PEDRO PAULO ORTIZ ORTIZ                           ] 
+#                                                                        #
+##########################################################################
+
+-----------------------------------------------------------------
+
+-----------------------------------------
+ SITUACION / UBICACION / BIENES DURADEROS
+-----------------------------------------
+Res. últ. visita: Incompleta  
+-----------------------------------------------------------------------------
+EMP-ERR308,  Si GM117 = 3:4,8 -> GM122.¿La situación de su ingreso laboral = 1:3,NR
+Módulo Empleo
+PERSONA: 02, EDAD:  40
+GM115: 1
+GM117: 4
+GM118: NOTAPPL
+GM122: NOTAPPL
+  
+EMP-ERR308,  Si GM117 = 3:4,8 -> GM122.¿La situación de su ingreso laboral = 1:3,NR
+Módulo Empleo
+PERSONA: 03, EDAD:  61
+GM115: 1
+GM117: 4
+GM118: NOTAPPL
+GM122: NOTAPPL
+  
+*******************************************************
+* Certificado de No Contribuyente - Tabla de Registro *
+*******************************************************
+Persona: 01
+     Dispone del Documento?: 1 [Sí]
+     Foto D01: 6246219_01_D01.jpg
+ 
+Persona: 02
+     Dispone del Documento?: 1 [Sí]
+     Foto D01: 6246219_02_D01.jpg
+ 
+Persona: 03
+     Dispone del Documento?: 1 [Sí]
+     Foto D01: 6246219_03_D01.jpg
+ 
+Persona: 04
+     Dispone del Documento?: 1 [Sí]
+     Foto D01: 6246219_04_D01.jpg
+ 
+*******************************************************
+ 
+**************************************************************
+* Certificado de trabajo o boleta de IPS - Tabla de Registro *
+**************************************************************
+Persona: 02
+     Dispone del Documento?: 6 [No]
+     Foto D02_1:
+     Foto D02_2:
+     Foto D02_3:
+     Foto D02_4:
+     Foto D02_5:
+ 
+Persona: 03
+     Dispone del Documento?: 1 [Sí]
+     Foto D02_1: 6246219_03_D02_1.jpg
+     Foto D02_2:
+     Foto D02_3:
+     Foto D02_4:
+     Foto D02_5:
+ 
+Persona: 04
+     Dispone del Documento?: 1 [Sí]
+     Foto D02_1: 6246219_04_D02_1.jpg
+     Foto D02_2:
+     Foto D02_3:
+     Foto D02_4:
+     Foto D02_5:
+ 
+**************************************************************
+ 
+***********************************************************************
+* Copia de algÚn servicio (ANDE,ESSAP, TV cable) - Tabla de Registro *
+***********************************************************************
+     D05. ¿Presentó copia de algún servicio público como ANDE, ESSAP, TV cable, etc?: 1 [Sí]
+     Foto D05_1: 6246219_D05_1.jpg
+     Foto D05_2: 6246219_D05_2.jpg
+     Foto D05_3: 6246219_D05_3.jpg
+ 
+*******************************************************
+ 
+*******************************************************
+* Certificado de Discapacidad     - Tabla de Registro *
+*******************************************************
+No hay registros para mostrar
+ 
+*******************************************************
+ 
+**********************************************************************************************************
+**********************************************************************************************************
+                                      

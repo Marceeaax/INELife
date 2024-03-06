@@ -1,0 +1,181 @@
+﻿
+##########################################################################
+#                                                                        #
+# Postulante: 6047284 [JACQUELINE ARAMI BRITOS GOMEZ                     ] 
+#                                                                        #
+##########################################################################
+
+-----------------------------------------------------------------
+
+-----------------------------------------
+ SITUACION / UBICACION / BIENES DURADEROS
+-----------------------------------------
+Res. últ. visita: Incompleta  
+-----------------------------------------------------------------------------
+*******************************************************
+* Certificado de No Contribuyente - Tabla de Registro *
+*******************************************************
+Persona: 01
+     Dispone del Documento?: 1 [Sí]
+     Foto D01: 6047284_01_D01.jpg
+ 
+Persona: 02
+     Dispone del Documento?: 6 [No]
+     Foto D01:
+ 
+Persona: 05
+     Dispone del Documento?: 6 [No]
+     Foto D01:
+ 
+Persona: 06
+     Dispone del Documento?: 1 [Sí]
+     Foto D01: 6047284_06_D01.jpg
+ 
+*******************************************************
+ 
+**************************************************************
+* Certificado de trabajo o boleta de IPS - Tabla de Registro *
+**************************************************************
+Persona: 01
+     Dispone del Documento?: 6 [No]
+     Foto D02_1:
+     Foto D02_2:
+     Foto D02_3:
+     Foto D02_4:
+     Foto D02_5:
+ 
+Persona: 02
+     Dispone del Documento?: 1 [Sí]
+     Foto D02_1: 6047284_02_D02_1.jpg
+     Foto D02_2:
+     Foto D02_3:
+     Foto D02_4:
+     Foto D02_5:
+ 
+Persona: 05
+     Dispone del Documento?: 6 [No]
+     Foto D02_1:
+     Foto D02_2:
+     Foto D02_3:
+     Foto D02_4:
+     Foto D02_5:
+ 
+Persona: 06
+     Dispone del Documento?: 6 [No]
+     Foto D02_1:
+     Foto D02_2:
+     Foto D02_3:
+     Foto D02_4:
+     Foto D02_5:
+ 
+**************************************************************
+ 
+**************************************************************
+* Comprobante de IVA, IRP, IRE y Otros - Tabla de Registro   *
+**************************************************************
+Persona: 01
+      Dispone del Primer comprobante de IVA: 6 [No]
+      Foto Primer comprobante:
+ 
+      Dispone del Segundo comprobante de IVA:   [NA]
+      Foto Segundo comprobante:
+ 
+      Dispone del Tercer comprobante de IVA:   [NA]
+      Foto Tercer comprobante:
+Persona: 02
+      Dispone del Primer comprobante de IVA: 6 [No]
+      Foto Primer comprobante:
+ 
+      Dispone del Segundo comprobante de IVA:   [NA]
+      Foto Segundo comprobante:
+ 
+      Dispone del Tercer comprobante de IVA:   [NA]
+      Foto Tercer comprobante:
+Persona: 05
+      Dispone del Primer comprobante de IVA: 1 [Sí]
+      Foto Primer comprobante: 6047284_05_D03_A1_PC_H1.jpg
+ 
+      Dispone del Segundo comprobante de IVA: 1 [Sí]
+      Foto Segundo comprobante: 6047284_05_D03_A1_SC_H1.jpg
+ 
+      Dispone del Tercer comprobante de IVA: 1 [Sí]
+      Foto Tercer comprobante: 6047284_05_D03_A1_TC_H1.jpg
+ 
+    Tiene otra actividad [2da actividad]?: 6 [No]
+ 
+      Dispone del Primer comprobante de IVA:   [NA]
+      Foto Primer comprobante:
+ 
+      Dispone del Segundo comprobante de IVA:   [NA]
+      Foto Segundo comprobante:
+ 
+      Dispone del Tercer comprobante de IVA:   [NA]
+      Foto Tercer comprobante:
+Persona: 06
+      Dispone del Primer comprobante de IVA: 6 [No]
+      Foto Primer comprobante:
+ 
+      Dispone del Segundo comprobante de IVA:   [NA]
+      Foto Segundo comprobante:
+ 
+      Dispone del Tercer comprobante de IVA:   [NA]
+      Foto Tercer comprobante:
+**************************************************************
+ 
+***********************************************************************
+* Copia de algÚn servicio (ANDE,ESSAP, TV cable) - Tabla de Registro *
+***********************************************************************
+     D05. ¿Presentó copia de algún servicio público como ANDE, ESSAP, TV cable, etc?: 1 [Sí]
+     Foto D05_1: 6047284_D05_1.jpg
+     Foto D05_2: 6047284_D05_2.jpg
+     Foto D05_3:
+ 
+*******************************************************
+ 
+*******************************************************
+* Certificado de Discapacidad     - Tabla de Registro *
+*******************************************************
+No hay registros para mostrar
+ 
+*******************************************************
+ 
+DOC-VER014, Faltan documentos [1]
+------------------
+ 
+                                      
+*****************************************************
+*                 LISTADO DE NOTAS                  *
+*     Postulante: 6047284          *
+*****************************************************
+                                      
+Referencia para Listado de Personas
+CI: 6047284
+
+Referencia para Listado de Personas
+L02 : línea de la persona
+LP103	: Edad en el listado
+LP101	: Nombre en el listado
+
+Referencia para Postulante (***)
+PL02 : línea de la persona
+LP103  : Edad utilizado en ***
+LP101 : Nombre en *** 
+
+SITU__ADV  : Situaciones adversas - Preguntas 1 a 4 
+Referencia para Población, Educación, Empleo (***)
+L02 : línea de la persona
+LP103  : Edad utilizado en ***
+LP101 : Nombre en *** 
+
+PL1X  : Postulante - Preguntas 1 a 16 
+LP1X  : Población - Preguntas 1 a 14 
+GM15X  : Empleo    - Preguntas 15 a 26
+V1X  : Vivienda - Preguntas 1 a 18
+BDURABLES  : Bienes Durables - Preguntas 1 a 6
+D1X : Documentación - Preguntas 1 a 8
+
+GM114(4) = el padre que no vive en el hogar,se encarga de pagar la mensualidad de los 2
+GM110(6) = cancer de Mama e hipertension 
+**********************************************************************************************************
+**********************************************************************************************************
+                                      

@@ -1,0 +1,107 @@
+﻿
+##########################################################################
+#                                                                        #
+# Postulante: 5573451 [JAZMIN TALISA RUIZ THOMPSON                       ] 
+#                                                                        #
+##########################################################################
+
+-----------------------------------------------------------------
+
+-----------------------------------------
+ SITUACION / UBICACION / BIENES DURADEROS
+-----------------------------------------
+Res. últ. visita: Incompleta  
+-----------------------------------------------------------------------------
+EMP-ERR308,  Si GM117 = 3:4,8 -> GM122.¿La situación de su ingreso laboral = 1:3,NR
+Módulo Empleo
+PERSONA: 02, EDAD:  47
+GM115: 1
+GM117: 4
+GM118: NOTAPPL
+GM122: NOTAPPL
+  
+EMP-ERR322B, Si GM116 = 9 (Jublado ó pensionado) y GM117 = 5 -> GM125.Jubilación <> BLANCO
+Módulo Empleo
+PERSONA: 05, EDAD: 068
+GM115: 6
+GM116: 9
+GM117: NOTAPPL
+GM118: NOTAPPL
+GM125: 
+  
+*******************************************************
+* Certificado de No Contribuyente - Tabla de Registro *
+*******************************************************
+Persona: 01
+     Dispone del Documento?: 1 [Sí]
+     Foto D01: 5573451_01_D01.jpg
+ 
+Persona: 02
+     Dispone del Documento?: 6 [No]
+     Foto D01:
+ 
+Persona: 05
+     Dispone del Documento?: 1 [Sí]
+     Foto D01: 5573451_05_D01.jpg
+ 
+*******************************************************
+ 
+***********************************************************************
+* Copia de algÚn servicio (ANDE,ESSAP, TV cable) - Tabla de Registro *
+***********************************************************************
+     D05. ¿Presentó copia de algún servicio público como ANDE, ESSAP, TV cable, etc?: 1 [Sí]
+     Foto D05_1: 5573451_D05_1.jpg
+     Foto D05_2: 5573451_D05_2.jpg
+     Foto D05_3: 5573451_D05_3.jpg
+ 
+*******************************************************
+ 
+*******************************************************
+* Certificado de Discapacidad     - Tabla de Registro *
+*******************************************************
+No hay registros para mostrar
+ 
+*******************************************************
+ 
+DOC-VER014, Faltan documentos [1]
+------------------
+ 
+                                      
+*****************************************************
+*                 LISTADO DE NOTAS                  *
+*     Postulante: 5573451          *
+*****************************************************
+                                      
+Referencia para Listado de Personas
+CI: 5573451
+
+Referencia para Listado de Personas
+L02 : línea de la persona
+LP103	: Edad en el listado
+LP101	: Nombre en el listado
+
+Referencia para Postulante (***)
+PL02 : línea de la persona
+LP103  : Edad utilizado en ***
+LP101 : Nombre en *** 
+
+SITU__ADV  : Situaciones adversas - Preguntas 1 a 4 
+Referencia para Población, Educación, Empleo (***)
+L02 : línea de la persona
+LP103  : Edad utilizado en ***
+LP101 : Nombre en *** 
+
+PL1X  : Postulante - Preguntas 1 a 16 
+LP1X  : Población - Preguntas 1 a 14 
+GM15X  : Empleo    - Preguntas 15 a 26
+V1X  : Vivienda - Preguntas 1 a 18
+BDURABLES  : Bienes Durables - Preguntas 1 a 6
+D1X : Documentación - Preguntas 1 a 8
+
+SAD04(1) = su madre fue despedida de su trabajo en diciembre
+GM110(4) = fibrosis quistica
+GM125(5) = 670 tercera edad
+D105_3(1) = cambiar esta foto por uno de enero 
+**********************************************************************************************************
+**********************************************************************************************************
+                                      

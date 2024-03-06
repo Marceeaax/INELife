@@ -1,0 +1,35 @@
+﻿Application     E:\Encuestas_varias\Programas_vb6_encuesta\DEH\Encuestas_coyunturales\P005_Encuesta_Becarios_Itaipu_2022\z990001_Program_correccion_mov\Program\CAMBIA_CLAVE.bch
+Type            BATCH
+Input Data      <<CSPro DB>> E:\Encuestas_varias\Programas_vb6_encuesta\DEH\Encuestas_coyunturales\P005_Encuesta_Becarios_Itaipu_2022\z990001_Program_correccion_mov\Base\6371534.csdb
+Output Data     <<CSPro DB>> E:\Encuestas_varias\Programas_vb6_encuesta\DEH\Encuestas_coyunturales\P005_Encuesta_Becarios_Itaipu_2022\z990001_Program_correccion_mov\Base_out\6371534_out.csdb
+
+Date            Apr 03, 2022
+Start Time      08:39:17
+End Time        08:39:17
+
+CSPro Process Summary
+
+      ╔══════════════════════════════════════════════════════╗
+      ║         9 Records Read   100% of input file          ║
+      ║         0 Ignored:       0 Unknown         0 Erased  ║
+      ║         1 Messages:      0 E      0 W      1 User    ║
+      ╠═════════╦══════════════╦══════════════╦══════════════╣
+      ║  Level  ║  Input Case  ║  Bad Struct  ║  Level Post  ║
+      ╠═════════╬══════════════╬══════════════╬══════════════╣
+      ║      1  ║           1  ║           0  ║           1  ║
+      ╚═════════╩══════════════╩══════════════╩══════════════╝
+
+Process Messages
+
+*** Case [637153         ] has 1 message (0 E / 0 W / 1 U)
+    U     -46 CLAVE CAMBIADA A cedula:6371534        
+
+User unnumbered messages:
+
+    Line        Freq    %    Message Text                                  Denom
+    ----        ----  -----  ------------                                  -----
+      46           1      -  CLAVE CAMBIADA A cedula:%s                        -
+
+
+CSPro Executor Normal End
+--------------------------------------------------------------------------------

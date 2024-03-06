@@ -1,0 +1,189 @@
+﻿
+##########################################################################
+#                                                                        #
+# Postulante: 6815554 [MILENA ARAMI ORTELLADO MEDINA                     ] 
+#                                                                        #
+##########################################################################
+
+-----------------------------------------------------------------
+
+-----------------------------------------
+ SITUACION / UBICACION / BIENES DURADEROS
+-----------------------------------------
+Res. últ. visita: Completa  
+-----------------------------------------------------------------------------
+POB-ERR125, Sí GM109 = 1 -> GM110 = 1:4,9
+Módulo Población
+PERSONA: 09, EDAD:  77
+GM109. ¿Tiene algún tipo de enfermedad? : 1
+GM110. La enfermedad que sufre es : 6
+------------------
+  
+POB-ERR126, Sí GM109 = 1 y Edad >= 5 años -> GM110 = 1:4,9
+Módulo Población
+PERSONA: 09, EDAD:  77
+GM109. ¿Tiene algún tipo de enfermedad? : 1
+GM110. La enfermedad que sufre es : 6
+------------------
+  
+*******************************************************
+* Certificado de No Contribuyente - Tabla de Registro *
+*******************************************************
+Persona: 01
+     Dispone del Documento?: 1 [Sí]
+     Foto D01: 6815554_01_D01.jpg
+ 
+Persona: 02
+     Dispone del Documento?: 1 [Sí]
+     Foto D01: 6815554_02_D01.jpg
+ 
+Persona: 03
+     Dispone del Documento?: 1 [Sí]
+     Foto D01: 6815554_03_D01.jpg
+ 
+Persona: 04
+     Dispone del Documento?: 6 [No]
+     Foto D01:
+ 
+Persona: 05
+     Dispone del Documento?: 1 [Sí]
+     Foto D01: 6815554_05_D01.jpg
+ 
+Persona: 09
+     Dispone del Documento?: 1 [Sí]
+     Foto D01: 6815554_09_D01.jpg
+ 
+*******************************************************
+ 
+**************************************************************
+* Certificado de trabajo o boleta de IPS - Tabla de Registro *
+**************************************************************
+Persona: 01
+     Dispone del Documento?: 6 [No]
+     Foto D02_1:
+     Foto D02_2:
+     Foto D02_3:
+     Foto D02_4:
+     Foto D02_5:
+ 
+Persona: 02
+     Dispone del Documento?: 1 [Sí]
+     Foto D02_1: 6815554_02_D02_1.jpg
+     Foto D02_2:
+     Foto D02_3:
+     Foto D02_4:
+     Foto D02_5:
+ 
+Persona: 03
+     Dispone del Documento?: 6 [No]
+     Foto D02_1:
+     Foto D02_2:
+     Foto D02_3:
+     Foto D02_4:
+     Foto D02_5:
+ 
+Persona: 04
+     Dispone del Documento?: 1 [Sí]
+     Foto D02_1: 6815554_04_D02_1.jpg
+     Foto D02_2:
+     Foto D02_3:
+     Foto D02_4:
+     Foto D02_5:
+ 
+Persona: 05
+     Dispone del Documento?: 6 [No]
+     Foto D02_1:
+     Foto D02_2:
+     Foto D02_3:
+     Foto D02_4:
+     Foto D02_5:
+ 
+Persona: 09
+     Dispone del Documento?: 6 [No]
+     Foto D02_1:
+     Foto D02_2:
+     Foto D02_3:
+     Foto D02_4:
+     Foto D02_5:
+ 
+**************************************************************
+ 
+**************************************************************
+* Comprobante de IVA, IRP, IRE y Otros - Tabla de Registro   *
+**************************************************************
+Persona: 01
+      Dispone del Primer comprobante de IVA: 6 [No]
+      Foto Primer comprobante:
+ 
+      Dispone del Segundo comprobante de IVA:   [NA]
+      Foto Segundo comprobante:
+ 
+      Dispone del Tercer comprobante de IVA:   [NA]
+      Foto Tercer comprobante:
+Persona: 02
+      Dispone del Primer comprobante de IVA: 6 [No]
+      Foto Primer comprobante:
+ 
+      Dispone del Segundo comprobante de IVA:   [NA]
+      Foto Segundo comprobante:
+ 
+      Dispone del Tercer comprobante de IVA:   [NA]
+      Foto Tercer comprobante:
+Persona: 03
+      Dispone del Primer comprobante de IVA: 6 [No]
+      Foto Primer comprobante:
+ 
+      Dispone del Segundo comprobante de IVA:   [NA]
+      Foto Segundo comprobante:
+ 
+      Dispone del Tercer comprobante de IVA:   [NA]
+      Foto Tercer comprobante:
+Persona: 04
+      Dispone del Primer comprobante de IVA: 1 [Sí]
+      Foto Primer comprobante: 6815554_04_D03_A1_PC_H1.jpg
+ 
+      Dispone del Segundo comprobante de IVA:   [NA]
+      Foto Segundo comprobante:
+ 
+      Dispone del Tercer comprobante de IVA:   [NA]
+      Foto Tercer comprobante:
+Persona: 05
+      Dispone del Primer comprobante de IVA: 6 [No]
+      Foto Primer comprobante:
+ 
+      Dispone del Segundo comprobante de IVA:   [NA]
+      Foto Segundo comprobante:
+ 
+      Dispone del Tercer comprobante de IVA:   [NA]
+      Foto Tercer comprobante:
+Persona: 09
+      Dispone del Primer comprobante de IVA: 6 [No]
+      Foto Primer comprobante:
+ 
+      Dispone del Segundo comprobante de IVA:   [NA]
+      Foto Segundo comprobante:
+ 
+      Dispone del Tercer comprobante de IVA:   [NA]
+      Foto Tercer comprobante:
+**************************************************************
+ 
+***********************************************************************
+* Copia de algÚn servicio (ANDE,ESSAP, TV cable) - Tabla de Registro *
+***********************************************************************
+     D05. ¿Presentó copia de algún servicio público como ANDE, ESSAP, TV cable, etc?: 1 [Sí]
+     Foto D05_1: 6815554_D05_1.jpg
+     Foto D05_2: 6815554_D05_2.jpg
+     Foto D05_3: 6815554_D05_3.jpg
+ 
+*******************************************************
+ 
+*******************************************************
+* Certificado de Discapacidad     - Tabla de Registro *
+*******************************************************
+No hay registros para mostrar
+ 
+*******************************************************
+ 
+**********************************************************************************************************
+**********************************************************************************************************
+                                      

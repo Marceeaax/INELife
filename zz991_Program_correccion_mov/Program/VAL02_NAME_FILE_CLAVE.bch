@@ -1,0 +1,13 @@
+﻿[CSPro Application]
+Version=CSPro 7.7
+Label=VAL02_NAME_FILE_CLAVE
+Name=VAL02_NAME_FILE_CLAVE
+AppType=Batch
+[AppCode]
+File=.\VAL02_NAME_FILE_CLAVE.bch.apc
+[Message]
+File=.\VAL02_NAME_FILE_CLAVE.bch.mgf
+[Order]
+File=.\VAL02_NAME_FILE_CLAVE.ord
+[Dictionary Types]
+Dict-Type=.\IMESPPBI.dcf,Input,.\VAL02_NAME_FILE_CLAVE.ord

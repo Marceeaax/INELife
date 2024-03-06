@@ -1,0 +1,17 @@
+﻿[Run Information]
+Version=CSPro 7.7
+AppType=Batch
+
+[Files]
+Application=.\CAMBIA_CLAVE.bch
+InputData=..\Base\6371534.csdb
+OutputData=..\Base_out\6371534_out.csdb
+Listing=.\CAMBIA_CLAVE.lst
+
+[Parameters]
+ViewListing=Always
+ViewResults=Yes
+ListingWidth=80
+MessageWrap=No
+ErrmsgOverride=No
+InputOrder=Sequential

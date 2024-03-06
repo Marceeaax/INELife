@@ -1,0 +1,30 @@
+﻿[Run Information]
+Version=CSPro 7.7
+AppType=Entry
+Description=BECAS DEL GOBIERNO DE PARAGUAY - IMESPPBI 2024 - 03/03/2024 11:24 V1.10
+
+[DataEntryInit]
+FullScreen=NoMenus
+AutoAdd=No
+Interactive=Off
+
+[Files]
+Application=.\Menu_jpe.ent
+InputData=|type=None
+
+[ExternalFiles]
+CTRLUPM_DICT=|type=None
+DPTO_DICT=|type=None
+FILE_NAME_DICT=.\list_fila.wrt
+FILE_XXX_DICT=|type=None
+IMESPPBI_DICT=|type=None
+MARCO_DICT=.\marco.csdb
+MOVILIDAD_DICT=|type=None
+PSC_STAFFEQP_DICT=|type=None
+PSC_STAFF_DICT=.\staff.csdb
+SAMPSEL_DICT=|type=None
+
+[UserFiles]
+pffile=
+pffile88=
+tempFile=
